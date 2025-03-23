@@ -12,7 +12,7 @@
 
   "settings": "Paramètres",
   "eloScore": "Votre Elo est de {{elo}}",
-  "eloDescription": "Les Elo sont un système de classement utilisé pour calculer le niveau relatif des joueurs. Gagner des batailles augmentent vos Elo tandis que perdre les diminuent.",
+  "eloDescription": "Le classement Elo est un système de classement utilisé pour calculer le niveau relatif des joueurs. Gagner des batailles augmente votre Elo tandis que perdre le diminue.",
   "welcomeName": "Bienvenue {{name}}!",
   "myGames": "Mes parties",
   "gameStatus": {
@@ -31,13 +31,13 @@
     "turn": "Tour {{turnNumber}}/{{maxTurn}}"
   },
 
-  "withdrawMessage": "Si vous battez en retraite, cette bataille sera considéré comme perdue et cela fera diminuer votre Elo. Etes-vous sûr de vouloir continuer?",
+  "withdrawMessage": "Si vous battez en retraite, cette bataille sera considérée comme perdue et cela fera diminuer votre Elo. Etes-vous sûr de vouloir continuer?",
 
   "loading": "Chargement...",
   "yes": "Oui",
   "no": "Non",
   "by": "By",
-  "logout": "se déconnecter",
+  "logout": "Se déconnecter",
 
   "createNewGame": "Créer une nouvelle partie",
   "randomGameInfo": "Dans les parties générées aléatoirement, vous utiliserez l'armée que vous avez créez pour ce type de bataille. Vous pouvez voir et gérez vos armées dans le menu <0>Army Compositions</0>. Si vous n'avez pas encore créé d'armées, le jeu en sélectionnera une par défaut.",
