@@ -1,19 +1,19 @@
 {
   "currencyShop": {
-    "title": "Get <0/>",
-    "subtitle": "Unlock amazing cosmetics and stand out from the crowd!"
+    "title": "Kup <0/>",
+    "subtitle": "Odblokuj unikalne dodatki i odróżniaj się od innych!"
   },
 
-  "aboutCurrencies": "About Currencies",
+  "aboutCurrencies": "O walutach",
 
   "currency": {
-    "basic": "<currency/>: Earn this by playing matches in the queue. Use it to recruit units and build your army.",
-    "premium": "<currency/>: This one's for buying cosmetics to flex your style. Mostly comes from spending real money since the game is free to play.",
-    "rate": "{{rate}} {{currency}} per USD",
-    "purchase": "Purchase {{amount}} {{currency}}",
-    "totalSold": "Total <currency/> sold so far: {{amount}}",
-    "nextGoal": "Next Goal: {{goal}} <currency/> "
+    "basic": "<currency/>: Zdobywaj je grając losowe partie. Używane do rekrutowania jednostek i budowania armii.",
+    "premium": "<currency/>: Służy do kupowania dodatków kosmetycznych i chwalenia się stylem. Zdobywane głównie poprzez płacenie prawdziwymi pieniędzmi, bo gra jest darmowa.",
+    "rate": "{{rate}} {{currency}} za USD",
+    "purchase": "Zakup {{amount}} {{currency}}",
+    "totalSold": "Łączna ilość sprzedanego <currency/>: {{amount}}",
+    "nextGoal": "Następny cel: {{goal}} <currency/> "
   },
 
-  "purchaseConfirmation": "Are you sure you want to purchase {{item}}?"
+  "purchaseConfirmation": "Na pewno chcesz kupić {{item}}?"
 }

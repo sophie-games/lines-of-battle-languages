@@ -1,111 +1,104 @@
 {
-  "gameplay": "Gameplay",
-  "graphics": "Graphics",
-  "camera": "Camera",
-  "sound": "Sound",
-  "language": "Language",
+  "gameplay": "Rozgrywka",
+  "graphics": "Grafika",
+  "camera": "Kamera",
+  "sound": "Dźwięk",
+  "language": "Język",
 
-  "multiTurnOrders": {
-    "title": "Multi-turn orders",
-    "description": "Toggling this setting on will enable you to issue orders that the game will remember and implement from one turn to the next. These multi-turn orders can span up to 10 turns of movement, and cover location orders like Move as well as target orders like Seek."
-  },
-  "multiTurnPathMinDistance": {
-    "title": "Multi-turn path min distance"
-  },
   "edgePanning": {
-    "title": "Edge Panning",
-    "description": "Enable panning when mouse reaches screen edges (PC)."
+    "title": "Przesuwanie krawędzi",
+    "description": "Włącza przesuwanie kamery, gdy mysz jest przy krawędzi ekranu (PC)."
   },
   "useTouchControls": {
-    "title": "Use Touch Controls",
-    "description": "If enabled, it will use controls as if it were a touch device. If not enabled, it will use controls as if it were a PC."
+    "title": "Używaj sterowania dotykowego",
+    "description": "Gdy włączone, gra będzie używać sterowania dotykowego. Gdy wyłączone, gra będzie używać kontroli komputerowych."
   },
   "allowTouchSelectionBox": {
-    "title": "Allow Touch Selection Box",
-    "description": "Enable selection boxes on touch devices to select multiple units at once."
+    "title": "Włącz dotykowe pole wyboru",
+    "description": "Włącza pola wyboru podczas sterowania dotykowego, by dało się zaznaczyć wiele jednostek naraz."
   },
   "smartCurvedMovements": {
-    "title": "Smart Curved Movements",
-    "description": "Enable this option to optimize movement paths with smooth curves, minimizing speed loss during rotations."
+    "title": "Lepszy ruch po krzywej.",
+    "description": "Włącz tą opcje, aby polepszyć trasy ruchu gładkimi liniami krzywymi, pomniejszając utratę prędkości podczas obrotu."
   },
   "openSelectOrderModal": {
-    "title": "Open Select Order Modal",
-    "description": "Enable this option to show a modal for selecting orders during gameplay."
+    "title": "Otwieraj okno wyboru rozkazu",
+    "description": "Włącz tą opcję aby pokazać okno do wybierania rozkazu podczas rozgrywki."
   },
   "showNewBattleEventsModal": {
-    "title": "Show new battle events modal"
+    "title": "Otwieraj okno nowych wydarzeń w bitwie"
   },
   "hidePlayerInfo": {
-    "title": "Hide Player Info",
-    "description": "Hides ELO and usernames from the game UI, making players anonymous."
+    "title": "Ukryj informacje o graczu.",
+    "description": "Ukrywa ELO i nazwę użytkownika z interfejsu użytkownika, sprawiając, że gracz jest anonimowy."
   },
   "smartReplayCamera": {
-    "title": "Smart Replay Camera",
-    "description": "Enable the spectator camera to automatically focus on the action during replays."
+    "title": "Inteligentna Kamera Odtwarzania",
+    "description": "Włącz by kamera automatycznie skupiała się na akcji podczas odtwarzania bitw."
   },
   "smartReplayCameraZoom": {
-    "title": "Smart Replay Camera Zoom"
+    "title": "Inteligentne przybliżenie kamery"
   },
   "zoomSensibility": {
-    "title": "Zoom Sensibility"
+    "title": "Czułość przybliżania"
   },
   "cameraSensibility": {
-    "title": "Camera Sensibility (PC)"
+    "title": "Czułość przybliżania (PC)"
   },
   "replaySpeed": {
-    "title": "Replay Speed"
+    "title": "Prędkośc powtórki"
   },
   "playerColor": {
-    "title": "Player Color"
+    "title": "Kolor gracza"
   },
   "enemyColor": {
-    "title": "Enemy Color"
+    "title": "Kolor wroga"
   },
   "allyColor": {
-    "title": "Ally Color"
+    "title": "Kolor sojusznika"
   },
   "generalVolume": {
-    "title": "General Volume"
+    "title": "Głośność"
   },
 
   "shadows": {
-    "title": "Shadows",
-    "description": "Enables shadows on units. This may require the game to pass turn for the units to update."
+    "title": "Cienie",
+    "description": "Włącz cienie jednostek. Ta opcja może wymagać, aby tura się zakończyła, żeby zaktualizować to ustawienie."
   },
 
   "fullScreen": {
-    "title": "Full Screen",
-    "description": "Toggle full screen mode for the application",
-    "toggle": "Toggle Full Screen"
+    "title": "Pełny Ekran",
+    "description": "Przełącz pełny ekran w tej aplikacji.",
+    "toggle": "Przełącz Pełny Ekran"
   },
 
   "resetSettings": {
-    "title": "Reset Settings",
-    "description": "Restore all settings to their default values. This action will overwrite any customizations you have made."
+    "title": "Resetuj Ustawienia",
+    "description": "Przywróć wszystkie ustawienia do podstawowych wartości. Usunie to wszystkie wykonane zmiany."
   },
 
   "reset": "Reset",
 
-  "lineFormation": "Line Formation",
-  "checkerboardFormation": "Checkerboard Formation",
-  "spaceBetweenUnits": "Space between units",
-  "spaceBetweenLines": "Space between lines",
+  "lineFormation": "Formacja Liniowa",
+  "checkerboardFormation": "Formacja Szachownicy",
+  "spaceBetweenUnits": "Odległość między jednostkami",
+  "spaceBetweenLines": "Odległość między liniami",
 
   "keybindings": {
-    "title": "Keybindings",
-    "pressAKey": "Press a key...",
-    "moveUp": "Move up",
-    "moveDown": "Move down",
-    "moveLeft": "Move left",
-    "moveRight": "Move right",
+    "title": "Skróty klawiszowe",
+    "pressAKey": "Wciśnij przycisk...",
+    "moveUp": "Ruch w górę",
+    "moveDown": "Ruch w dół",
+    "moveLeft": "Ruch w lewo",
+    "moveRight": "Ruch w prawo",
     "info": "Info",
-    "submitOrders": "Submit orders",
-    "deselect": "Deselect",
-    "moveOrder": "Move order",
-    "seekOrder": "Seek order",
-    "shootOrder": "Shoot order",
-    "fireAndAdvanceOrder": "Fire and advance order",
-    "fallbackOrder": "Fallback order",
-    "toggleFormation": "Toggle formation"
+    "submitOrders": "Zatwierdź rozkazy"
+    "deselect": "Odznacz",
+    "moveOrder": "Rozkaz Ruchu",
+    "seekOrder": "Rozkaz Pogoni",
+    "shootOrder": "Rozkaz Ostrzału",
+    "fireAndAdvanceOrder": "Rozkaz natarcia z ostrzałem",
+    "fallbackOrder": "Rozkaz Odwrotu",
+    "toggleFormation": "Przełącz formację"
   }
 }
