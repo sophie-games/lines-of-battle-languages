@@ -180,7 +180,7 @@
     "cavalry-sword": "Miecz Kawaleryjski",
     "canister-fire": "Ogień Kartaczami",
     "light-canister-fire": "Lekki Ogień Kartaczami",
-    "howitzer-canister": "Kartacz z Haubicy"
+    "howitzer-canister": "Kartacz z Haubicy",
     "heavy-cannon-ball": "Ciężka Kula Armatnia",
     "heavy-canister-fire": "Ciężki Ostrzał Kartaczami",
     "dragoon-sword": "Miecz Dragoński",
@@ -520,7 +520,7 @@
 
   "kick": "Wyrzuć",
   "noDescription": "Brak opisu",
-  "save": "Zapisz"
+  "save": "Zapisz",
 
   "ordersSubmittedDialog": {
     "p1": "Rozkazy zostały już przez Ciebie zatwierdzone. Poczekaj aż inni prześlą swoje rozkazy",
