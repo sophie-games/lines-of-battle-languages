@@ -1,0 +1,113 @@
+{
+  "gameplay": "Rozgrywka",
+  "graphics": "Grafika",
+  "camera": "Kamera",
+  "sound": "Dźwięk",
+  "language": "Język",
+
+  "multiTurnOrders": {
+    "title": "Zamówienia wieloetapowe",
+    "description": "Włączenie tej opcji pozwoli Ci wydawać zamówienia, które gra zapamięta i będzie realizować z tury na turę. Te zamówienia wieloetapowe mogą obejmować do 10 tur ruchu i dotyczyć zarówno rozkazów lokalizacyjnych, jak Przesuń, jak i rozkazów celowych, jak Szukaj."
+  },
+  "multiTurnPathMinDistance": {
+    "title": "Minimalna odległość ścieżki wieloetapowej"
+  },
+
+  "edgePanning": {
+    "title": "Przesuwanie krawędzi",
+    "description": "Włącza przesuwanie kamery, gdy mysz jest przy krawędzi ekranu (PC)."
+  },
+  "useTouchControls": {
+    "title": "Używaj sterowania dotykowego",
+    "description": "Gdy włączone, gra będzie używać sterowania dotykowego. Gdy wyłączone, gra będzie używać kontroli komputerowych."
+  },
+  "allowTouchSelectionBox": {
+    "title": "Włącz dotykowe pole wyboru",
+    "description": "Włącza pola wyboru podczas sterowania dotykowego, by dało się zaznaczyć wiele jednostek naraz."
+  },
+  "smartCurvedMovements": {
+    "title": "Lepszy ruch po krzywej.",
+    "description": "Włącz tą opcje, aby polepszyć trasy ruchu gładkimi liniami krzywymi, pomniejszając utratę prędkości podczas obrotu."
+  },
+  "openSelectOrderModal": {
+    "title": "Otwieraj okno wyboru rozkazu",
+    "description": "Włącz tą opcję aby pokazać okno do wybierania rozkazu podczas rozgrywki."
+  },
+  "showNewBattleEventsModal": {
+    "title": "Otwieraj okno nowych wydarzeń w bitwie"
+  },
+  "hidePlayerInfo": {
+    "title": "Ukryj informacje o graczu.",
+    "description": "Ukrywa ELO i nazwę użytkownika z interfejsu użytkownika, sprawiając, że gracz jest anonimowy."
+  },
+  "smartReplayCamera": {
+    "title": "Inteligentna Kamera Odtwarzania",
+    "description": "Włącz by kamera automatycznie skupiała się na akcji podczas odtwarzania bitw."
+  },
+  "smartReplayCameraZoom": {
+    "title": "Inteligentne przybliżenie kamery"
+  },
+  "zoomSensibility": {
+    "title": "Czułość przybliżania"
+  },
+  "cameraSensibility": {
+    "title": "Czułość przybliżania (PC)"
+  },
+  "replaySpeed": {
+    "title": "Prędkośc powtórki"
+  },
+  "playerColor": {
+    "title": "Kolor gracza"
+  },
+  "enemyColor": {
+    "title": "Kolor wroga"
+  },
+  "allyColor": {
+    "title": "Kolor sojusznika"
+  },
+  "generalVolume": {
+    "title": "Głośność"
+  },
+
+  "fullScreen": {
+    "title": "Pełny Ekran",
+    "description": "Przełącz pełny ekran w tej aplikacji.",
+    "toggle": "Przełącz Pełny Ekran"
+  },
+
+  "resetSettings": {
+    "title": "Resetuj Ustawienia",
+    "description": "Przywróć wszystkie ustawienia do podstawowych wartości. Usunie to wszystkie wykonane zmiany."
+  },
+
+  "reset": "Reset",
+
+  "lineFormation": "Formacja liniowa",
+  "checkerboardFormation": "Formacja szachownicowa",
+  "spaceBetweenUnits": "Przestrzeń między jednostkami",
+  "spaceBetweenLines": "Przestrzeń między liniami",
+
+  "formation": {
+    "title": "Formation",
+    "description": "Choose the default formation for units",
+    "simple": "Simple",
+    "line": "Line"
+  },
+
+  "keybindings": {
+    "title": "Keybindings",
+    "pressAKey": "Press a key...",
+    "moveUp": "Move up",
+    "moveDown": "Move down",
+    "moveLeft": "Move left",
+    "moveRight": "Move right",
+    "info": "Info",
+    "submitOrders": "Submit orders",
+    "deselect": "Deselect",
+    "moveOrder": "Move order",
+    "seekOrder": "Seek order",
+    "shootOrder": "Shoot order",
+    "fireAndAdvanceOrder": "Fire and advance order",
+    "fallbackOrder": "Fallback order"
+  }
+}

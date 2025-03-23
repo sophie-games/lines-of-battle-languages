@@ -1,0 +1,19 @@
+{
+  "currencyShop": {
+    "title": "Kup <0/>",
+    "subtitle": "Odblokuj unikalne dodatki i odróżniaj się od innych!"
+  },
+
+  "aboutCurrencies": "O walutach",
+
+  "currency": {
+    "basic": "<currency/>: Zdobywaj je grając losowe partie. Używane do rekrutowania jednostek i budowania armii.",
+    "premium": "<currency/>: Służy do kupowania dodatków kosmetycznych i chwalenia się stylem. Zdobywane głównie poprzez płacenie prawdziwymi pieniędzmi, bo gra jest darmowa.",
+    "rate": "{{rate}} {{currency}} za USD",
+    "purchase": "Zakup {{amount}} {{currency}}",
+    "totalSold": "Łączna ilość sprzedanego <currency/>: {{amount}}",
+    "nextGoal": "Następny cel: {{goal}} <currency/> "
+  },
+
+  "purchaseConfirmation": "Na pewno chcesz kupić {{item}}?"
+}

@@ -1,0 +1,19 @@
+{
+  "currencyShop": {
+    "title": "Obtenha <0/>",
+    "subtitle": "Desbloqueie cosméticos incríveis e destaque-se da multidão!"
+  },
+
+  "aboutCurrencies": "Sobre Moedas",
+
+  "currency": {
+    "basic": "<currency/>: Ganhe isso jogando partidas na fila. Use-o para recrutar unidades e construir seu exército.",
+    "premium": "<currency/>: Esta é para comprar cosméticos e exibir seu estilo. Geralmente vem de gastar dinheiro real, já que o jogo é gratuito para jogar.",
+    "rate": "{{rate}} {{currency}} por USD",
+    "purchase": "Compre {{amount}} {{currency}}",
+    "totalSold": "Total de <currency/> vendido até agora: {{amount}}",
+    "nextGoal": "Próximo Objetivo: {{goal}} <currency/> "
+  },
+
+  "purchaseConfirmation": "Tem certeza de que deseja comprar {{item}}?"
+}

@@ -1,0 +1,7 @@
+{
+  "finishedAt": "Terminée le: {{date}}",
+  "watchGame": "Regarder la bataille",
+  "loadingGames": "Chargement...",
+  "noFinishedGamesYet": "Pas de partie terminée!",
+  "gameId": "ID de la partie: {{id}}"
+}

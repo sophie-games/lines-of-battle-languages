@@ -1,0 +1,109 @@
+{
+  "gameplay": "Giocabilità",
+  "graphics": "Grafica",
+  "camera": "Fotocamera",
+  "sound": "Suono",
+  "language": "Lingua",
+
+  "multiTurnOrders": {
+    "title": "Ordini multi-turno",
+    "description": "Attivando questa impostazione, potrai impartire ordini che il gioco ricorderà e implementerà da un turno all’altro. Questi ordini multi-turno possono coprire fino a 10 turni di movimento e includere ordini di posizione come 'Muovi' e ordini di obiettivo come 'Cerca'."
+  },
+  "multiTurnPathMinDistance": {
+    "title": "Distanza minima del percorso a più giri"
+  },
+  "edgePanning": {
+    "title": "Scorrimento ai bordi",
+    "description": "Abilita lo scorrimento quando il mouse raggiunge i bordi dello schermo (PC)."
+  },
+  "useTouchControls": {
+    "title": "Usa controlli touch",
+    "description": "Se abilitato, utilizzerà i controlli come se fosse un dispositivo touch. Se non abilitato, utilizzerà i controlli come se fosse un PC."
+  },
+  "allowTouchSelectionBox": {
+    "title": "Consenti riquadro di selezione touch",
+    "description": "Abilita i riquadri di selezione sui dispositivi touch per selezionare più unità contemporaneamente."
+  },
+  "smartCurvedMovements": {
+    "title": "Movimenti curvi intelligenti",
+    "description": "Abilita questa opzione per ottimizzare i percorsi di movimento con curve fluide, riducendo la perdita di velocità durante le rotazioni."
+  },
+  "openSelectOrderModal": {
+    "title": "Apri modale selezione ordini",
+    "description": "Abilita questa opzione per mostrare una finestra modale per selezionare gli ordini durante il gioco."
+  },
+  "showNewBattleEventsModal": {
+    "title": "Mostra modale nuovi eventi di battaglia"
+  },
+  "hidePlayerInfo": {
+    "title": "Nascondi informazioni giocatore",
+    "description": "Nasconde ELO e nomi utente dall'interfaccia di gioco, rendendo i giocatori anonimi."
+  },
+  "smartReplayCamera": {
+    "title": "Fotocamera intelligente per replay",
+    "description": "Abilita la fotocamera spettatore per concentrarsi automaticamente sull'azione durante i replay."
+  },
+  "smartReplayCameraZoom": {
+    "title": "Zoom fotocamera intelligente per replay"
+  },
+  "zoomSensibility": {
+    "title": "Sensibilità zoom"
+  },
+  "cameraSensibility": {
+    "title": "Sensibilità fotocamera (PC)"
+  },
+  "replaySpeed": {
+    "title": "Velocità replay"
+  },
+  "playerColor": {
+    "title": "Colore giocatore"
+  },
+  "enemyColor": {
+    "title": "Colore nemico"
+  },
+  "allyColor": {
+    "title": "Colore alleato"
+  },
+  "generalVolume": {
+    "title": "Volume generale"
+  },
+  "shadows": {
+    "title": "Ombre",
+    "description": "Abilita le ombre sulle unità. Questo potrebbe richiedere che il gioco passi un turno affinché le unità si aggiornino."
+  },
+
+  "fullScreen": {
+    "title": "Schermo intero",
+    "description": "Attiva o disattiva la modalità schermo intero per l'applicazione",
+    "toggle": "Attiva/Disattiva schermo intero"
+  },
+
+  "resetSettings": {
+    "title": "Ripristina impostazioni",
+    "description": "Ripristina tutte le impostazioni ai valori predefiniti. Questa azione sovrascriverà tutte le personalizzazioni che hai fatto."
+  },
+
+  "reset": "Ripristina",
+
+  "lineFormation": "Formazione in linea",
+  "checkerboardFormation": "Formazione a scacchiera",
+  "spaceBetweenUnits": "Spazio tra le unità",
+  "spaceBetweenLines": "Spazio tra le linee",
+
+  "keybindings": {
+    "title": "Scorciatoie da tastiera",
+    "pressAKey": "Premi un tasto...",
+    "moveUp": "Muovi verso l'alto",
+    "moveDown": "Muovi verso il basso",
+    "moveLeft": "Muovi a sinistra",
+    "moveRight": "Muovi a destra",
+    "info": "Informazioni",
+    "submitOrders": "Invia ordini",
+    "deselect": "Deseleziona",
+    "moveOrder": "Ordine di movimento",
+    "seekOrder": "Ordine di ricerca",
+    "shootOrder": "Ordine di sparo",
+    "fireAndAdvanceOrder": "Ordine di sparare e avanzare",
+    "fallbackOrder": "Ordine di ritirata"
+  }
+}
