@@ -1,7 +1,7 @@
 {
-  "finishedAt": "Ukończono {{date}}",
-  "watchGame": "Obejrzyj partię",
-  "loadingGames": "Ładowanie partii...",
-  "noFinishedGamesYet": "Brak ukończonych partii!",
-  "gameId": "ID Partii: {{id}}"
+  "finishedAt": "Finished at {{date}}",
+  "watchGame": "Watch Game",
+  "loadingGames": "Loading games...",
+  "noFinishedGamesYet": "No finished games yet!",
+  "gameId": "Game ID: {{id}}"
 }

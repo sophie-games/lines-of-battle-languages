@@ -1,5 +1,5 @@
 {
-  "title": "Ranking Graczy",
-  "subtitle": "Kto jest najlepszy?",
-  "description": "Znajdują się tu tylko gracze, którzy ukończyli przynajmniej jedną gre rankingową w ciągu ostatnich 14 dni."
+  "title": "Player Ranking",
+  "subtitle": "Who's on top?",
+  "description": "Only players who have played at least one ranked game in the last 14 days will appear in the ranking."
 }
