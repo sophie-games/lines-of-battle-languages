@@ -1,64 +1,71 @@
 {
-  "gameplay": "Rozgrywka",
-  "graphics": "Grafika",
-  "camera": "Kamera",
-  "sound": "Dźwięk",
-  "language": "Język",
+  "gameplay": "Gameplay",
+  "graphics": "Graphics",
+  "camera": "Camera",
+  "sound": "Sound",
+  "language": "Language",
 
+  "multiTurnOrders": {
+    "title": "Multi-turn orders",
+    "description": "Toggling this setting on will enable you to issue orders that the game will remember and implement from one turn to the next. These multi-turn orders can span up to 10 turns of movement, and cover location orders like Move as well as target orders like Seek."
+  },
+  "multiTurnPathMinDistance": {
+    "title": "Multi-turn path min distance"
+  },
   "edgePanning": {
-    "title": "Przesuwanie krawędzi",
-    "description": "Włącza przesuwanie kamery, gdy mysz jest przy krawędzi ekranu (PC)."
+    "title": "Edge Panning",
+    "description": "Enable panning when mouse reaches screen edges (PC)."
   },
   "useTouchControls": {
-    "title": "Używaj sterowania dotykowego",
-    "description": "Gdy włączone, gra będzie używać sterowania dotykowego. Gdy wyłączone, gra będzie używać kontroli komputerowych."
+    "title": "Use Touch Controls",
+    "description": "If enabled, it will use controls as if it were a touch device. If not enabled, it will use controls as if it were a PC."
   },
   "allowTouchSelectionBox": {
-    "title": "Włącz dotykowe pole wyboru",
-    "description": "Włącza pola wyboru podczas sterowania dotykowego, by dało się zaznaczyć wiele jednostek naraz."
+    "title": "Allow Touch Selection Box",
+    "description": "Enable selection boxes on touch devices to select multiple units at once."
   },
   "smartCurvedMovements": {
-    "title": "Lepszy ruch po krzywej.",
-    "description": "Włącz tą opcje, aby polepszyć trasy ruchu gładkimi liniami krzywymi, pomniejszając utratę prędkości podczas obrotu."
+    "title": "Smart Curved Movements",
+    "description": "Enable this option to optimize movement paths with smooth curves, minimizing speed loss during rotations."
   },
   "openSelectOrderModal": {
-    "title": "Otwieraj okno wyboru rozkazu",
-    "description": "Włącz tą opcję aby pokazać okno do wybierania rozkazu podczas rozgrywki."
+    "title": "Open Select Order Modal",
+    "description": "Enable this option to show a modal for selecting orders during gameplay."
   },
   "showNewBattleEventsModal": {
-    "title": "Otwieraj okno nowych wydarzeń w bitwie"
+    "title": "Show new battle events modal"
   },
   "hidePlayerInfo": {
-    "title": "Ukryj informacje o graczu.",
-    "description": "Ukrywa ELO i nazwę użytkownika z interfejsu użytkownika, sprawiając, że gracz jest anonimowy."
+    "title": "Hide Player Info",
+    "description": "Hides ELO and usernames from the game UI, making players anonymous."
   },
   "smartReplayCamera": {
-    "title": "Inteligentna Kamera Odtwarzania",
-    "description": "Włącz by kamera automatycznie skupiała się na akcji podczas odtwarzania bitw."
+    "title": "Smart Replay Camera",
+    "description": "Enable the spectator camera to automatically focus on the action during replays."
   },
   "smartReplayCameraZoom": {
-    "title": "Inteligentne przybliżenie kamery"
+    "title": "Smart Replay Camera Zoom"
   },
   "zoomSensibility": {
-    "title": "Czułość przybliżania"
+    "title": "Zoom Sensibility"
   },
   "cameraSensibility": {
-    "title": "Czułość przybliżania (PC)"
+    "title": "Camera Sensibility (PC)"
   },
   "replaySpeed": {
-    "title": "Prędkośc powtórki"
+    "title": "Replay Speed"
   },
   "playerColor": {
-    "title": "Kolor gracza"
+    "title": "Player Color"
   },
   "enemyColor": {
-    "title": "Kolor wroga"
+    "title": "Enemy Color"
   },
   "allyColor": {
-    "title": "Kolor sojusznika"
+    "title": "Ally Color"
   },
   "generalVolume": {
-    "title": "Głośność"
+    "title": "General Volume"
   },
 
   "shadows": {
@@ -67,14 +74,14 @@
   },
 
   "fullScreen": {
-    "title": "Pełny Ekran",
-    "description": "Przełącz pełny ekran w tej aplikacji.",
-    "toggle": "Przełącz Pełny Ekran"
+    "title": "Full Screen",
+    "description": "Toggle full screen mode for the application",
+    "toggle": "Toggle Full Screen"
   },
 
   "resetSettings": {
-    "title": "Resetuj Ustawienia",
-    "description": "Przywróć wszystkie ustawienia do podstawowych wartości. Usunie to wszystkie wykonane zmiany."
+    "title": "Reset Settings",
+    "description": "Restore all settings to their default values. This action will overwrite any customizations you have made."
   },
 
   "reset": "Reset",
