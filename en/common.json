@@ -162,7 +162,8 @@
     "3": "Artillery",
     "4": "Light Infantry",
     "5": "Light Cavalry",
-    "6": "Heavy Cavalry"
+    "6": "Heavy Cavalry",
+    "7": "Militia Infantry"
   },
 
   "category": "Category",
