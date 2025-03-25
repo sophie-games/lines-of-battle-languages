@@ -12,7 +12,7 @@
   "elo": "Elo",
   "joinedAt": "Dołączono {{date}}",
   "addPlayer": "Dodaj gracza",
-  "credits": "Credits",
+  "credits": "Autorzy",
 
   "settings": "Ustawienia",
   "eloScore": "Twoje Elo to {{elo}}",
@@ -205,24 +205,24 @@
 
   "battalionName": {
     "1": "{{n}} Batalion Piechoty",
-    "2": "{{n}} Pułk Dragonów",
+    "2": "{{n}} Szwadron Dragonów",
     "3": "{{n}} Bateria Piesza",
     "4": "{{n}} Batalion Gwardii Pieszej",
-    "5": "{{n}} Pułk Ułanów",
+    "5": "{{n}} Szwadron Ułanów",
     "6": "{{n}} Bateria Konna",
     "7": "{{n}} Batalion Lekkiej Piechoty",
-    "8": "{{n}} Pułk Kirasjerów",
+    "8": "{{n}} Szwadron Kirasjerów",
     "9": "{{n}} Bateria Haubic",
     "10": "{{n}} Milicji",
-    "11": "{{n}} Pułk Huzarów",
+    "11": "{{n}} Szwadron Huzarów",
     "12": "{{n}} Bateria Piesza",
     "13": "{{n}} Łuczników Konnych"
   },
 
   "unitDescription": {
     "1": "Skromny batalion piechoty liniowej to podstawowa jednostka armii. Ich główną bronią jest karabin, ale mogą także używać swoich bagnetów by zwalczać kawalerię lub szarżować na wrogą piechotę lub artylerię.",
-    "2": "Reliable, well-rounded medium cavalry fit for harassment as well as prolonged fighting.",
-    "3": "Affordable medium artillery with modest mobility and firepower, together with impressive canister fire.",
+    "2": "Niezawodna, wszechstronna średnia kawaleria, nadająca się zarówno do nękania przeciwnika, jak i długotrwałych walk.",
+    "3": "Niedroga artyleria średnia o skromnej mobilności i sile ognia, za to potrafiąca prowadzić potężny ostrzał kartaczami.",
     "4": "Doświadczeni, fizycznie okazali żołnierze z umiejętnością inspirowania sojuszników i przerażania wrogów. Te elitarne jednostki składają się wyłącznie z najbardziej uzdolnionych żołnierzy, co sprawia, że są owiele droższe w utrzymaniu. Ich wyśmienita walka wręcz i umiejętność zastraszania są niezastąpione podczas szarży na bagnety.",
     "7": "Elitarna piechota liniowa, specjalizująca się w szybkim manewrowaniu i celnym strzelaniu.",
     "11": "Lekka kawaleria przystosowana do atakowania słabych, rannych i uciekających wrogów. Lecz można ich zwalczyć zorganizowaną piechotą i cieżką kawalerią. Przed atakiem użyj artylerii i piechoty aby osłabić przeciwnika.",
@@ -230,9 +230,9 @@
     "8": "Potężna ciężka kawaleria z najlepszymi zdolnościami walki wręcz wśród wszystkich jednostek. Ale wciąż lepiej osłabić przeciwnika piechotą lub artylerią przed wysłaniem kirasjerów.",
     "12": "Najcięższa armata polowa dostępna dla napoleońskiej armii; chociaż są niesamowicie drogie, ich zasięg i moc są niezrównane.",
     "6": "Prędkość i niska cena tych armat sprawia, że są doskonałe do wspierania kawalerii lub przemieszczania się razem z piechotą.",
-    "9": "Lekkie haubice polowe z granatami artylerijskimi. Szczególnie zabójcze, gdy strzelają kartaczem - idealne do wspierania piechoty na średnim lub krótkim dystansie.",
-    "10": "“To place any dependence upon militia is assuredly resting upon a broken staff.” - George Washington",  
-    "13": "“The Bashkir horse archers are undoubtedly the world's least dangerous troops.” - Baron Marbot, ignoring an arrow in his thigh"
+    "9": "Lekkie haubice polowe z granatami artylerijskimi. Szczególnie zabójcze, gdy strzelają kartaczem - idealne do wspierania piechoty na średnim lub krótkim dystansie."
+    "10": "“Opieranie się w jakikolwiek sposób na milicji jest jak opieranie się na złamanej lasce.” - George Washington",  
+    "13": "“Baszkirscy łucznicy konni są bez wątpienia najmniej niebezpiecznym oddziałem na świecie.” - Baron Marbot, ignorując strzałę w udzie"
 },
 
   "damageResistances": "Odporność na Obrażenia",
@@ -362,7 +362,7 @@
     "1": "Ruch",
     "2": "Pogoń",
     "3": "Ostrzał",
-    "4": "Natarcie",
+    "4": "Natarcie z ostrzałem",
     "6": "Odwrót",
     "7": "Tyraliera"
   },
@@ -523,12 +523,14 @@
   "save": "Zapisz",
 
   "ordersSubmittedDialog": {
-    "p1": "You've submitted your orders. Now, wait for the others to make their move.",
-    "p2": "Checking updates in {{value}} seconds",
-    "b": "Check Now"
+    "p1": "Rozkazy zostały już przez Ciebie zatwierdzone. Poczekaj aż inni prześlą swoje rozkazy",
+    "p2": "Aktualizacja rozkazów za {{value}}s",
+    "b": "Zaktualizuj teraz"
   },
 
   "search": {
-    "clans": "Search coalitions"
-  }
+    "clans": "Szukaj koalicji"
+  },
+
+  "formation": "Formacja"
 }

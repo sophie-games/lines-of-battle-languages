@@ -5,14 +5,6 @@
   "sound": "Dźwięk",
   "language": "Język",
 
-  "multiTurnOrders": {
-    "title": "Zamówienia wieloetapowe",
-    "description": "Włączenie tej opcji pozwoli Ci wydawać zamówienia, które gra zapamięta i będzie realizować z tury na turę. Te zamówienia wieloetapowe mogą obejmować do 10 tur ruchu i dotyczyć zarówno rozkazów lokalizacyjnych, jak Przesuń, jak i rozkazów celowych, jak Szukaj."
-  },
-  "multiTurnPathMinDistance": {
-    "title": "Minimalna odległość ścieżki wieloetapowej"
-  },
-
   "edgePanning": {
     "title": "Przesuwanie krawędzi",
     "description": "Włącza przesuwanie kamery, gdy mysz jest przy krawędzi ekranu (PC)."
@@ -69,6 +61,11 @@
     "title": "Głośność"
   },
 
+  "shadows": {
+    "title": "Cienie",
+    "description": "Włącz cienie jednostek. Ta opcja może wymagać, aby tura się zakończyła, żeby zaktualizować to ustawienie."
+  },
+
   "fullScreen": {
     "title": "Pełny Ekran",
     "description": "Przełącz pełny ekran w tej aplikacji.",
@@ -82,32 +79,26 @@
 
   "reset": "Reset",
 
-  "lineFormation": "Formacja liniowa",
-  "checkerboardFormation": "Formacja szachownicowa",
-  "spaceBetweenUnits": "Przestrzeń między jednostkami",
-  "spaceBetweenLines": "Przestrzeń między liniami",
-
-  "formation": {
-    "title": "Formation",
-    "description": "Choose the default formation for units",
-    "simple": "Simple",
-    "line": "Line"
-  },
+  "lineFormation": "Formacja Liniowa",
+  "checkerboardFormation": "Formacja Szachownicy",
+  "spaceBetweenUnits": "Odległość między jednostkami",
+  "spaceBetweenLines": "Odległość między liniami",
 
   "keybindings": {
-    "title": "Keybindings",
-    "pressAKey": "Press a key...",
-    "moveUp": "Move up",
-    "moveDown": "Move down",
-    "moveLeft": "Move left",
-    "moveRight": "Move right",
+    "title": "Skróty klawiszowe",
+    "pressAKey": "Wciśnij przycisk...",
+    "moveUp": "Ruch w górę",
+    "moveDown": "Ruch w dół",
+    "moveLeft": "Ruch w lewo",
+    "moveRight": "Ruch w prawo",
     "info": "Info",
-    "submitOrders": "Submit orders",
-    "deselect": "Deselect",
-    "moveOrder": "Move order",
-    "seekOrder": "Seek order",
-    "shootOrder": "Shoot order",
-    "fireAndAdvanceOrder": "Fire and advance order",
-    "fallbackOrder": "Fallback order"
+    "submitOrders": "Zatwierdź rozkazy"
+    "deselect": "Odznacz",
+    "moveOrder": "Rozkaz Ruchu",
+    "seekOrder": "Rozkaz Pogoni",
+    "shootOrder": "Rozkaz Ostrzału",
+    "fireAndAdvanceOrder": "Rozkaz natarcia z ostrzałem",
+    "fallbackOrder": "Rozkaz Odwrotu",
+    "toggleFormation": "Przełącz formację"
   }
 }
