@@ -532,5 +532,7 @@
     "clans": "Search coalitions"
   },
 
-  "formation": "Formation"
+  "formation": "Formation",
+  "findGame": "Find game",
+  "gameIdOrLink": "Game ID or link"
 }

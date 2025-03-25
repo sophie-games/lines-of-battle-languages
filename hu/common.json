@@ -469,5 +469,9 @@
 
   "search": {
     "clans": "Koalíciók keresése"
-  }
+  },
+
+  "formation": "Képzés",
+  "findGame": "Játék keresése",
+  "gameIdOrLink": "Játékazonosító vagy link"
 }

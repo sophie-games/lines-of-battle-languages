@@ -522,5 +522,9 @@
 
   "search": {
     "clans": "連合を検索"
-  }
+  },
+
+  "formation": "形成",
+  "findGame": "ゲームを見つける",
+  "gameIdOrLink": "ゲームIDまたはリンク"
 }
