@@ -432,6 +432,7 @@
   "forgotPassword": "Forgot password?",
   "username": "Username",
   "changeUsername": "Change username",
+  "changeEmail": "Change email",
   "password": "Password",
   "email": "Email",
   "usernameOrEmail": "Username or Email",
