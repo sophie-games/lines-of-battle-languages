@@ -475,5 +475,7 @@
   "search": {
     "clans": "搜索联盟"
   },
-  "formation": "阵型"
+  "formation": "阵型",
+  "findGame": "寻找游戏",
+  "gameIdOrLink": "游戏ID或链接"
 }

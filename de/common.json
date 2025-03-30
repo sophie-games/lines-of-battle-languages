@@ -522,5 +522,9 @@
 
   "search": {
     "clans": "Suche Koalitionen"
-  }
+  },
+
+  "formation": "Formation",
+  "findGame": "Spiel finden",
+  "gameIdOrLink": "Spiel-ID oder Link"
 }

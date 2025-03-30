@@ -230,10 +230,10 @@
     "8": "Potężna ciężka kawaleria z najlepszymi zdolnościami walki wręcz wśród wszystkich jednostek. Ale wciąż lepiej osłabić przeciwnika piechotą lub artylerią przed wysłaniem kirasjerów.",
     "12": "Najcięższa armata polowa dostępna dla napoleońskiej armii; chociaż są niesamowicie drogie, ich zasięg i moc są niezrównane.",
     "6": "Prędkość i niska cena tych armat sprawia, że są doskonałe do wspierania kawalerii lub przemieszczania się razem z piechotą.",
-    "9": "Lekkie haubice polowe z granatami artylerijskimi. Szczególnie zabójcze, gdy strzelają kartaczem - idealne do wspierania piechoty na średnim lub krótkim dystansie."
-    "10": "“Opieranie się w jakikolwiek sposób na milicji jest jak opieranie się na złamanej lasce.” - George Washington",  
+    "9": "Lekkie haubice polowe z granatami artylerijskimi. Szczególnie zabójcze, gdy strzelają kartaczem - idealne do wspierania piechoty na średnim lub krótkim dystansie.",
+    "10": "“Opieranie się w jakikolwiek sposób na milicji jest jak opieranie się na złamanej lasce.” - George Washington",
     "13": "“Baszkirscy łucznicy konni są bez wątpienia najmniej niebezpiecznym oddziałem na świecie.” - Baron Marbot, ignorując strzałę w udzie"
-},
+  },
 
   "damageResistances": "Odporność na Obrażenia",
   "otherStats": "Inne Statystyki",
@@ -532,5 +532,7 @@
     "clans": "Szukaj koalicji"
   },
 
-  "formation": "Formacja"
+  "formation": "Formacja",
+  "findGame": "Znajdź grę",
+  "gameIdOrLink": "ID gry lub link"
 }

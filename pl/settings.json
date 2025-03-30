@@ -92,7 +92,7 @@
     "moveLeft": "Ruch w lewo",
     "moveRight": "Ruch w prawo",
     "info": "Info",
-    "submitOrders": "Zatwierdź rozkazy"
+    "submitOrders": "Zatwierdź rozkazy",
     "deselect": "Odznacz",
     "moveOrder": "Rozkaz Ruchu",
     "seekOrder": "Rozkaz Pogoni",

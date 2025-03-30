@@ -529,5 +529,9 @@
 
   "search": {
     "clans": "Ricerca di coalizioni"
-  }
+  },
+
+  "formation": "Formazione",
+  "findGame": "Trova partita",
+  "gameIdOrLink": "ID partita o link"
 }

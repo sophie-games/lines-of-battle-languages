@@ -162,7 +162,8 @@
     "3": "Artillery",
     "4": "Light Infantry",
     "5": "Light Cavalry",
-    "6": "Heavy Cavalry"
+    "6": "Heavy Cavalry",
+    "7": "Militia Infantry"
   },
 
   "category": "Category",
@@ -430,6 +431,8 @@
   "signUp": "Sign up",
   "forgotPassword": "Forgot password?",
   "username": "Username",
+  "changeUsername": "Change username",
+  "changeEmail": "Change email",
   "password": "Password",
   "email": "Email",
   "usernameOrEmail": "Username or Email",
@@ -532,5 +535,7 @@
     "clans": "Search coalitions"
   },
 
-  "formation": "Formation"
+  "formation": "Formation",
+  "findGame": "Find game",
+  "gameIdOrLink": "Game ID or link"
 }

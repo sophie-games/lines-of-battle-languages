@@ -528,5 +528,9 @@
 
   "search": {
     "clans": "Recherche de coalitions"
-  }
+  },
+
+  "formation": "Formation",
+  "findGame": "Trouver un jeu",
+  "gameIdOrLink": "ID du jeu ou lien"
 }
