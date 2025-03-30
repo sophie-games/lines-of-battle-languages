@@ -528,7 +528,7 @@
   "ordersSubmittedDialog": {
     "p1": "Rozkazy zostały już przez Ciebie zatwierdzone. Poczekaj aż inni prześlą swoje rozkazy",
     "p2": "Aktualizacja rozkazów za {{value}}s",
-    "b": "Aktualizowanie rozkazów"
+    "b": "Zaktualizuj teraz"
   },
 
   "search": {
