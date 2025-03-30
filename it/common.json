@@ -352,7 +352,9 @@
     "tip17": "Cattura l'obiettivo nemico posizionando un battaglione di fanteria su di esso per 8 turni, 8 battaglioni per un turno, ecc.",
     "tip18": "Seleziona il pulsante ordine per accedere a comandi come Ritirata, Fuoco e Avanza, e Spara.",
     "tip19": "La fanteria della guardia e i corazzieri influenzano fortemente l'organizzazione delle altre truppe semplicemente stando vicini. Questo effetto si accumula e può aiutare poche unità d'élite a cambiare le sorti della battaglia.",
-    "tip20": "Lascia all'artiglieria una linea di vista chiara; non manovrare la tua fanteria davanti ad essa."
+    "tip20": "Lascia all'artiglieria una linea di vista chiara; non manovrare la tua fanteria davanti ad essa.",
+    "tip21": "\"Spetta alla cavalleria inseguire la vittoria e impedire al nemico sconfitto di riorganizzarsi.\" - Napoleon Bonaparte",
+    "tip22": "\"Pianificare di riservare la cavalleria per la fine della battaglia significa non avere alcuna concezione della potenza delle cariche combinate di fanteria e cavalleria, sia per l’attacco che per la difesa.\" - Napoleon Bonaparte"
   },
 
   "fetchingBattleActions": "Recupero azioni di battaglia...",
