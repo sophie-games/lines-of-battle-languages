@@ -162,7 +162,8 @@
     "3": "Artyleria",
     "4": "Lekka Piechota",
     "5": "Lekka Kawaleria",
-    "6": "Ciężka Kawaleria"
+    "6": "Ciężka Kawaleria",
+    "7": "Milicja"
   },
 
   "category": "Kategoria",
@@ -430,6 +431,8 @@
   "signUp": "Zarejestruj się",
   "forgotPassword": "Nie pamiętasz hasła?",
   "username": "Nazwa użytkownika",
+  "changeUsername": "Zmień nazwę użytkownika",
+  "changeEmail": "Zmień email",
   "password": "Hasło",
   "email": "Email",
   "usernameOrEmail": "Nazwa Użytkownika lub Email",
@@ -525,12 +528,14 @@
   "ordersSubmittedDialog": {
     "p1": "Rozkazy zostały już przez Ciebie zatwierdzone. Poczekaj aż inni prześlą swoje rozkazy",
     "p2": "Aktualizacja rozkazów za {{value}}s",
-    "b": "Zaktualizuj teraz"
+    "b": "Aktualizowanie rozkazów"
   },
 
   "search": {
     "clans": "Szukaj koalicji"
   },
 
-  "formation": "Formacja"
+  "formation": "Formacja",
+  "findGame": "Znajdź grę",
+  "gameIdOrLink": "ID gry lub link"
 }
