@@ -353,7 +353,9 @@
     "tip17": "Aby przejąć punkt przeciwnika, umieść na nim 1 batalion piechoty na 8 tur, 8 batalionów na 1 turę, itd.",
     "tip18": "Kliknij przycisk rozkazów, by uzyskać dostęp do komend, takich jak: odwrót, ostrzał, natarcie.",
     "tip19": "Gwardia i Kirasjerzy mają duży wpływ na organizacje innych jednostek, po prostu będac blisko nich. Ten efekt się nakłada, więc kilka elitarnych jednostek może zmienić przebieg bitwy.",
-    "tip20": "Daj artylerii czystą linię strzału. Nie manewruj przed nią piechotą."
+    "tip20": "Daj artylerii czystą linię strzału. Nie manewruj przed nią piechotą.",
+    "tip21": "\"To kawaleria ma kontynuować [walkę] po zwycięstwie i zapobiegać ponownemu przegrupowaniu się pokonanego wroga.\" - Napoleon Bonaparte",
+    "tip22": "\"Planowanie zachowania kawalerii na koniec bitwy oznacza brak pojęcia o sile połączonych szarż piechoty i kawalerii, zarówno w ataku, jak i w obronie.\" - Napoleon Bonaparte"
   },
 
   "fetchingBattleActions": "Pozyskiwanie akcji bitwy...",
