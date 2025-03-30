@@ -352,7 +352,9 @@
     "tip17": "Erobern Sie das feindliche Ziel, indem Sie 8 Runden lang ein Infanteriebataillon darauf platzieren, 8 Bataillone für eine Runde usw.",
     "tip18": "Wählen Sie die Befehlsschaltfläche, um Befehle wie Rückzug, Feuern und Vorrücken und Schießen aufzurufen.",
     "tip19": "Garde-Infanterie und Kürassiere haben einen starken Einfluss auf die Organisation anderer Truppen, indem sie einfach in der Nähe sind. Dieser Effekt ist stapelbar und kann dazu beitragen, dass einige wenige Eliteeinheiten das Blatt im Kampf wenden.",
-    "tip20": "Lassen Sie Ihrer Artillerie eine freie Sichtlinie; manövrieren Sie Ihre Infanterie nicht vor ihr."
+    "tip20": "Lassen Sie Ihrer Artillerie eine freie Sichtlinie; manövrieren Sie Ihre Infanterie nicht vor ihr.",
+    "tip21": "\"Es liegt an der Kavallerie, den Sieg zu verfolgen und zu verhindern, dass der geschlagene Feind sich sammelt.\" - Napoleon Bonaparte",
+    "tip22": "\"Zu planen, die Kavallerie für das Ende der Schlacht zurückzuhalten, zeigt kein Verständnis für die Kraft kombinierter Infanterie- und Kavallerieangriffe, weder für Angriff noch für Verteidigung.\" - Napoleon Bonaparte"
   },
 
   "fetchingBattleActions": "Ruft Schlachthandlungen ab...",

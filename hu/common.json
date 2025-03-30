@@ -352,7 +352,9 @@
     "tip17": "Foglald el az ellenség objektíváját azzal, hogy 1 gyalogos egységgel rajta állsz 8 körig vagy 8 egységgel 1 körig, és így tovább...",
     "tip18": "Válaszd ki az 'Utasítások' gombot hogy olyanokat tudj parancsba adni, mint például a 'Visszahúzódás', 'Mozgás közben lövés', és 'Célpont megadása.'",
     "tip19": "A nehézgyalogság és nehézlovasság kifejezetten nagy hatással van a környező egységek organizációjára. Ez az effektus stackelődhet, és segíthet a csata kimenetelének megfordításában.",
-    "tip20": "Ne zárd el a tüzérséged lővonalát! Ne mozgasd be a gyalogságodat eléjük!"
+    "tip20": "Ne zárd el a tüzérséged lővonalát! Ne mozgasd be a gyalogságodat eléjük!",
+    "tip21": "\"A lovasságnak kell követnie a győzelmet, és megakadályoznia, hogy a legyőzött ellenség újra összegyűljön.\" - Napoleon Bonaparte",
+    "tip22": "\"A lovasság tartalékolását a csata végére tervezni azt jelenti, hogy nincs fogalmad a gyalogság és lovasság együttes rohamainak erejéről, sem támadásra, sem védekezésre.\" - Napoleon Bonaparte"
   },
 
   "fetchingBattleActions": "Ellenséges mozgások lekérése...",
