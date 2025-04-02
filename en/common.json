@@ -541,5 +541,6 @@
 
   "formation": "Formation",
   "findGame": "Find game",
-  "gameIdOrLink": "Game ID or link"
+  "gameIdOrLink": "Game ID or link",
+  "unit": "Unit"
 }
