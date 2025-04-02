@@ -347,7 +347,9 @@
     "tip16": "¿Sabías que puedes mover tu objetivo durante la fase inicial?",
     "tip17": "Captura el objetivo enemigo colocando un batallón de infantería sobre él durante 8 turnos, 8 batallones por un turno, etc.",
     "tip18": "Selecciona el botón de órdenes para acceder a comandos como Retiro, Fuego y Avance, y Disparar.",
-    "tip19": "La Infantería de Guardias y los Cuirassiers afectan fuertemente la organización de otras tropas solo con estar cerca. Este efecto se acumula y puede ayudar a algunas unidades de élite a cambiar el rumbo de la batalla."
+    "tip19": "La Infantería de Guardias y los Cuirassiers afectan fuertemente la organización de otras tropas solo con estar cerca. Este efecto se acumula y puede ayudar a algunas unidades de élite a cambiar el rumbo de la batalla.",
+    "tip21": "\"Es tarea de la caballería seguir la victoria y evitar que el enemigo derrotado se reagrupe.\" - Napoleon Bonaparte",
+    "tip22": "\"Planear reservar la caballería para el final de la batalla es no tener noción del poder de las cargas combinadas de infantería y caballería, ya sea para el ataque o para la defensa.\" - Napoleon Bonaparte"
   },
 
   "fetchingBattleActions": "Obteniendo acciones de batalla...",
@@ -529,5 +531,9 @@
 
   "search": {
     "clans": "Buscar coaliciones"
-  }
+  },
+
+  "formation": "Formación",
+  "findGame": "Encontrar juego",
+  "gameIdOrLink": "ID del juego o link"
 }

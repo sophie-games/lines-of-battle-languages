@@ -11,6 +11,7 @@
   "supporters": "Supporters",
   "elo": "Elo",
   "joinedAt": "Joined at {{date}}",
+  "createdAt": "Created at {{date}}",
   "addPlayer": "Add player",
   "credits": "Credits",
 
@@ -54,6 +55,7 @@
     "matchFound": "Once a match is found, you will be redirected to the game.",
     "continueMatchmaking": "Even if you leave this page, the matchmaking process will continue, and you will be notified when a match is made.",
     "nextQueueCheck": "Next queue check in {{countdown}} seconds.",
+    "limitEloDifference": "Only match with players of similar skill",
     "onlyClanMembers": "Play only with coalition teammates"
   },
 
@@ -162,7 +164,8 @@
     "3": "Artillery",
     "4": "Light Infantry",
     "5": "Light Cavalry",
-    "6": "Heavy Cavalry"
+    "6": "Heavy Cavalry",
+    "7": "Militia Infantry"
   },
 
   "category": "Category",
@@ -353,7 +356,9 @@
     "tip17": "Capture the enemy objective by placing one infantry battalion on it for 8 turns, 8 battalions for one turn, etc.",
     "tip18": "Select the order button to access commands like Withdrawal, Fire and Advance, and Shoot.",
     "tip19": "Guards Infantry and Cuirassiers strongly affect other troops' organization merely by being nearby. This effect stacks, and can help a few elite units turn the tide of battle.",
-    "tip20": "Leave your artillery a clear line of sight; don't maneuver your infantry in front of it."
+    "tip20": "Leave your artillery a clear line of sight; don't maneuver your infantry in front of it.",
+    "tip21": "\"It is for the cavalry to follow up the victory and prevent the beaten enemy from rallying.\" - Napoleon Bonaparte",
+    "tip22": "\"To plan to reserve cavalry for the finish of the battle, is to have no conception of the power of combined infantry and cavalry charges, either for attack or for defense.\" - Napoleon Bonaparte"
   },
 
   "fetchingBattleActions": "Fetching battle actions...",
@@ -430,6 +435,8 @@
   "signUp": "Sign up",
   "forgotPassword": "Forgot password?",
   "username": "Username",
+  "changeUsername": "Change username",
+  "changeEmail": "Change email",
   "password": "Password",
   "email": "Email",
   "usernameOrEmail": "Username or Email",
@@ -532,5 +539,7 @@
     "clans": "Search coalitions"
   },
 
-  "formation": "Formation"
+  "formation": "Formation",
+  "findGame": "Find game",
+  "gameIdOrLink": "Game ID or link"
 }

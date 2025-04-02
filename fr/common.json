@@ -346,7 +346,9 @@
     "tip16": "Saviez-vous que vous pouviez déplacer l'objectif durant la phase de déploiement?",
     "tip17": "Capturez l'objectif ennemi en plaçant une unités d'infanterie pendant 8 tours, 8 unités pendant 1 tour, etc.",
     "tip18": "Appuyer sur le bouton Ordre pour accéder a des commandes comme Reculer, Tirer en avançant, Tirer.",
-    "tip19": "La garde à pieds et les cuirassiers influencent fortement l'organisation des unités à proximités. Ces effets se cumuls et peuvent servir à retourner l'issu d'une bataille."
+    "tip19": "La garde à pieds et les cuirassiers influencent fortement l'organisation des unités à proximités. Ces effets se cumuls et peuvent servir à retourner l'issu d'une bataille.",
+    "tip21": "\"C’est à la cavalerie de suivre la victoire et d’empêcher l’ennemi vaincu de se rallier.\" - Napoleon Bonaparte",
+    "tip22": "\"Planifier de réserver la cavalerie pour la fin de la bataille, c’est ne pas concevoir la puissance des charges combinées d’infanterie et de cavalerie, que ce soit pour l’attaque ou pour la défense.\" - Napoleon Bonaparte"
   },
 
   "fetchingBattleActions": "Récupération des actions de la bataille...",
@@ -528,5 +530,9 @@
 
   "search": {
     "clans": "Recherche de coalitions"
-  }
+  },
+
+  "formation": "Formation",
+  "findGame": "Trouver un jeu",
+  "gameIdOrLink": "ID du jeu ou lien"
 }

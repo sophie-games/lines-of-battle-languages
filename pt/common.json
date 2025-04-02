@@ -352,7 +352,9 @@
     "tip17": "Capture o objetivo inimigo colocando um batalhão de infantaria sobre ele por 8 turnos, 8 batalhões por um turno, etc.",
     "tip18": "Selecione o botão de ordem para acessar comandos como Retirada, Fogo e Avanço, e Atirar.",
     "tip19": "Infantaria de Guardas e Couraceiros afetam fortemente a organização de outras tropas apenas por estarem por perto. Esse efeito acumula e pode ajudar algumas unidades de elite a virar a maré da batalha.",
-    "tip20": "Deixe sua artilharia com uma linha de visão clara; não manobre sua infantaria na frente dela."
+    "tip20": "Deixe sua artilharia com uma linha de visão clara; não manobre sua infantaria na frente dela.",
+    "tip21": "\"Cabe à cavalaria seguir a vitória e impedir que o inimigo derrotado se reagrupe.\" - Napoleon Bonaparte",
+    "tip22": "\"Planejar reservar a cavalaria para o final da batalha é não ter concepção do poder das cargas combinadas de infantaria e cavalaria, seja para ataque ou para defesa.\" - Napoleon Bonaparte"
   },
 
   "fetchingBattleActions": "Buscando ações de batalha...",
@@ -529,5 +531,9 @@
 
   "search": {
     "clans": "Pesquisa de coalizões"
-  }
+  },
+
+  "formation": "Formação",
+  "findGame": "Encontrar jogo",
+  "gameIdOrLink": "ID do jogo ou link"
 }
