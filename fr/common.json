@@ -22,7 +22,7 @@
   "loadingGames": "Chargement de la bataille...",
   "noGamesYet": "Aucune bataille disponible pour le moment! Cliquez sur Jouer pour en créer une.",
   "failedToLoadGames": "Échec du chargement. Veuillez réessayer.",
-  "armyCompositions": "Compositions d'Armées",
+  "armyCompositions": "Ordre de bataille",
   "account": "Compte",
   "scenarioEditor": "Éditeur de scénario",
   "wiki": "Wiki",
@@ -40,7 +40,7 @@
   "logout": "Se déconnecter",
 
   "createNewGame": "Créer une nouvelle partie",
-  "randomGameInfo": "Dans les parties générées aléatoirement, vous utiliserez l'armée que vous avez créez pour ce type de bataille. Vous pouvez voir et gérez vos armées dans le menu <0>Army Compositions</0>. Si vous n'avez pas encore créé d'armées, le jeu en sélectionnera une par défaut.",
+  "randomGameInfo": "Dans les parties générées aléatoirement, vous utiliserez l'armée que vous avez crée pour ce type de bataille. Vous pouvez voir et gérez la composition de vos armées dans le menu <0>Ordre de bataille</0>. Si vous n'avez pas encore créé d'armées, le jeu en sélectionnera une par défaut.",
   "selectGameMode": "Sélectionner le mode de jeu grâce aux options ci-dessous.",
   "or": "Ou",
   "cancel": "Annulez",
@@ -73,15 +73,15 @@
     "skirmish": "Escarmouche",
     "clash": "Affrontement",
     "combat": "Combat",
-    "battle": "Affrontement",
-    "grand_battle": "Bataille"
+    "battle": "Bataille",
+    "grand_battle": "Grande bataille"
   },
 
   "matchmaking": "Partie classée",
   "matchmakingDescription": "Le mode classée vous permet de rejoindre une bataille contre des joueurs inconnus en utilisant des réglages prédéfinis.",
-  "custom": "Personnalisée",
+  "custom": "Personnalisé",
 
-  "customDescription": "Le mode personnalisée vous permet de jouer contre vos amis avec des paramètres que vous aurez défini.",
+  "customDescription": "Le mode personnalisé vous permet de jouer contre vos amis avec des paramètres que vous aurez définis.",
   "maxTurn": "Nb de tour max",
 
   "copied": "Copié!",
@@ -89,7 +89,7 @@
 
   "player": "Joueur",
   "units": "Unités",
-  "unitSkins": "Skins d'unités",
+  "unitSkins": "Symboles d'unités",
   "avatars": "Avatars",
   "withdraw": "Battre en retraite",
   "importScenario": "Importer un scénario",
@@ -124,7 +124,7 @@
 
   "resume": "Continuer",
   "offerDraw": "Offrir un match nul",
-  "replayBattle": "Recommencer la bataille",
+  "replayBattle": "Replay de la bataille",
   "result": "Résultat",
   "exit": "Quitter",
   "attackColor": "Couleur des particules",
