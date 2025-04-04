@@ -306,7 +306,7 @@
   },
 
   "update": "Update!",
-  "yourArmyCompositionsFor": "Your Army Composition for",
+  "yourArmyCompositionsFor": "Your Army Compositions for",
   "noUnitsYet": "No units yet",
   "armyComposition": "Army Composition",
   "budgetAvailable": "Budget Available",
@@ -542,5 +542,13 @@
   "formation": "Formation",
   "findGame": "Find game",
   "gameIdOrLink": "Game ID or link",
-  "unit": "Unit"
+  "unit": "Unit",
+  "createArmy": "Create army",
+  "playFree": "Play Free",
+  "leaveClan": "Leave Clan",
+  "leave": "Leave",
+  "leaveClanModal": {
+    "message": "Are you sure you want to leave <0>{{clanName}}</0>?"
+  },
+  "resetToDefault": "Reset to default"
 }
