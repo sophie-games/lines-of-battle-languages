@@ -12,7 +12,7 @@
 
   "settings": "Paramètres",
   "eloScore": "Votre Elo est de {{elo}}",
-  "eloDescription": "Le classement Elo est un système de classement utilisé pour calculer le niveau relatif des joueurs. Gagner des batailles augmente votre Elo tandis que perdre le diminue.",
+  "eloDescription": "Le classement Elo est un système de classement utilisé pour calculer le niveau relatif des joueurs. Gagner des batailles augmente votre Elo tandis qu'en perdre le diminue.",
   "welcomeName": "Bienvenue {{name}}!",
   "myGames": "Mes parties",
   "gameStatus": {
@@ -20,7 +20,7 @@
     "notStarted": "La bataille n'a pas encore commencée"
   },
   "loadingGames": "Chargement de la bataille...",
-  "noGamesYet": "Aucune bataille disponible pour le moment! Cliquez sur Jouer pour en créer une.",
+  "noGamesYet": "Aucune bataille disponible pour le moment ! Cliquez sur Jouer pour en créer une.",
   "failedToLoadGames": "Échec du chargement. Veuillez réessayer.",
   "armyCompositions": "Ordre de bataille",
   "account": "Compte",
@@ -31,7 +31,7 @@
     "turn": "Tour {{turnNumber}}/{{maxTurn}}"
   },
 
-  "withdrawMessage": "Si vous battez en retraite, cette bataille sera considérée comme perdue et cela fera diminuer votre Elo. Etes-vous sûr de vouloir continuer?",
+  "withdrawMessage": "Si vous battez en retraite, cette bataille sera considérée comme perdue et cela fera diminuer votre Elo. Êtes-vous sûr de vouloir continuer?",
 
   "loading": "Chargement...",
   "yes": "Oui",
@@ -46,7 +46,7 @@
   "cancel": "Annulez",
 
   "matchmakingQueue": {
-    "inQueue": "Vous êtes désormais dans la file d'attente! Nous recherchons un adversaire qui a choisi les mêmes paramètres que vous.",
+    "inQueue": "Vous êtes désormais dans la file d'attente ! Nous recherchons un adversaire qui a choisi les mêmes paramètres que vous.",
     "matchFound": "Lorsque ce sera fait, vous rejoindrez automatiquement la partie.",
     "continueMatchmaking": "La recherche continuera même si vous quittez cette page et vous serez prévenu lorsqu'une bataille sera trouvée.",
     "nextQueueCheck": "Nouvelle vérification dans {{countdown}} secondes.",
@@ -84,7 +84,7 @@
   "customDescription": "Le mode personnalisé vous permet de jouer contre vos amis avec des paramètres que vous aurez définis.",
   "maxTurn": "Nb de tour max",
 
-  "copied": "Copié!",
+  "copied": "Copié !",
   "copyLink": "Copier le lien",
 
   "player": "Joueur",
@@ -99,12 +99,12 @@
   },
 
   "scenarioEditorTags": {
-    "tutorialMessage": " Vous ne savez pas l'utiliser, pas de panique, tout est prévu! <tutorialLink>Regardez le tutoriel ici.</tutorialLink>"
+    "tutorialMessage": " Vous ne savez pas l'utiliser, pas de panique, tout est prévu ! <tutorialLink>Regardez le tutoriel ici.</tutorialLink>"
   },
 
   "createScenario": "Créer un scénario",
   "loadScenario": "Charger un scénario",
-  "playOffline": "Jouer hors-ligne!",
+  "playOffline": "Jouer hors-ligne !",
   "createOfflineGame": "Créer une partie hors-ligne",
   "chooseAScenario": "Choisir un scénario",
   "playerArmy": "Armée du joueur",
@@ -112,7 +112,7 @@
   "army": "Armée",
 
   "deploymentStateMessage": "Phase de déploiement. Durant ce tour, vous pouvez placer vos unités où vous le souhaitez dans la zone de déploiement. Lorsque vous avez terminé, envoyez vos ordres pour confirmer votre placement.",
-  "youAreColor": "Vous êtes {{color}}!",
+  "youAreColor": "Vous êtes {{color}} !",
   "getStarted": "Commencer",
 
   "colorTag": {
@@ -123,7 +123,7 @@
   },
 
   "resume": "Continuer",
-  "offerDraw": "Offrir un match nul",
+  "offerDraw": "Proposer un match nul",
   "replayBattle": "Replay de la bataille",
   "result": "Résultat",
   "exit": "Quitter",
@@ -172,7 +172,7 @@
     "cavalry-lance": "Lance de cavalerie",
     "light-cannon-ball": "Boulet de canon léger",
     "explosive-shell": "Obus explosif",
-    "cavalry-sword": "Epée de cavalerie",
+    "cavalry-sword": "Épée de cavalerie",
     "canister-fire": "Mitraille",
     "light-canister-fire": "Mitraille légère",
     "howitzer-canister": "Mitraille d'obusier",
@@ -215,7 +215,7 @@
 
   "unitDescription": {
     "1": "Les bataillons de ligne sont la colonne vertébrale de l'armée. Armés d'un mousquet équipé d'une bayonette, les soldats qui les composent sont aussi mortels à distance qu'au corps à corps",
-    "2": "Cavalerie moyenne fiable et polyvalente, adaptée aussi bien au harcèlement qu’aux combats prolongés.",
+    "2": "Cavalerie moyenne, fiable et polyvalente, adaptée aussi bien au harcèlement qu’aux combats prolongés.",
     "3": "Artillerie moyenne abordable avec une mobilité et une puissance de feu modestes, ainsi qu’un impressionnant tir à mitraille.",
     "4": "Ces soldats imposants et expérimentés inspirent leurs alliés autant qu'ils terrifient l'adversaire. Seuls les soldats les plus doués pourront un jour rejoindre ces unités d'élites, ce qui les rend bien plus chers à déployer. La peur qu'ils provoquent et leurs excellentes capacités en mêlée les rendent très utiles pour initier des charges.",
     "7": "Infanterie de ligne d'élite avec un fort penchant vers la rapidité et la précision.",
@@ -328,34 +328,34 @@
     "fetchingGameData": "Récupérarion des données de la partie...",
     "generatingMap": "Génération de la carte...",
 
-    "tip1": "Les unités avec une organisation élevé ne subisse presque pas de dégâts lorsqu'elles se font chargées. Affaiblissez-les d'abord avec un feu nourri.",
-    "tip2": "Les hussards devraient cibler en priorité les unités affaiblis et l'artillerie.",
+    "tip1": "Les unités avec une organisation élevée ne subissent presqu'aucun dégâts lorsqu'elles se font charger. Affaiblissez-les d'abord avec un feu nourri.",
+    "tip2": "Les hussards devraient cibler en priorité les unités affaiblies ainsi que l'artillerie.",
     "tip3": "Les mousquets et l'artillerie sont bien plus mortels à moyenne plutôt qu'à longe portée.",
-    "tip4": "Le feu indirect des obusiers les rend bien plus efficaces pour atteindre des cibles retranchés dans des villes ou des forêts.",
-    "tip5": "Vous pouvez trouver de nombreuses informations sur une unités en la sélectionnant et en cliquant sur le bouton info (raccourci I).",
-    "tip6": "Les unités en déroute ont des malus pour se réorganiser et risquent de quitter le champ de bataille. Dissimulez vos unités désorganisé derrière votre ligne si possible avant qu'elles ne fuient.",
-    "tip7": "L'artillerie à cheval et les obusiers sont bien plus mobile que l'artillerie de 12 livres. Les faire suivre la ligne d'infanterie est risqués mais leurs tirs de mitraille peuvent changer le cours de la bataille.",
+    "tip4": "Le feu indirect des obusiers les rend bien plus efficaces pour atteindre des cibles retranchées dans des villes ou des forêts.",
+    "tip5": "Vous pouvez trouver de nombreuses informations sur une unité en la sélectionnant et en cliquant sur le bouton info (raccourci I).",
+    "tip6": "Les unités en déroute ont des malus pour se réorganiser et risquent de quitter le champ de bataille. Dissimulez vos unités désorganisées derrière votre ligne, si possible avant qu'elles ne fuient.",
+    "tip7": "L'artillerie à cheval et les obusiers sont bien plus mobiles que l'artillerie de 12 livres. Les faire suivre la ligne d'infanterie est risqué mais leurs tirs de mitraille peuvent changer le cours de la bataille.",
     "tip8": "Lorsque vous sélectionnez une unité, vous verrez un cercle bleu autour de celle-ci. Les unités alliés qui y pénètrent regagnerons de l'organisation et à l'inverse les unités ennemis en perdrons.",
-    "tip9": "Les lanciers sont des unités d'élites qui trouvent leurs forces dans des charges dévastatrices, mais à l'inverse des cuirassiers, il se retrouvent en difficulté si le combat se prolonge.",
-    "tip10": "Les attaques qui frappent une unités d'infanterie sur le flanc feront bien plus de dégâts.",
-    "tip11": "Vous pouvez gagner des points de victoires en capturant l'objectif ou en infligeant des pertes à l'adversaire. Si vous dominez l'adverdaire aux points cela ralentira la réorganisation de son armée et sécurisera votre victoire lorsque la limite de tour sera atteinte.",
+    "tip9": "Les lanciers sont des unités d'élites qui trouvent leur force dans des charges dévastatrices, mais, à l'inverse des cuirassiers, ils se retrouvent en difficulté si le combat se prolonge.",
+    "tip10": "Les attaques qui frappent une unité d'infanterie sur le flanc feront bien plus de dégâts.",
+    "tip11": "Vous pouvez gagner des points de victoire en capturant l'objectif ou en infligeant des pertes à l'adversaire. Si vous dominez l'adverdaire aux points, cela ralentira la réorganisation de son armée et garantira votre victoire lorsque la limite du nombre de tours sera atteinte.",
     "tip12": "Prenez l'adversaire de flanc, ne le laissez pas faire pareil.",
-    "tip13": "Soumettez vos replays préférés sur le discord et l'équipe de dév les mettra en évidence sur YouTube!",
-    "tip14": "Si vous avez une question, vous trouverez sûrement une réponse sur le discord, le reddit ou le wiki du jeu.",
-    "tip15": "Si vous aimez Line of Battle et souhaitez aider le créateur, rejoignez le Patreon! Chaque contribution compte.",
-    "tip16": "Saviez-vous que vous pouviez déplacer l'objectif durant la phase de déploiement?",
-    "tip17": "Capturez l'objectif ennemi en plaçant une unités d'infanterie pendant 8 tours, 8 unités pendant 1 tour, etc.",
-    "tip18": "Appuyer sur le bouton Ordre pour accéder a des commandes comme Reculer, Tirer en avançant, Tirer.",
-    "tip19": "La garde à pieds et les cuirassiers influencent fortement l'organisation des unités à proximités. Ces effets se cumuls et peuvent servir à retourner l'issu d'une bataille.",
-    "tip21": "\"C’est à la cavalerie de suivre la victoire et d’empêcher l’ennemi vaincu de se rallier.\" - Napoleon Bonaparte",
-    "tip22": "\"Planifier de réserver la cavalerie pour la fin de la bataille, c’est ne pas concevoir la puissance des charges combinées d’infanterie et de cavalerie, que ce soit pour l’attaque ou pour la défense.\" - Napoleon Bonaparte"
+    "tip13": "Partagez vos replays préférés sur le Discord et l'équipe de dév les mettra en évidence sur YouTube !",
+    "tip14": "Si vous avez une question, vous trouverez sûrement une réponse sur le Discord, le Reddit ou le Wiki du jeu.",
+    "tip15": "Si vous aimez Line of Battle et souhaitez aider le créateur, rejoignez le Patreon ! Chaque contribution compte.",
+    "tip16": "Saviez-vous que vous pouviez déplacer l'objectif durant la phase de déploiement ?",
+    "tip17": "Capturez l'objectif ennemi en plaçant une unité d'infanterie pendant 8 tours, 8 unités pendant 1 tour, etc.",
+    "tip18": "Appuyer sur le bouton « Ordre » pour accéder à des commandes comme « Reculer », « Tirer en avançant », « Tirer ».",
+    "tip19": "La garde à pieds et les cuirassiers influencent fortement l'organisation des unités à proximité. Ces effets se cumulent et peuvent servir à changer l'issue d'une bataille.",
+    "tip21": "\"C’est à la cavalerie de suivre la victoire et d’empêcher l’ennemi vaincu de se rallier.\" — Napoléon Bonaparte",
+    "tip22": "\"Planifier de réserver la cavalerie pour la fin de la bataille, c’est ne pas concevoir la puissance des charges combinées d’infanterie et de cavalerie, que ce soit pour l’attaque ou pour la défense.\" — Napoléon Bonaparte"
   },
 
   "fetchingBattleActions": "Récupération des actions de la bataille...",
 
   "order": {
     "1": "Mouvement",
-    "2": "Chargez",
+    "2": "Charger",
     "3": "Tirer",
     "4": "Tirer en avançant",
     "6": "Reculer",
@@ -374,7 +374,7 @@
   "receivedOrgDamage": "Dégâts reçus à l'organisation",
   "noModifiers": "Aucun modificateur",
   "submitOrders": "Soumettre les ordres",
-  "submitOrdersConfirmation": "Etes-vous sûr de vos ordres? Une fois que vous les aurez validés, vous ne pourrez plus faire marche arrière .",
+  "submitOrdersConfirmation": "Êtes-vous sûr de vos ordres? Une fois que vous les aurez validés, vous ne pourrez plus faire marche arrière .",
   "players": "Joueurs",
   "menu": "Menu",
   "replayActions": "Replay le dernier tour",
@@ -397,9 +397,9 @@
   },
 
   "offerDrawModal": {
-    "withdrawOffer": "Offrir de se retirer",
-    "alreadyWantsDrawMessage": "Vous proposez déjà un match nul. Souhaitez-vous retirer cette offre?",
-    "offerDrawMessage": "Si vous proposez un match nul, cette offre restera activé jusqu'à ce que vous la retiriez."
+    "withdrawOffer": "Proposer de se retirer",
+    "alreadyWantsDrawMessage": "Vous proposez déjà un match nul. Souhaitez-vous retirer cette offre ?",
+    "offerDrawMessage": "Si vous proposez un match nul, cette offre restera activée jusqu'à ce que vous la retiriez."
   },
 
   "defeat": "Défaite",
