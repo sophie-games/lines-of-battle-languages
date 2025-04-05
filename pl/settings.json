@@ -1,0 +1,104 @@
+{
+  "gameplay": "Rozgrywka",
+  "graphics": "Grafika",
+  "camera": "Kamera",
+  "sound": "Dźwięk",
+  "language": "Język",
+
+  "edgePanning": {
+    "title": "Przesuwanie krawędzi",
+    "description": "Włącza przesuwanie kamery, gdy mysz jest przy krawędzi ekranu (PC)."
+  },
+  "useTouchControls": {
+    "title": "Używaj sterowania dotykowego",
+    "description": "Gdy włączone, gra będzie używać sterowania dotykowego. Gdy wyłączone, gra będzie używać kontroli komputerowych."
+  },
+  "allowTouchSelectionBox": {
+    "title": "Włącz dotykowe pole wyboru",
+    "description": "Włącza pola wyboru podczas sterowania dotykowego, by dało się zaznaczyć wiele jednostek naraz."
+  },
+  "smartCurvedMovements": {
+    "title": "Lepszy ruch po krzywej.",
+    "description": "Włącz tą opcje, aby polepszyć trasy ruchu gładkimi liniami krzywymi, pomniejszając utratę prędkości podczas obrotu."
+  },
+  "openSelectOrderModal": {
+    "title": "Otwieraj okno wyboru rozkazu",
+    "description": "Włącz tą opcję aby pokazać okno do wybierania rozkazu podczas rozgrywki."
+  },
+  "showNewBattleEventsModal": {
+    "title": "Otwieraj okno nowych wydarzeń w bitwie"
+  },
+  "hidePlayerInfo": {
+    "title": "Ukryj informacje o graczu.",
+    "description": "Ukrywa ELO i nazwę użytkownika z interfejsu użytkownika, sprawiając, że gracz jest anonimowy."
+  },
+  "smartReplayCamera": {
+    "title": "Inteligentna Kamera Odtwarzania",
+    "description": "Włącz by kamera automatycznie skupiała się na akcji podczas odtwarzania bitw."
+  },
+  "smartReplayCameraZoom": {
+    "title": "Inteligentne przybliżenie kamery"
+  },
+  "zoomSensibility": {
+    "title": "Czułość przybliżania"
+  },
+  "cameraSensibility": {
+    "title": "Czułość przybliżania (PC)"
+  },
+  "replaySpeed": {
+    "title": "Prędkośc powtórki"
+  },
+  "playerColor": {
+    "title": "Kolor gracza"
+  },
+  "enemyColor": {
+    "title": "Kolor wroga"
+  },
+  "allyColor": {
+    "title": "Kolor sojusznika"
+  },
+  "generalVolume": {
+    "title": "Głośność"
+  },
+
+  "shadows": {
+    "title": "Cienie",
+    "description": "Włącz cienie jednostek. Ta opcja może wymagać, aby tura się zakończyła, żeby zaktualizować to ustawienie."
+  },
+
+  "fullScreen": {
+    "title": "Pełny Ekran",
+    "description": "Przełącz pełny ekran w tej aplikacji.",
+    "toggle": "Przełącz Pełny Ekran"
+  },
+
+  "resetSettings": {
+    "title": "Resetuj Ustawienia",
+    "description": "Przywróć wszystkie ustawienia do podstawowych wartości. Usunie to wszystkie wykonane zmiany."
+  },
+
+  "reset": "Reset",
+
+  "lineFormation": "Formacja Liniowa",
+  "checkerboardFormation": "Formacja Szachownicy",
+  "spaceBetweenUnits": "Odległość między jednostkami",
+  "spaceBetweenLines": "Odległość między liniami",
+
+  "keybindings": {
+    "title": "Skróty klawiszowe",
+    "pressAKey": "Wciśnij przycisk...",
+    "moveUp": "Ruch w górę",
+    "moveDown": "Ruch w dół",
+    "moveLeft": "Ruch w lewo",
+    "moveRight": "Ruch w prawo",
+    "info": "Info",
+    "submitOrders": "Zatwierdź rozkazy",
+    "deselect": "Odznacz",
+    "moveOrder": "Rozkaz Ruchu",
+    "seekOrder": "Rozkaz Pogoni",
+    "shootOrder": "Rozkaz Ostrzału",
+    "fireAndAdvanceOrder": "Rozkaz natarcia z ostrzałem",
+    "fallbackOrder": "Rozkaz Odwrotu",
+    "toggleFormation": "Przełącz formację"
+  }
+}

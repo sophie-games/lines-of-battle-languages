@@ -1,0 +1,110 @@
+{
+  "gameplay": "Gameplay",
+  "graphics": "Grafik",
+  "camera": "Kamera",
+  "sound": "Ton",
+  "language": "Sprache",
+
+  "multiTurnOrders": {
+    "title": "Mehrzügige Befehle",
+    "description": "Wenn Sie diese Einstellung aktivieren, können Sie Befehle erteilen, die das Spiel speichert und von einem Zug zum nächsten umsetzt. Diese mehrzügigen Befehle können bis zu 10 Züge Bewegung umfassen und beinhalten Ortsbefehle wie 'Bewegen' sowie Zielbefehle wie 'Suchen'."
+  },
+  "multiTurnPathMinDistance": {
+    "title": "Mindestdistanz des Mehrfachdrehungswegs"
+  },
+  "edgePanning": {
+    "title": "Kantenschwenkung",
+    "description": "Aktiviere das Schwenkend er Kamera, wenn die Maus an den Rand des Bildschirms kommt (PC)."
+  },
+  "useTouchControls": {
+    "title": "Berührungssteuerung benutzen",
+    "description": "Wenn aktiviert, wird eine Steuerung verwendet, als ob es ein Touch-Gerät wäre. Wenn nicht aktiviert, wird eine Steuerung wie am PC verwendet."
+  },
+  "allowTouchSelectionBox": {
+    "title": "Erlaube Berührungsauswahlboxen",
+    "description": "Aktiviert Auswahlboxen auf Touch-Geräten, um mehrere Einheiten gleichzeitig auszuwählen."
+  },
+  "smartCurvedMovements": {
+    "title": "Kluge Kurvenbewegungen",
+    "description": "Aktiviere diese Option, um die Bewegungspfade mit weicheren Kurven zu optimieren, was Geschwindigkeitsverluste beim Drehen verringert."
+  },
+  "openSelectOrderModal": {
+    "title": "Befehlsauswahlsmodal öffnen",
+    "description": "Aktiviere diese Option, um ein Modal für die Auswahl von Befehlen während des Spiels."
+  },
+  "showNewBattleEventsModal": {
+    "title": "Zeige neue Schlachtereignissenachrichten an"
+  },
+  "hidePlayerInfo": {
+    "title": "Versteckte Spielerinformationen",
+    "description": "Versteckt ELO und Benutzernamen vom Spiel-UI, wodurch Spieler anonym bleiben."
+  },
+  "smartReplayCamera": {
+    "title": "intelligente Wiedergabekamera",
+    "description": "Aktiviert, dass die Betrachterkamera sich automatisch auf das Kampfgeschehen fokusiert."
+  },
+  "smartReplayCameraZoom": {
+    "title": "Zoom der intelligenten Wiedergabekamera"
+  },
+  "zoomSensibility": {
+    "title": "Zoom Empfindlichkeit"
+  },
+  "cameraSensibility": {
+    "title": "Kamera Empfindlichkeit (PC)"
+  },
+  "replaySpeed": {
+    "title": "Wiedergabegeschwindigkeit"
+  },
+  "playerColor": {
+    "title": "Spielerfarben"
+  },
+  "enemyColor": {
+    "title": "Gegnerfarben"
+  },
+  "allyColor": {
+    "title": "Verbündetenfarben"
+  },
+  "generalVolume": {
+    "title": "Allgemeines Volumen"
+  },
+
+  "shadows": {
+    "title": "Schatten",
+    "description": "Aktiviert Schatten bei Einheiten. Dies kann erfordern, dass das Spiel einen Zug vergeht, damit die Einheiten aktualisiert werden."
+  },
+
+  "fullScreen": {
+    "title": "Vollbild",
+    "description": "Schaltet den Vollbildmodus für die Anwendung um",
+    "toggle": "Vollbild umschalten"
+  },
+
+  "resetSettings": {
+    "title": "Einstellungen zurücksetzen",
+    "description": "Stellt alle Standardeinstellungen wieder her. Diese Aktion überschreibt alle Einstellungen die Sie gemacht haben."
+  },
+
+  "reset": "Zurücksetzen",
+
+  "lineFormation": "Linienformation",
+  "checkerboardFormation": "Schachbrettformation",
+  "spaceBetweenUnits": "Abstand zwischen Einheiten",
+  "spaceBetweenLines": "Abstand zwischen Linien",
+
+  "keybindings": {
+    "title": "Tastenkombinationen",
+    "pressAKey": "Drücke eine Taste...",
+    "moveUp": "Nach oben bewegen",
+    "moveDown": "Nach unten bewegen",
+    "moveLeft": "Nach links bewegen",
+    "moveRight": "Nach rechts bewegen",
+    "info": "Info",
+    "submitOrders": "Befehle absenden",
+    "deselect": "Abwählen",
+    "moveOrder": "Bewegungsauftrag",
+    "seekOrder": "Suchauftrag",
+    "shootOrder": "Schießauftrag",
+    "fireAndAdvanceOrder": "Feuer-und-Vorrück-Auftrag",
+    "fallbackOrder": "Rückzugsauftrag"
+  }
+}

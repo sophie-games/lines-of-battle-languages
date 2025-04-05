@@ -1,0 +1,19 @@
+{
+  "currencyShop": {
+    "title": "Szerezz <0/>-et!",
+    "subtitle": "Szerezz elképesztő kozmetikumokat, és tűnj ki a sorból!"
+  },
+
+  "aboutCurrencies": "A fizetőeszközökről",
+
+  "currency": {
+    "basic": "<currency/>: Ezt nyílt meccsek játszásával szerezheted meg. Új egység-típusok feloldására használható.",
+    "premium": "<currency/>: Ez kozmetikumok vásárlására van. Főként valós pénz elköltésével juthatsz hozzá, hiszen így tudjuk fenntartani ezt az ingyen játszható játékot.",
+    "rate": "{{rate}} {{currency}} Amerikai Dolláronként",
+    "purchase": "{{amount}} {{currency}} vásárlása",
+    "totalSold": "Eddig {{amount}} darab <currency/>-et adtunk el",
+    "nextGoal": "Következő cél: {{goal}} <currency/> "
+  },
+
+  "purchaseConfirmation": "Biztos, hogy megakarod vásárolni ezt: {{item}}?"
+}

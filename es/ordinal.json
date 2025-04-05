@@ -1,0 +1,6 @@
+{
+  "default": "{{number}}º",
+  "1": "{{number}}º",
+  "2": "{{number}}º",
+  "3": "{{number}}º"
+}

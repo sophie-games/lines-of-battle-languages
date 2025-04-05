@@ -1,0 +1,103 @@
+{
+  "gameplay": "Jouabilité",
+  "graphics": "Graphismes",
+  "camera": "Caméra",
+  "sound": "Son",
+  "language": "Langue",
+
+  "multiTurnOrders": {
+    "title": "Ordres multi-tours",
+    "description": "Activer ce paramètre vous permettra de donner des ordres que le jeu mémorisera et mettra en œuvre d’un tour à l’autre. Ces ordres multi-tours peuvent s’étendre sur jusqu’à 10 tours de mouvement et inclure des ordres de localisation comme 'Se déplacer' ainsi que des ordres de cible comme 'Chercher'."
+  },
+  "multiTurnPathMinDistance": {
+    "title": "Distance minimale du chemin à plusieurs tours"
+  },
+  "edgePanning": {
+    "title": "Défilement sur les bords",
+    "description": "Active le défilement lorsque la souris atteint les bords de l'écran (PC)."
+  },
+  "useTouchControls": {
+    "title": "Utiliser les contrôles tactiles",
+    "description": "Si activé, utilise des contrôles comme sur un appareil tactile. Si désactivé, utilise des contrôles comme sur un PC."
+  },
+  "allowTouchSelectionBox": {
+    "title": "Permettre la boîte de sélection tactile",
+    "description": "Active les boîtes de sélection sur les appareils tactiles pour sélectionner plusieurs unités à la fois."
+  },
+  "smartCurvedMovements": {
+    "title": "Mouvements courbés intelligents",
+    "description": "Active cette option pour optimiser les trajets de mouvement avec des courbes fluides, réduisant la perte de vitesse lors des rotations."
+  },
+  "openSelectOrderModal": {
+    "title": "Ouvrir la fenêtre modale de sélection d'ordres",
+    "description": "Active cette option pour afficher une fenêtre modale permettant de sélectionner des ordres pendant le jeu."
+  },
+  "showNewBattleEventsModal": {
+    "title": "Afficher la fenêtre modale des nouveaux événements de bataille"
+  },
+  "hidePlayerInfo": {
+    "title": "Masquer les informations des joueurs",
+    "description": "Masque l'ELO et les noms d'utilisateur dans l'interface du jeu, rendant les joueurs anonymes."
+  },
+  "smartReplayCamera": {
+    "title": "Caméra intelligente de relecture",
+    "description": "Permet à la caméra spectatrice de se concentrer automatiquement sur l'action pendant les relectures."
+  },
+  "smartReplayCameraZoom": {
+    "title": "Zoom de la caméra intelligente de relecture"
+  },
+  "zoomSensibility": {
+    "title": "Sensibilité du zoom"
+  },
+  "cameraSensibility": {
+    "title": "Sensibilité de la caméra (PC)"
+  },
+  "replaySpeed": {
+    "title": "Vitesse de relecture"
+  },
+  "playerColor": {
+    "title": "Couleur du joueur"
+  },
+  "enemyColor": {
+    "title": "Couleur de l'ennemi"
+  },
+  "generalVolume": {
+    "title": "Volume général"
+  },
+  "shadows": {
+    "title": "Ombres",
+    "description": "Active les ombres sur les unités. Cela peut nécessiter que le jeu passe un tour pour que les unités soient mises à jour."
+  },
+  "fullScreen": {
+    "title": "Plein écran",
+    "description": "Basculer en mode plein écran pour l'application",
+    "toggle": "Basculer en plein écran"
+  },
+  "resetSettings": {
+    "title": "Réinitialiser les paramètres",
+    "description": "Restaure tous les paramètres à leurs valeurs par défaut. Cette action écrasera toutes les personnalisations que vous avez effectuées."
+  },
+  "reset": "Réinitialiser",
+
+  "lineFormation": "Formation en ligne",
+  "checkerboardFormation": "Formation en damier",
+  "spaceBetweenUnits": "Espace entre les unités",
+  "spaceBetweenLines": "Espace entre les lignes",
+
+  "keybindings": {
+    "title": "Raccourcis clavier",
+    "pressAKey": "Appuie sur une touche...",
+    "moveUp": "Monter",
+    "moveDown": "Descendre",
+    "moveLeft": "Aller à gauche",
+    "moveRight": "Aller à droite",
+    "info": "Info",
+    "submitOrders": "Soumettre les ordres",
+    "deselect": "Désélectionner",
+    "moveOrder": "Ordre de déplacement",
+    "seekOrder": "Ordre de recherche",
+    "shootOrder": "Ordre de tir",
+    "fireAndAdvanceOrder": "Ordre de tirer et avancer",
+    "fallbackOrder": "Ordre de repli"
+  }
+}

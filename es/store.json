@@ -1,0 +1,19 @@
+{
+  "currencyShop": {
+    "title": "Obtené <0/>",
+    "subtitle": "Desbloqueá cosméticos increíbles y destacate entre la multitud!"
+  },
+
+  "aboutCurrencies": "Acerca de las Monedas",
+
+  "currency": {
+    "basic": "<currency/>: Gana esta moneda jugando partidas de emparejamiento. Usala para reclutar unidades y construir tu ejército.",
+    "premium": "<currency/>: Esta moneda sirve para comprar cosméticos y mostrar tu estilo. Principalmente se obtiene gastando dinero real, ya que el juego es gratuito.",
+    "rate": "{{rate}} {{currency}} por USD",
+    "purchase": "Comprar {{amount}} {{currency}}",
+    "totalSold": "Total de <currency/> vendidos hasta ahora: {{amount}}",
+    "nextGoal": "Próximo objetivo: {{goal}} <currency/>"
+  },
+
+  "purchaseConfirmation": "Estás seguro de que querés comprar {{item}}?"
+}

@@ -1,0 +1,109 @@
+{
+  "gameplay": "Jogabilidade",
+  "graphics": "Gráficos",
+  "camera": "Câmera",
+  "sound": "Som",
+  "language": "Idioma",
+
+  "multiTurnOrders": {
+    "title": "Ordens de vários turnos",
+    "description": "Ativar esta configuração permitirá que você emita ordens que o jogo lembrará e implementará de um turno para o próximo. Essas ordens de vários turnos podem abranger até 10 turnos de movimento e incluir ordens de localização como 'Mover' e ordens de alvo como 'Buscar'."
+  },
+  "multiTurnPathMinDistance": {
+    "title": "Distância mínima do caminho de múltiplas voltas"
+  },
+  "edgePanning": {
+    "title": "Deslocamento nas Bordas",
+    "description": "Ativar o deslocamento quando o mouse atingir as bordas da tela (PC)."
+  },
+  "useTouchControls": {
+    "title": "Usar Controles de Toque",
+    "description": "Se ativado, usará controles como se fosse um dispositivo de toque. Se não ativado, usará controles como se fosse um PC."
+  },
+  "allowTouchSelectionBox": {
+    "title": "Permitir Caixa de Seleção por Toque",
+    "description": "Ativar caixas de seleção em dispositivos de toque para selecionar várias unidades ao mesmo tempo."
+  },
+  "smartCurvedMovements": {
+    "title": "Movimentos Curvos Inteligentes",
+    "description": "Ative esta opção para otimizar os caminhos de movimento com curvas suaves, minimizando a perda de velocidade durante rotações."
+  },
+  "openSelectOrderModal": {
+    "title": "Abrir Modal de Seleção de Ordens",
+    "description": "Ative esta opção para exibir um modal para selecionar ordens durante a jogabilidade."
+  },
+  "showNewBattleEventsModal": {
+    "title": "Exibir Modal de Novos Eventos de Batalha"
+  },
+  "hidePlayerInfo": {
+    "title": "Ocultar Informações do Jogador",
+    "description": "Oculta o ELO e os nomes de usuário da interface do jogo, tornando os jogadores anônimos."
+  },
+  "smartReplayCamera": {
+    "title": "Câmera Inteligente de Replay",
+    "description": "Ative a câmera de espectador para focar automaticamente na ação durante os replays."
+  },
+  "smartReplayCameraZoom": {
+    "title": "Zoom da Câmera Inteligente de Replay"
+  },
+  "zoomSensibility": {
+    "title": "Sensibilidade do Zoom"
+  },
+  "cameraSensibility": {
+    "title": "Sensibilidade da Câmera (PC)"
+  },
+  "replaySpeed": {
+    "title": "Velocidade do Replay"
+  },
+  "playerColor": {
+    "title": "Cor do Jogador"
+  },
+  "enemyColor": {
+    "title": "Cor do Inimigo"
+  },
+  "allyColor": {
+    "title": "Cor do Aliado"
+  },
+  "generalVolume": {
+    "title": "Volume Geral"
+  },
+  "shadows": {
+    "title": "Sombras",
+    "description": "Ativa sombras nas unidades. Isso pode exigir que o jogo passe um turno para que as unidades sejam atualizadas."
+  },
+
+  "fullScreen": {
+    "title": "Tela Cheia",
+    "description": "Alternar o modo de tela cheia para o aplicativo",
+    "toggle": "Alternar Tela Cheia"
+  },
+
+  "resetSettings": {
+    "title": "Redefinir Configurações",
+    "description": "Restaurar todas as configurações para seus valores padrão. Esta ação substituirá quaisquer personalizações que você tenha feito."
+  },
+
+  "reset": "Redefinir",
+
+  "lineFormation": "Formação em linha",
+  "checkerboardFormation": "Formação em tabuleiro de xadrez",
+  "spaceBetweenUnits": "Espaço entre unidades",
+  "spaceBetweenLines": "Espaço entre linhas",
+
+  "keybindings": {
+    "title": "Atalhos de teclado",
+    "pressAKey": "Pressione uma tecla...",
+    "moveUp": "Mover para cima",
+    "moveDown": "Mover para baixo",
+    "moveLeft": "Mover para a esquerda",
+    "moveRight": "Mover para a direita",
+    "info": "Informação",
+    "submitOrders": "Enviar ordens",
+    "deselect": "Desselecionar",
+    "moveOrder": "Ordem de movimento",
+    "seekOrder": "Ordem de busca",
+    "shootOrder": "Ordem de disparo",
+    "fireAndAdvanceOrder": "Ordem de disparar e avançar",
+    "fallbackOrder": "Ordem de recuo"
+  }
+}
