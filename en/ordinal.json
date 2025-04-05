@@ -1,6 +1,0 @@
-{
-  "default": "{{number}}th",
-  "1": "{{number}}st",
-  "2": "{{number}}nd",
-  "3": "{{number}}rd"
-}
