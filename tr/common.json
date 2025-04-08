@@ -15,7 +15,6 @@
   "credits": "Katkılar",
 
   "settings": "Ayarlar",
-  "eloScore": "Elo'nuz {{elo}}",
   "eloDescription": "Elo, oyuncuların göreceli beceri seviyelerini hesaplamak için kullanılan bir derecelendirme sistemidir. Elo'nuz ne kadar yüksekse, diğerlerine göre o kadar güçlüsünüz demektir. Kazanmak Elo'nuzu artırır, kaybetmek ise düşürür.",
   "welcomeName": "Hoş geldiniz {{name}}!",
   "myGames": "Oyunlarım",
@@ -314,7 +313,7 @@
   "armyInvalid": "Bu ordu geçersiz, lütfen düzenleyin.",
 
   "landing": {
-    "title": "Savaş Çizgilerine Hoş Geldiniz",
+    "title": "<0>Lines of Battle</0>'na hoş geldiniz",
     "message": "<b>Savaş Çizgileri</b>, Napolyon Savaşları döneminde geçen çok oyunculu, eşzamanlı tur tabanlı bir strateji oyunudur. Taktiksel derinlik ve tarihi atmosfer için tasarlanmıştır; beceri ve strateji kullanarak diğer oyunculara karşı epik savaşlara katılacaksınız!",
     "privacy": "Başlayarak <0>Gizlilik Politikamızı</0> kabul etmiş olursunuz."
   },

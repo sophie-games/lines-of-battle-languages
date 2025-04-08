@@ -16,7 +16,6 @@
   "credits": "Credits",
 
   "settings": "Pengaturan",
-  "eloScore": "Elo mu adalah {{elo}}",
   "eloDescription": "Elo adalah sistem peringkat yang digunakan untuk menghitung tingkat keterampilan relatif pemain. Semakin tinggi Elo kamu, semakin kuat kamu dibandingkan dengan pemain lain. Kemenangan akan meningkatkan Elo kamu, sedangkan kekalahan akan menurunkannya.",
   "welcomeName": "Selamat Datang {{name}}!",
   "myGames": "Permainanku",

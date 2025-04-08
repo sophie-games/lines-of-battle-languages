@@ -15,7 +15,6 @@
   "credits": "Créditos",
 
   "settings": "Configurações",
-  "eloScore": "Seu Elo é {{elo}}",
   "eloDescription": "Elo é um sistema de pontuação usado para calcular o nível de habilidade relativo dos jogadores. Quanto maior seu Elo, mais forte você é em comparação com os outros. Vencer aumenta seu Elo, enquanto perder diminui.",
   "welcomeName": "Bem-vindo {{name}}!",
   "myGames": "Meus jogos",
@@ -312,7 +311,7 @@
   "armyInvalid": "Este exército é inválido, por favor, modifique-o.",
 
   "landing": {
-    "title": "Bem-vindo ao Lines of Battle",
+    "title": "Bem-vindo ao <0>Lines of Battle</0>",
     "message": "<b>Lines of Battle</b> é um jogo de estratégia baseado em turnos simultâneos multijogador ambientado durante as Guerras Napoleônicas. Projetado para profundidade tática e imersão histórica, você participará de batalhas épicas contra outros, usando habilidade e estratégia para superar e derrotar seus oponentes!",
     "privacy": "Ao começar, você concorda com nossa <0>Política de Privacidade</0>."
   },
