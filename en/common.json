@@ -550,5 +550,6 @@
     "message": "Are you sure you want to leave <0>{{clanName}}</0>?"
   },
   "resetToDefault": "Reset to default",
-  "submittingOrders": "Submitting orders..."
+  "submittingOrders": "Submitting orders...",
+  "checkingUpdates": "Checking updates..."
 }
