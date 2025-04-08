@@ -119,7 +119,8 @@
     "1": "Bleu",
     "2": "Rouge",
     "3": "Jaune",
-    "4": "Vert"
+    "4": "Vert",
+    "5": "Noir"
   },
 
   "resume": "Continuer",
@@ -157,7 +158,8 @@
     "3": "Artillerie",
     "4": "Infanterie légère",
     "5": "Cavalerie légère",
-    "6": "Cavalerie lourde"
+    "6": "Cavalerie lourde",
+    "7": "Milice"
   },
 
   "category": "Catégorie",
@@ -178,7 +180,8 @@
     "howitzer-canister": "Mitraille d'obusier",
     "heavy-cannon-ball": "Boulet de canon lourd",
     "heavy-canister-fire": "Tir de mitraille lourd",
-    "dragoon-sword": "Épée de dragon"
+    "dragoon-sword": "Épée de dragon",
+    "horse-archer-bow": "Arc d'archer à cheval"
   },
 
   "unitName": {
@@ -201,7 +204,7 @@
     "1": "{{n}} Bataillon de ligne",
     "2": "{{n}} Dragons",
     "3": "{{n}} Batterie à pied",
-    "4": "{{n}} Bataillon de la garde",
+    "4": "{{n}} Bataillon de grenadiers",
     "5": "{{n}} Lanciers",
     "6": "{{n}} Batterie à cheval",
     "7": "{{n}} Bataillon léger",
@@ -346,7 +349,8 @@
     "tip16": "Saviez-vous que vous pouviez déplacer l'objectif durant la phase de déploiement ?",
     "tip17": "Capturez l'objectif ennemi en plaçant une unité d'infanterie pendant 8 tours, 8 unités pendant 1 tour, etc.",
     "tip18": "Appuyer sur le bouton « Ordre » pour accéder à des commandes comme « Reculer », « Tirer en avançant », « Tirer ».",
-    "tip19": "La garde à pieds et les cuirassiers influencent fortement l'organisation des unités à proximité. Ces effets se cumulent et peuvent servir à changer l'issue d'une bataille.",
+    "tip19": "Les grenadiers et les cuirassiers influencent fortement l'organisation des unités à proximité. Ces effets se cumulent et peuvent servir à changer l'issue d'une bataille.",
+    "tip20": "Laissez une ligne de vue dégagée à votre artillerie ; ne manœuvrez pas votre infanterie devant elle.",
     "tip21": "\"C’est à la cavalerie de suivre la victoire et d’empêcher l’ennemi vaincu de se rallier.\" — Napoléon Bonaparte",
     "tip22": "\"Planifier de réserver la cavalerie pour la fin de la bataille, c’est ne pas concevoir la puissance des charges combinées d’infanterie et de cavalerie, que ce soit pour l’attaque ou pour la défense.\" — Napoléon Bonaparte"
   },
@@ -425,6 +429,8 @@
   "signUp": "S'inscrire",
   "forgotPassword": "Mot de passe oublié ?",
   "username": "Nom d'utilisateur",
+  "changeUsername": "Changer de nom d'utilisateur",
+  "changeEmail": "Changer de courriel",
   "password": "Mot de passe",
   "email": "Courriel",
   "usernameOrEmail": "Nom d'utilisateur ou courriel",
@@ -452,6 +458,7 @@
   },
 
   "team": "Équipe",
+  "teams": "Équipes",
   "playerType": "Type de joueur",
   "human": "Humain",
   "bot": "Ordinateur",
@@ -535,5 +542,14 @@
   "formation": "Formation",
   "findGame": "Trouver un jeu",
   "gameIdOrLink": "ID du jeu ou lien",
-  "playFree": "Jouer Gratuitement"
+  "unit": "Unité",
+  "createArmy": "Créer un ordre de bataille",
+  "playFree": "Jouer Gratuitement",
+  "leaveClan": "Quitter le Clan",
+  "leave": "Quitter",
+  "leaveClanModal": {
+    "message": "Êtes-vous certain(e) de vouloir quitter <0>{{clanName}}</0>?"
+  },
+  "resetToDefault": "Réinitialiser",
+  "submittingOrders": "Envoyer les ordres..."
 }
