@@ -141,14 +141,14 @@
     "meleeAttack": "Attaque en mêlée",
     "meleeDefense": "Défense en mêlée",
     "chargeBonus": "Bonus en charge",
-    "chargePenetration": "Puissance en charge",
+    "chargePenetration": "Engouffrement en charge",
     "orgRadius": "Rayon d'organisation",
     "orgRadiusBonus": "Rayon de bonus d'organisation",
     "rangedAttack": "Attaque à distance",
     "limberMovement": "Mouvement tracté",
     "chargeResistance": "Résistance aux charges",
     "status": "Statut",
-    "currentChargeResistance": "Résistance actuelle aux charges"
+    "currentChargeResistance": "Résistance présente aux charges"
   },
 
   "unitCategory": {
