@@ -40,7 +40,7 @@
   "logout": "Se déconnecter",
 
   "createNewGame": "Créer une nouvelle partie",
-  "randomGameInfo": "Dans les parties générées aléatoirement, vous utiliserez l'ordre de bataille que vous avez créé pour ce type de bataille. Vous pouvez voir et gérez la composition de vos armées dans le menu <0>Ordre de bataille</0>. Si vous n'avez pas encore créé d'armées, le jeu en sélectionnera une par défaut.",
+  "randomGameInfo": "Dans les parties générées aléatoirement, vous utiliserez l'ordre de bataille que vous avez créé pour ce type de bataille. Vous pouvez voir et gérez la composition de vos armées dans le menu <0>Ordre de bataille</0>. Si vous n'avez pas encore créé d'ordre de bataille, le jeu en sélectionnera une par défaut.",
   "selectGameMode": "Sélectionner le mode de jeu grâce aux options ci-dessous.",
   "or": "Ou",
   "cancel": "Annulez",
@@ -50,7 +50,8 @@
     "matchFound": "Lorsque ce sera fait, vous rejoindrez automatiquement la partie.",
     "continueMatchmaking": "La recherche continuera même si vous quittez cette page et vous serez prévenu lorsqu'une bataille sera trouvée.",
     "nextQueueCheck": "Nouvelle vérification dans {{countdown}} secondes.",
-    "onlyClanMembers": "Joue uniquement avec des coéquipiers de la coalition"
+    "limitEloDifference": "Chercher uniquement avec des joueurs de niveau similaire",
+    "onlyClanMembers": "Jouer uniquement avec des coéquipiers de la coalition"
   },
 
   "fastMode": "Partie rapide",
