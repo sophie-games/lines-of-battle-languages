@@ -53,7 +53,6 @@
     "inQueue": "You are now in the matchmaking queue! The system is searching for another player who has selected the same settings as you.",
     "matchFound": "Once a match is found, you will be redirected to the game.",
     "continueMatchmaking": "Even if you leave this page, the matchmaking process will continue, and you will be notified when a match is made.",
-    "nextQueueCheck": "Next queue check in {{countdown}} seconds.",
     "limitEloDifference": "Only match with players of similar skill",
     "onlyClanMembers": "Play only with coalition teammates"
   },

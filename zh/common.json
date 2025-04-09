@@ -47,7 +47,6 @@
     "inQueue": "你现在在匹配队列中！系统正在寻找和你的选项一至的其他玩家。",
     "matchFound": "当搜索到匹配对象时，你会自动进入游戏。",
     "continueMatchmaking": "即便你离开这个页面，匹配过程依旧会继续，当匹配成功时会通知你。",
-    "nextQueueCheck": "下一次检查：{{countdown}}秒。",
     "onlyClanMembers": "只与联盟成员组队"
   },
   "fastMode": "快速模式",

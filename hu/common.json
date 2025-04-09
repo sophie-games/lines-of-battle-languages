@@ -52,7 +52,6 @@
     "inQueue": "Sikeresen felkerültél a várólistára! A rendszerünk most olyan ellenfelet keres neked, aki az általad kiválaszott módban és alkalmas beállítások mellett szeretne játszani.",
     "matchFound": "Amint találtunk alkalmas ellenfelet, átleszel irányítva a csatára.",
     "continueMatchmaking": "Még ha el is hagyod az oldalt, az ellenfélkeresés folytatódni fog, és értesíteni fogunk, ha találtunk alkalmas ellenfelet.",
-    "nextQueueCheck": "Következő ellenőrzés {{countdown}} másodperc múlva.",
     "onlyClanMembers": "Csak koalíciós csapattársakkal játssz"
   },
 

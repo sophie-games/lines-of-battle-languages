@@ -48,7 +48,6 @@
     "inQueue": "¡Ahora estás en la cola de emparejamiento! El sistema está buscando otro jugador que haya seleccionado las mismas configuraciones que tú.",
     "matchFound": "Una vez que se encuentre un emparejamiento, serás redirigido al juego.",
     "continueMatchmaking": "Incluso si dejas esta página, el proceso de emparejamiento continuará, y serás notificado cuando se haga un emparejamiento.",
-    "nextQueueCheck": "Próxima verificación de cola en {{countdown}} segundos.",
     "onlyClanMembers": "Juega solo con compañeros de la coalición"
   },
 
