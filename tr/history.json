@@ -1,7 +1,5 @@
 {
-  "finishedAt": "{{date}} tarihinde bitti",
   "watchGame": "Oyunu İzle",
   "loadingGames": "Oyunlar yükleniyor...",
-  "noFinishedGamesYet": "Henüz bitmiş oyun yok!",
-  "gameId": "Oyun ID: {{id}}"
+  "noFinishedGamesYet": "Henüz bitmiş oyun yok!"
 }
