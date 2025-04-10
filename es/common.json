@@ -522,9 +522,9 @@
   "save": "Guardar",
 
   "ordersSubmittedDialog": {
-    "p1": "Has enviado tus órdenes. Ahora, espera a que los demás hagan su movimiento.",
-    "p2": "Comprobando actualizaciones en {{value}} segundos",
-    "b": "Comprobar ahora"
+    "p1": "Ahora, espera a que los demás hagan su movimiento.",
+    "p2": "Chequeando las órdenes del oponente en {{value}} segundos",
+    "b": "Chequear ahora"
   },
 
   "search": {

@@ -528,8 +528,8 @@
   "save": "Save",
 
   "ordersSubmittedDialog": {
-    "p1": "You've submitted your orders. Now, wait for the others to make their move.",
-    "p2": "Checking updates in {{value}} seconds",
+    "p1": "Now, wait for the others to make their move.",
+    "p2": "Checking for the opponent's orders in {{value}} seconds",
     "b": "Check Now"
   },
 
