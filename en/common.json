@@ -547,5 +547,31 @@
   },
   "resetToDefault": "Reset to default",
   "submittingOrders": "Submitting orders...",
-  "checkingUpdates": "Checking updates..."
+  "checkingUpdates": "Checking updates...",
+  "tournaments": "Tournaments",
+  "createTournament": "Create tournament",
+  "joinName": "Join {{name}}",
+
+  "league": {
+    "title": "League",
+    "a": "Emperor",
+    "b1": "Diamond I",
+    "b2": "Diamond II",
+    "b3": "Diamond III",
+    "c1": "Platinum I",
+    "c2": "Platinum II",
+    "c3": "Platinum III",
+    "d1": "Gold I",
+    "d2": "Gold II",
+    "d3": "Gold III",
+    "e1": "Silver I",
+    "e2": "Silver II",
+    "e3": "Silver III",
+    "f1": "Bronze I",
+    "f2": "Bronze II",
+    "f3": "Bronze III",
+    "g1": "Iron I",
+    "g2": "Iron II",
+    "g3": "Iron III"
+  }
 }
