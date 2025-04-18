@@ -6,7 +6,7 @@
   "language": "语言",
   "multiTurnOrders": {
     "title": "多回合指令",
-    "description": "启用此设置后，你可以发出多回合指令，这种指令会被游戏记住并在之后的回合连续执行。多回合指令允许最长10个回合，包括地点类的指令如“移动”/“移动射击”和目标类的指令如“追踪”。"
+    "description": "启用此设置后，你可以发出多回合指令，这种指令会被游戏记住并在之后的回合连续执行。多回合指令可以持续最长10个回合，包括地点类的指令如“移动”/“移动射击”和目标类的指令如“追踪”。"
   },
   "multiTurnPathMinDistance": {
     "title": "多回合指令路径的最小距离"
@@ -28,22 +28,22 @@
     "description": "启用后会自动优化行动路线，让曲线更加平滑来减少单位转向时浪费的速度。"
   },
   "openSelectOrderModal": {
-    "title": "使用指令菜单",
+    "title": "启用指令菜单",
     "description": "如果启用，会在选择单位指令时打开一个菜单而不是点击切换。"
   },
   "showNewBattleEventsModal": {
-    "title": "显示战斗事件菜单"
+    "title": "显示战斗事件弹窗"
   },
   "hidePlayerInfo": {
     "title": "隐藏玩家信息",
     "description": "在UI中隐藏玩家的用户名和ELO。"
   },
   "smartReplayCamera": {
-    "title": "智能回放运镜",
+    "title": "回放智能运镜",
     "description": "在播放战斗回放时让镜头自动关注战场的重点。"
   },
   "smartReplayCameraZoom": {
-    "title": "智能回放缩放"
+    "title": "回放智能缩放"
   },
   "zoomSensibility": {
     "title": "缩放敏感度"
@@ -64,11 +64,11 @@
     "title": "盟友颜色"
   },
   "generalVolume": {
-    "title": "总音量"
+    "title": "主音量"
   },
   "shadows": {
     "title": "阴影",
-    "description": "为单位启用阴影。这可能需要游戏经过一回合才能更新单位。"
+    "description": "为单位启用阴影。可能需要游戏经过一回合才能更新。"
   },
   "fullScreen": {
     "title": "全屏",
@@ -83,7 +83,7 @@
   "lineFormation": "线形编队",
   "checkerboardFormation": "棋盘编队",
   "spaceBetweenUnits": "单位之间的间距",
-  "spaceBetweenLines": "线之间的间距",
+  "spaceBetweenLines": "前后列之间的间距",
   "keybindings": {
     "title": "键位绑定",
     "pressAKey": "按下一个按键……",
