@@ -47,7 +47,9 @@
     "inQueue": "你现在在匹配队列中！系统正在寻找和你的对局选项一致的其他玩家。",
     "matchFound": "当搜索到匹配对象时，你会自动进入对局。",
     "continueMatchmaking": "即便你离开这个页面，匹配过程依旧会继续，当匹配成功时会通知你。",
-    "onlyClanMembers": "只与联盟成员组队"
+    "onlyClanMembers": "只与联盟成员组队",
+    "extendQueue": "扩大匹配范围",
+    "extendQueueSuccess": "匹配范围已经扩大！现在匹配的elo范围更大了。"
   },
   "fastMode": "快速模式",
   "slowMode": "慢速模式",
