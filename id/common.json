@@ -52,7 +52,6 @@
   "matchmakingQueue": {
     "inQueue": "Kamu sekarang berada dalam antrean! Sistem sedang mencari pemain lain yang telah memilih pengaturan yang sama dengan kamu.",
     "matchFound": "Ketika permainan telah ditemukan, kamu akan diarahkan ke permainan.",
-    "continueMatchmaking": "Jika kamu meninggalkan halaman ini, pencarian permainan akan tetap dilanjutkan, dan kamu akan di beri notifikasi ketika permainan ditemukan.",
     "onlyClanMembers": "Bermain hanya dengan rekan tim koalisi."
   },
 

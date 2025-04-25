@@ -51,7 +51,6 @@
   "matchmakingQueue": {
     "inQueue": "Sei ora nella coda di matchmaking! Il sistema sta cercando un altro giocatore che ha selezionato le stesse impostazioni di te.",
     "matchFound": "Una volta trovato un avversario, sarai reindirizzato al gioco.",
-    "continueMatchmaking": "Anche se lasci questa pagina, il processo di matchmaking continuerà e sarai avvisato quando verrà trovata una partita.",
     "onlyClanMembers": "Gioca solo con compagni della coalizione"
   },
 

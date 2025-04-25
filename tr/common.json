@@ -51,7 +51,6 @@
   "matchmakingQueue": {
     "inQueue": "Şimdi eşleştirme kuyruğundasınız! Sistem, sizinle aynı ayarları seçmiş başka bir oyuncu arıyor.",
     "matchFound": "Bir eşleşme bulunduğunda, oyuna yönlendirileceksiniz.",
-    "continueMatchmaking": "Bu sayfadan ayrılsanız bile eşleştirme süreci devam edecek ve bir eşleşme olduğunda size bildirim gönderilecektir.",
     "onlyClanMembers": "Yalnızca koalisyon takım arkadaşlarıyla oyna"
   },
 

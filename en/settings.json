@@ -35,6 +35,9 @@
   "showNewBattleEventsModal": {
     "title": "Show new battle events modal"
   },
+  "showPlayableGamesAvailableModal": {
+    "title": "Show Playable Games Available Modal"
+  },
   "hidePlayerInfo": {
     "title": "Hide Player Info",
     "description": "Hides ELO and usernames from the game UI, making players anonymous."

@@ -51,7 +51,6 @@
   "matchmakingQueue": {
     "inQueue": "Jesteś teraz w kolejce do losowej partii! System szuka gracza, który wybrał te same ustawienia co ty.",
     "matchFound": "Gdy partia zostanie znaleziona, system przekieruje cię do partii.",
-    "continueMatchmaking": "Nawet jeśli wyjdziesz z tej strony, proces szukania partii nadal będzie trwał i otrzymasz powiadomienie, gdy partia zostanie znaleziona.",
     "onlyClanMembers": "Graj tylko z członkami koalicji"
   },
 
