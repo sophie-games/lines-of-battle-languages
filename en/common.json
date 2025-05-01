@@ -174,11 +174,13 @@
     "cannon-ball": "Cannon Ball",
     "cavalry-sabre": "Cavalry Sabre",
     "cavalry-lance": "Cavalry Lance",
-    "light-cannon-ball": "Light Cannon Ball",
+    "6lb-cannon-ball": "6-lb Cannon Ball",
+    "4lb-cannon-ball": "4-lb Cannon Ball",
     "explosive-shell": "Explosive Shell",
     "cavalry-sword": "Cavalry Sword",
     "canister-fire": "Canister Fire",
-    "light-canister-fire": "Light Canister Fire",
+    "6lb-canister-fire": "6-lb Canister Fire",
+    "4lb-canister-fire": "4-lb Canister Fire",
     "howitzer-canister": "Howitzer Canister",
     "heavy-cannon-ball": "Heavy Cannon Ball",
     "heavy-canister-fire": "Heavy Canister Fire",
@@ -236,8 +238,8 @@
     "9": "Light field howitzers with explosive shells and particularly lethal short-range canister fire - ideal for supporting your infantry line at medium to short range.",
     "10": "“To place any dependence upon militia is assuredly resting upon a broken staff.” - George Washington",
     "13": "“The Bashkir horse archers are undoubtedly the world's least dangerous troops.” - Baron Marbot, ignoring an arrow in his thigh",
-    "14": "",
-    "15": ""
+    "14": "These shock troops are made up the tallest, strongest, and most imposing men of the line infantry. While they're generally more fearsome than average line troops, their most powerful option in combat is their devastating charge.",
+    "15": "The lightest common field artillery of the Napoleonic Wars, with modest firepower and good mobility that make it a natural companion to the infantry."
   },
 
   "damageResistances": "Damage Resistances",
@@ -288,7 +290,8 @@
     "3": "Road",
     "4": "Shallow water",
     "5": "Deep water",
-    "6": "Cliff"
+    "6": "Cliff",
+    "7": "Bridge"
   },
 
   "clearPlayerUnits": "Clear player units",
@@ -415,7 +418,9 @@
   "offerDrawModal": {
     "withdrawOffer": "Withdraw Offer",
     "alreadyWantsDrawMessage": "You are already offering a Draw. Do you want to withdraw this offer?",
-    "offerDrawMessage": "If you offer a draw, this option will remain enabled until you disable it."
+    "offerDrawMessage": "If you offer a draw, this option will remain enabled until you disable it.",
+    "player": "{{player}} is offering draw.",
+    "players": "{{players}} are offering draw."
   },
 
   "defeat": "Defeat",
@@ -486,8 +491,10 @@
 
   "battleReport": "Battle Report",
   "strength": "Strength",
+  "horse": "Horse",
   "guns": "Guns",
   "casualties": "Casualties",
+  "horseLost": "Horse Lost",
   "gunsLost": "Guns Lost",
   "noRewards": "No rewards",
 
@@ -613,6 +620,7 @@
     "messageSingular": "{{player}} is offering a draw. Do you accept? The draw will only take effect if all players agree.",
     "messagePlural": "{{players}} are offering a draw. Do you accept? The draw will only take effect if all players agree."
   },
+  "projectilePenetration": "Projectile penetration",
 
   "league": {
     "title": "League",

@@ -109,6 +109,7 @@
     "shootOrder": "Shoot order",
     "fireAndAdvanceOrder": "Fire and advance order",
     "fallbackOrder": "Fallback order",
-    "toggleFormation": "Toggle formation"
+    "toggleFormation": "Toggle formation",
+    "toggleSmartCurvedMovements": "Toggle Smart Curved Movements"
   }
 }
