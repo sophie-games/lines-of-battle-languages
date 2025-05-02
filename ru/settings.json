@@ -35,6 +35,9 @@
   "showNewBattleEventsModal": {
     "title": "Показывать сообщение о новых событиях на поле боя"
   },
+  "showPlayableGamesAvailableModal": {
+    "title": "Показывать сообщение об активных играх"
+  },
   "hidePlayerInfo": {
     "title": "Скрыть информацию об игроке",
     "description": "Скрыть рейтинг Эло и имена пользователей, тем самым делая соперников анонимными."
@@ -67,9 +70,10 @@
   "generalVolume": {
     "title": "Общий звук"
   },
+  
   "shadows": {
     "title": "Тени",
-    "description": "Включает тени на юнитах. Это может потребовать, чтобы игра пропустила ход для обновления юнитов."
+    "description": "Включает тени на юнитах. Игра может пропустить ход для обновления юнитов."
   },
 
   "fullScreen": {
@@ -87,23 +91,25 @@
 
   "lineFormation": "Линейное построение",
   "checkerboardFormation": "Шахматное построение",
-  "spaceBetweenUnits": "Расстояние между единицами",
+  "spaceBetweenUnits": "Расстояние между отрядами",
   "spaceBetweenLines": "Расстояние между линиями",
 
   "keybindings": {
     "title": "Горячие клавиши",
-    "pressAKey": "Нажми клавишу...",
-    "moveUp": "Двигаться вверх",
-    "moveDown": "Двигаться вниз",
-    "moveLeft": "Двигаться влево",
-    "moveRight": "Двигаться вправо",
+    "pressAKey": "Нажмите клавишу...",
+    "moveUp": "Вверх",
+    "moveDown": "Вниз",
+    "moveLeft": "Влево",
+    "moveRight": "Вправо",
     "info": "Информация",
-    "submitOrders": "Отправить приказы",
+    "submitOrders": "Отдать приказы",
     "deselect": "Снять выделение",
-    "moveOrder": "Приказ на движение",
-    "seekOrder": "Приказ на поиск",
-    "shootOrder": "Приказ на стрельбу",
-    "fireAndAdvanceOrder": "Приказ открыть огонь и продвигаться",
-    "fallbackOrder": "Приказ на отступление"
+    "moveOrder": "Движение",
+    "seekOrder": "Ближний бой",
+    "shootOrder": "Огонь",
+    "fireAndAdvanceOrder": "огонь при движении",
+    "fallbackOrder": "Отход",
+    "toggleFormation": "Выбор построения",
+    "toggleSmartCurvedMovements": "Включение/отключение умного движения по кривой"
   }
 }
