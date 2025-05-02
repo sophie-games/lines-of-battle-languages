@@ -16,4 +16,5 @@
   },
 
   "purchaseConfirmation": "Вы уверены, что хотите купить {{item}}?"
+  "showPurchased": "Показывать уже купленное"
 }
