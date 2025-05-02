@@ -11,6 +11,7 @@
   "supporters": "赞助者",
   "elo": "Elo",
   "joinedAt": "加入于{{date}}",
+  "createdAt": "创建于{{date}}",
   "addPlayer": "添加玩家",
   "credits": "鸣谢",
   "settings": "设置",
@@ -46,7 +47,9 @@
   "matchmakingQueue": {
     "inQueue": "你现在在匹配队列中！系统正在寻找和你的选项一至的其他玩家。",
     "matchFound": "当搜索到匹配对象时，你会自动进入游戏。",
-    "onlyClanMembers": "只与联盟成员组队"
+    "onlyClanMembers": "只与联盟成员组队",
+    "extendQueue": "扩展队列",
+    "extendQueueSuccess": "在所有Elo范围内搜索"
   },
   "fastMode": "快速模式",
   "slowMode": "慢速模式",
@@ -78,6 +81,7 @@
   "player": "玩家",
   "units": "单位",
   "unitSkins": "单位皮肤",
+  "objectiveSkins": "目标点皮肤",
   "avatars": "头像",
   "withdraw": "撤退",
   "importScenario": "导入战役",
@@ -139,7 +143,8 @@
     "3": "炮兵",
     "4": "轻步兵",
     "5": "轻骑兵",
-    "6": "重骑兵"
+    "6": "重骑兵",
+    "7": "民兵"
   },
   "category": "类别",
   "damageType": {
@@ -150,11 +155,13 @@
     "cannon-ball": "实心炮弹",
     "cavalry-sabre": "马刀",
     "cavalry-lance": "骑枪",
-    "6lb-cannon-ball": "轻型实心炮弹",
+    "6lb-cannon-ball": "6磅实心炮弹",
+    "4lb-cannon-ball": "4磅实心炮弹",
     "explosive-shell": "榴弹",
     "cavalry-sword": "骑兵剑",
     "canister-fire": "炮射霰弹",
-    "6lb-canister-fire": "轻型炮射霰弹",
+    "6lb-canister-fire": "6磅炮射霰弹",
+    "4lb-canister-fire": "4磅炮射霰弹",
     "howitzer-canister": "榴弹炮射霰弹",
     "heavy-cannon-ball": "重型实心炮弹",
     "heavy-canister-fire": "重型炮射霰弹",
@@ -174,7 +181,9 @@
     "10": "民兵",
     "11": "骠骑兵",
     "12": "12磅步兵火炮",
-    "13": "弓骑兵"
+    "13": "弓骑兵",
+    "14": "掷弹兵",
+    "15": "4磅步兵火炮"
   },
   "battalionName": {
     "1": "{{n}}线列步兵",
@@ -189,22 +198,26 @@
     "10": "{{n}}民兵",
     "11": "{{n}}骠骑兵",
     "12": "{{n}}步兵炮组",
-    "13": "{{n}}弓骑兵"
+    "13": "{{n}}弓骑兵",
+    "14": "{{n}}掷弹兵",
+    "15": "{{n}}轻型炮组"
   },
   "unitDescription": {
     "1": "朴实无华的线列步兵是军队的中流砥柱。他们使用滑膛枪作为主要武器，也能使用刺刀抵御骑兵的冲击，并和其它步兵展开近战。",
     "2": "可靠的多面手，这种中骑兵既能进行骚扰也能正面作战。",
     "3": "廉价的中型火炮，移动力和火力较为平衡，有着威力不错的炮射霰弹。",
     "4": "经验丰富，体格健壮的精锐步兵，他们的存在能鼓舞友军并震慑敌人。这些精英单位是士兵中的翘楚，招募他们的代价可不小。他们的士气效果和娴熟的近战技艺能让他们在刺刀冲锋中占据上风。",
-    "5": "冲锋特化的精锐骑兵，他们能用骑枪排成一排，冲垮敌人的阵型。但是当被拖入混战时，他们的近战优势便不再明显。",
+    "5": "冲锋特化的轻骑兵，他们能用骑枪排成一排，冲垮敌人的阵型。但是当被拖入混战时，他们的近战优势便不再明显。",
     "6": "这种廉价轻型火炮的移动力让它很适合用于支援骑兵和快速机动的步兵。",
     "7": "经过特殊训练的精锐线列步兵，专精于快速机动和精准射击。",
     "8": "可怖的重骑兵，拥有所有兵种中最强的近战能力。然而，依旧最好先用步兵和炮兵削弱敌人后再派出胸甲骑兵。",
     "9": "轻型野战榴弹炮，能发射可以爆炸的榴弹和威力强大的霰弹，很适合在中近距离支援你的步兵线。",
     "10": "“依赖民兵作战就像拄着一根断掉的手杖一样” ——乔治·华盛顿",
     "11": "适合追击溃退敌人的轻骑兵。他们对上秩序井然的步兵和重骑兵时胜算渺茫。最好先用你的步兵和炮兵削弱敌军再派出骑兵。",
-    "12": "拿破仑时代军队中最重型的火炮，这些火炮造假昂贵，同时他们的射程和威力也无人可比。",
-    "13": "“巴什基尔的弓骑兵无疑是世界上最不危险的部队。” ——马尔博男爵，在大腿中箭之后"
+    "12": "拿破仑时代军队中最重型的火炮，这些火炮造价昂贵，同时他们的射程和威力也无人可比。",
+    "13": "“巴什基尔的弓骑兵无疑是世界上最不危险的部队。” ——马尔博男爵，在大腿中箭之后",
+    "14": "这些冲击步兵由线列步兵中挑选出最高达强壮的兵员组成。他们总体的作战能力都略优于普通的线列步兵，而最突出的优势在于他们毁灭性的近战冲锋。",
+    "15": "拿破仑时代军队中最轻型的火炮，适中的火力和不错的机动性使它成为了步兵最好的伙伴。"
   },
   "damageResistances": "伤害抗性",
   "otherStats": "其它属性",
@@ -250,7 +263,10 @@
     "1": "树林",
     "2": "建筑",
     "3": "道路",
-    "4": "水域"
+    "4": "浅水",
+    "5": "深水",
+    "6": "悬崖",
+    "7": "桥梁"
   },
   "clearPlayerUnits": "清除玩家单位",
   "clearBotUnits": "清除电脑单位",
@@ -314,8 +330,10 @@
     "tip18": "点击指令按钮可以切换到其它指令，例如后退，射击，移动射击等等。",
     "tip19": "近卫步兵和胸甲骑兵对周围其它单位的组织度影响很大。这种影响可以叠加，让一小组精锐单位有改变战局的能力。",
     "tip20": "让你炮兵的射界保持空旷，不要让己方部队挡在炮口前面。",
-    "tip21": "「骑兵的责任是追击胜利，防止被击败的敌人重新集结。」 - 拿破仑·波拿巴",
-    "tip22": "「计划将骑兵留到战斗结束，是对步兵与骑兵联合冲锋的力量毫无概念，无论是进攻还是防守。」 - 拿破仑·波拿巴"
+    "tip21": "“骑兵的职责在于扩大胜利成果，让退散的敌军无法重新集结” ——拿破仑·波拿巴",
+    "tip22": "“如果想把骑兵一直留到战斗结束再用，那就说明你对步兵和骑兵之联合冲锋的威力缺乏概念，不论攻防皆是如此。” ——拿破仑·波拿巴",
+    "tip23": "“总之就是进攻。”——阿佩罗元帅",
+    "tip24": "“我的龙骑兵何在？”——斯蒂尔弗莱舍元帅"
   },
   "fetchingBattleActions": "正在获取战斗行动……",
   "order": {
@@ -361,7 +379,9 @@
   "offerDrawModal": {
     "withdrawOffer": "取消提议和局",
     "alreadyWantsDrawMessage": "你已经提出和对手和局。你确定要收回这一提议吗？",
-    "offerDrawMessage": "一旦你提议和局，这一选项会一直存在直到你禁用它。"
+    "offerDrawMessage": "一旦你提议和局，这一选项会一直存在直到你禁用它。",
+    "player": "{{player}}正在提议和局。",
+    "players": "{{players}}正在提议和局。"
   },
   "defeat": "失败",
   "victory": "胜利",
@@ -383,6 +403,8 @@
   "signUp": "注册",
   "forgotPassword": "忘记密码？",
   "username": "用户名",
+  "changeUsername": "更改用户名",
+  "changeEmail": "更改电子邮箱",
   "password": "密码",
   "email": "电子邮箱",
   "usernameOrEmail": "用户名或电子邮箱",
@@ -419,8 +441,10 @@
   },
   "battleReport": "战斗简报",
   "strength": "军力",
+  "horse": "马匹",
   "guns": "火炮",
   "casualties": "伤亡",
+  "horseLost": "马匹折损",
   "gunsLost": "火炮折损",
   "noRewards": "无回报",
   "clan": "联盟",
@@ -452,8 +476,10 @@
   "joinRequests": "加入申请",
   "noJoinRequests": "无等待中的加入申请",
   "accept": "接受",
+  "decline": "拒绝",
   "reject": "拒绝",
   "linkCopiedToClipboard": "链接已复制到剪贴板",
+  "revealPlayers": "显示玩家",
   "pagination": {
     "previous": "上一页",
     "next": "下一页",
@@ -465,7 +491,7 @@
   "noDescription": "无描述",
   "save": "保存",
   "ordersSubmittedDialog": {
-    "p1": "你已提交你的指令。现在请等待其它玩家作出行动。",
+    "p1": "现在请等待其它玩家作出行动。",
     "p2": "{{value}}秒后检查更新",
     "b": "立刻检查"
   },
@@ -475,5 +501,94 @@
   "formation": "阵型",
   "findGame": "寻找游戏",
   "gameIdOrLink": "游戏ID或链接",
-  "playFree": "免费玩"
+  "unit": "单位",
+  "createArmy": "创建军队",
+  "playFree": "自由游玩",
+  "leaveClan": "离开联盟",
+  "leave": "离开",
+  "leaveClanModal": {
+    "message": "你是否确定要离开<0>{{clanName}}</0>？"
+  },
+  "resetToDefault": "重置到默认",
+  "submittingOrders": "正在提交指令",
+  "checkingUpdates": "正在检查更新",
+  "tournaments": "锦标赛",
+  "createTournament": "创建锦标赛",
+  "joinName": "加入{{name}}",
+  "startTournament": "开始锦标赛",
+  "startRoundN": "开始第{{number}}轮",
+  "open": "开放",
+  "closed": "已关闭",
+  "viewGame": "查看游戏",
+  "totalPrizePool": "总奖池",
+  "rank": "排名",
+  "creatorPrize": "创建者奖励",
+  "maxPlayers": "最大玩家数",
+  "tournamentStatus": {
+    "open": "开放",
+    "active": "进行中",
+    "completed": "已结束",
+    "cancelled": "已取消"
+  },
+  "hasPassword": "有密码",
+  "autoStartRounds": "自动开始新轮次",
+  "optional": "可选",
+  "round": "轮次",
+  "current": "当前",
+  "declareWinner": "宣布赢家",
+  "declareDraw": "宣布平局",
+  "cancelTournament": "取消锦标赛",
+  "cancelTournamentMessage": "你是否确定要取消该锦标赛？",
+  "noPairingsYet": "尚无配对",
+  "minElo": "最小Elo",
+  "maxElo": "最大Elo",
+  "eloRange": "Elo范围",
+  "description": "描述",
+  "tournamentPasswordNote": "有密码的锦标赛会被视作私人赛事，因而不会影响到Elo",
+  "inSlowQueueModal": {
+    "title": "游戏已加入队列！",
+    "message": "当它找到其它玩家后，该游戏会出现在主页“我的游戏”之下！",
+    "found": "该游戏已找到其它玩家，你可以<0>点击此处</0>开始游玩。"
+  },
+  "active": "进行中",
+  "inQueue": "在队列中",
+  "playableGamesAvailable": "你有可游玩的游戏！",
+  "playableGamesMessage": "你有等待行动的游戏！现在查看一下吧！",
+  "viewGames": "查看游戏",
+  "close": "关闭",
+  "dontShowAgain": "别再显示",
+  "drawOfferedModal": {
+    "title": "已提议和局！",
+    "messageSingular": "{{player}}正在提议和局。你是否要接受？和局只有在所有玩家接受后才会生效。",
+    "messagePlural": "{{players}}正在提议和局。你是否要接受？和局只有在所有玩家接受后才会生效。"
+  },
+  "projectilePenetration": "射击穿透",
+  "league": {
+    "title": "段位",
+    "a": "帝王",
+    "b1": "钻石 I",
+    "b2": "钻石 II",
+    "b3": "钻石 III",
+    "c1": "白金 I",
+    "c2": "白金 II",
+    "c3": "白金 III",
+    "d1": "黄金 I",
+    "d2": "黄金 II",
+    "d3": "黄金 III",
+    "e1": "白银 I",
+    "e2": "白银 II",
+    "e3": "白银 III",
+    "f1": "青铜 I",
+    "f2": "青铜 II",
+    "f3": "青铜 III",
+    "g1": "钢铁 I",
+    "g2": "钢铁 II",
+    "g3": "钢铁 III"
+  },
+  "skinTier": {
+    "1": "新兵",
+    "2": "老兵",
+    "3": "精英",
+    "4": "近卫"
+  }
 }

@@ -12,5 +12,6 @@
     "totalSold": "目前总共售出的<currency/>：{{amount}}",
     "nextGoal": "下一个目标：{{goal}} <currency/> "
   },
-  "purchaseConfirmation": "你确定想要购买{{item}}吗？"
+  "purchaseConfirmation": "你确定想要购买{{item}}吗？",
+  "showPurchased": "显示已购买"
 }
