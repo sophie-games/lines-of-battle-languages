@@ -650,5 +650,8 @@
     "2": "Veteran",
     "3": "Elite",
     "4": "Imperial"
-  }
+  },
+
+  "currentPassword": "Current Password",
+  "changePassword": "Change Password"
 }
