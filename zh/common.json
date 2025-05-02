@@ -436,7 +436,7 @@
   "averageElo": "平均Elo",
   "hybridDescription": "复合地图是使用预设地形的非随机地图，但允许玩家使用他们自定义的军队游玩。",
   "playLastActionsModal": {
-    "message": "战场局势出现变动。\\n是否要观看上回合的行动结果？",
+    "message": "战场局势出现变动。\n是否要观看上回合的行动结果？",
     "button": "播放"
   },
   "battleReport": "战斗简报",
