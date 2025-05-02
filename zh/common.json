@@ -230,7 +230,7 @@
   "targetAltitude": "目标高度",
   "canCaptureObjectives": "可以占领目标点",
   "cantCaptureObjectives": "不可以占领目标点",
-  "enfiladeFire": "纵向射击",
+  "enfiladeFire": "可穿透射击",
   "closeRange": "近距离范围",
   "midRange": "中距离范围",
   "longRange": "远距离范围",
