@@ -6,7 +6,7 @@
   "language": "语言",
   "multiTurnOrders": {
     "title": "多回合指令",
-    "description": "启用此设置后，你可以发出多回合指令，这种指令会被游戏记住并在之后的回合连续执行。多回合指令允许最长10个回合，包括地点类的指令如“移动”/“移动射击”和目标类的指令如“追踪”。"
+    "description": "启用此设置后，你可以发出多回合指令，这种指令会被游戏记住并在之后的回合连续执行。多回合指令最长可持续10个回合，包括地点类的指令如“移动”/“移动射击”和目标类的指令如“追踪”。"
   },
   "multiTurnPathMinDistance": {
     "title": "多回合指令路径的最小距离"
@@ -32,7 +32,7 @@
     "description": "如果启用，会在选择单位指令时打开一个菜单而不是点击切换。"
   },
   "showNewBattleEventsModal": {
-    "title": "显示战斗事件菜单"
+    "title": "显示战斗事件弹窗"
   },
   "showPlayableGamesAvailableModal": {
     "title": "显示可玩游戏菜单"
