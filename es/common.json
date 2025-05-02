@@ -47,7 +47,8 @@
   "matchmakingQueue": {
     "inQueue": "¡Ahora estás en la cola de emparejamiento! El sistema está buscando otro jugador que haya seleccionado las mismas configuraciones que tú.",
     "matchFound": "Una vez que se encuentre un emparejamiento, serás redirigido al juego.",
-    "onlyClanMembers": "Juega solo con compañeros de la coalición"
+    "onlyClanMembers": "Juega solo con compañeros de la coalición",
+    "extendQueueSuccess": "Buscando en cualquier rango de Elo."
   },
 
   "fastMode": "Modo rápido",
@@ -84,6 +85,7 @@
   "player": "Jugador",
   "units": "Unidades",
   "unitSkins": "Aspectos de las unidades",
+  "objectiveSkins": "Aspectos de objetivos",
   "avatars": "Avatares",
   "withdraw": "Retirarse",
   "importScenario": "Importar escenario",
@@ -165,11 +167,13 @@
     "cannon-ball": "Bala de Cañón",
     "cavalry-sabre": "Sable de Caballería",
     "cavalry-lance": "Lanza de Caballería",
-    "6lb-cannon-ball": "Bala de Cañón Ligero",
+    "6lb-cannon-ball": "Bala de Cañón de 6 libras",
+    "4lb-cannon-ball": "Bala de Cañón de 4 libras",
     "explosive-shell": "Proyectil explosivo",
     "cavalry-sword": "Espada de Caballería",
     "canister-fire": "Fuego de Metralla",
-    "6lb-canister-fire": "Fuego de Metralla Ligero",
+    "6lb-canister-fire": "Fuego de Metralla de 6 libras",
+    "4lb-canister-fire": "Fuego de Metralla de 4 libras",
     "howitzer-canister": "Metralla de Obús",
     "heavy-cannon-ball": "Bala de cañón pesada",
     "heavy-canister-fire": "Fuego de Metralla pesado",
@@ -182,14 +186,16 @@
     "3": "Artillería de a Pie de 8 libras",
     "4": "Infantería de la Guardia",
     "5": "Lanceros",
-    "6": "Artillería a Caballo de 4 libras",
+    "6": "Artillería a Caballo de 6 libras",
     "7": "Infantería Ligera",
     "8": "Coraceros",
     "9": "Obús de 6 pulgadas",
     "10": "Milicia",
     "11": "Húsares",
     "12": "Artillería de a Pie de 12 libras",
-    "13": "Arqueros a caballo"
+    "13": "Arqueros a caballo",
+    "14": "Granaderos",
+    "15": "Artillería de a Pie de 4 libras"
   },
 
   "battalionName": {
@@ -205,7 +211,9 @@
     "10": "{{n}} Milicia",
     "11": "{{n}} Húsares",
     "12": "{{n}} Batería a pie",
-    "13": "{{n}} Arqueros a caballo"
+    "13": "{{n}} Arqueros a caballo",
+    "14": "{{n}} Granaderos",
+    "15": "{{n}} Batería ligera"
   },
 
   "unitDescription": {
@@ -215,13 +223,15 @@
     "4": "Soldados experimentados y físicamente imponentes con la capacidad de inspirar a las tropas aliadas y aterrorizar a los enemigos. Estas unidades de élite son exclusivas para los soldados más dotados naturalmente, lo que las hace mucho más costosas de desplegar. Su intimidación y excelentes características cuerpo a cuerpo se aprovechan mejor en una carga con bayoneta.",
     "7": "Infantería de línea de élite entrenada con un enfoque especial en el movimiento rápido y la puntería.",
     "11": "Caballería ligera adecuada para atacar a enemigos débiles, dañados y en retirada. Sin embargo, tendrán dificultades contra la infantería organizada y la caballería pesada. Use infantería y artillería para debilitar al enemigo primero.",
-    "5": "Caballería media de élite que usa la lanza para realizar cargas devastadoras - una serie de cargas por múltiples escuadrones de Lanceros derrotará rápidamente cualquier oposición. Sin embargo, son mucho menos impresionantes en un combate cuerpo a cuerpo prolongado.",
+    "5": "Caballería ligera de élite que usa la lanza para realizar cargas devastadoras - una serie de cargas por múltiples escuadrones de Lanceros derrotará rápidamente cualquier oposición. Sin embargo, son mucho menos impresionantes en un combate cuerpo a cuerpo prolongado.",
     "8": "Formidable caballería pesada con la efectividad de combate cuerpo a cuerpo más fuerte de cualquier unidad. Sin embargo, sigue siendo mejor debilitar al enemigo con infantería o artillería antes de enviar a tus Coraceros.",
     "12": "El cañón de campo más pesado disponible para el ejército napoleónico; si bien estas baterías son extremadamente costosas, su alcance y poder son inigualables.",
     "6": "La velocidad y bajo costo de esta artillería la hacen adecuada para apoyar a la caballería o avanzar junto a tu línea de infantería.",
     "9": "Obuses de campo ligeros con proyectiles explosivos y fuego de metralla particularmente letal a corta distancia - ideales para apoyar tu línea de infantería a media y corta distancia.",
     "10": "“Confiar en la milicia es, con seguridad, apoyarse en un bastón roto.” - George Washington",
-    "13": "«Los arqueros a caballo bashkir son, sin duda, las tropas menos peligrosas del mundo.» - Barón Marbot, ignorando una flecha en su muslo"
+    "13": "«Los arqueros a caballo bashkir son, sin duda, las tropas menos peligrosas del mundo.» - Barón Marbot, ignorando una flecha en su muslo",
+    "14": "Estas tropas de choque están compuestas por los hombres más altos, fuertes e imponentes de la infantería de línea. Aunque generalmente son más temibles que las tropas de línea promedio, su opción más poderosa en combate es su carga devastadora.",
+    "15": "La artillería de campaña más ligera común de las Guerras Napoleónicas, con una potencia de fuego modesta y una buena movilidad que la convierten en una compañera natural de la infantería."
   },
 
   "damageResistances": "Resistencias al Daño",
@@ -269,7 +279,10 @@
     "1": "Bosque",
     "2": "Edificio",
     "3": "Camino",
-    "4": "Agua"
+    "4": "Agua poco profunda",
+    "5": "Agua profunda",
+    "6": "Acantilado",
+    "7": "Puente"
   },
 
   "clearPlayerUnits": "Borrar unidades del jugador",
@@ -343,7 +356,9 @@
     "tip18": "Selecciona el botón de órdenes para acceder a comandos como Retiro, Fuego y Avance, y Disparar.",
     "tip19": "La Infantería de Guardias y los Cuirassiers afectan fuertemente la organización de otras tropas solo con estar cerca. Este efecto se acumula y puede ayudar a algunas unidades de élite a cambiar el rumbo de la batalla.",
     "tip21": "\"Es tarea de la caballería seguir la victoria y evitar que el enemigo derrotado se reagrupe.\" - Napoleon Bonaparte",
-    "tip22": "\"Planear reservar la caballería para el final de la batalla es no tener noción del poder de las cargas combinadas de infantería y caballería, ya sea para el ataque o para la defensa.\" - Napoleon Bonaparte"
+    "tip22": "\"Planear reservar la caballería para el final de la batalla es no tener noción del poder de las cargas combinadas de infantería y caballería, ya sea para el ataque o para la defensa.\" - Napoleon Bonaparte",
+    "tip23": "\"Solo ataca.\" - Mariscal Apeiro",
+    "tip24": "\"¿Dónde están mis dragones?\" - Mariscal SteelFlesher"
   },
 
   "fetchingBattleActions": "Obteniendo acciones de batalla...",
@@ -394,7 +409,9 @@
   "offerDrawModal": {
     "withdrawOffer": "Retirar Oferta",
     "alreadyWantsDrawMessage": "Ya estás ofreciendo un Empate. Querés retirar esta oferta?",
-    "offerDrawMessage": "Si ofreces un empate, esta opción permanecerá habilitada hasta que la desactives."
+    "offerDrawMessage": "Si ofreces un empate, esta opción permanecerá habilitada hasta que la desactives.",
+    "player": "{{player}} está ofreciendo un empate.",
+    "players": "{{players}} están ofreciendo un empate."
   },
 
   "defeat": "Derrota",
@@ -468,8 +485,10 @@
 
   "battleReport": "Informe de batalla",
   "strength": "Fuerza",
+  "horse": "Caballos",
   "guns": "Cañones",
   "casualties": "Bajas",
+  "horseLost": "Caballos perdidos",
   "gunsLost": "Cañones perdidos",
   "noRewards": "Sin recompensas",
 
@@ -502,8 +521,10 @@
   "joinRequests": "Solicitudes de unión",
   "noJoinRequests": "No hay solicitudes de unión pendientes",
   "accept": "Aceptar",
+  "decline": "Rechazar",
   "reject": "Rechazar",
   "linkCopiedToClipboard": "Enlace copiado al portapapeles",
+  "revealPlayers": "Revelar jugadores",
 
   "pagination": {
     "previous": "Anterior",
@@ -530,5 +551,98 @@
   "formation": "Formación",
   "findGame": "Encontrar juego",
   "gameIdOrLink": "ID del juego o link",
-  "playFree": "Jugá Gratis"
+  "playFree": "Jugá Gratis",
+  "unit": "Unidad",
+  "createArmy": "Crear ejército",
+  "leaveClan": "Abandonar clan",
+  "leave": "Salir",
+  "leaveClanModal": {
+    "message": "¿Estás seguro de que quieres abandonar <0>{{clanName}}</0>?"
+  },
+  "resetToDefault": "Restablecer a predeterminado",
+  "submittingOrders": "Enviando órdenes...",
+  "checkingUpdates": "Comprobando actualizaciones...",
+  "tournaments": "Torneos",
+  "createTournament": "Crear torneo",
+  "joinName": "Unirse a {{name}}",
+  "startTournament": "Iniciar torneo",
+  "startRoundN": "Iniciar ronda {{number}}",
+  "open": "Abierto",
+  "closed": "Cerrado",
+  "viewGame": "Ver juego",
+  "totalPrizePool": "Bolsa total de premios",
+  "rank": "Rango",
+  "creatorPrize": "Premio del creador",
+  "maxPlayers": "Máximo de jugadores",
+
+  "tournamentStatus": {
+    "open": "Abierto",
+    "active": "Activo",
+    "completed": "Completado",
+    "cancelled": "Cancelado"
+  },
+
+  "hasPassword": "Tiene contraseña",
+  "autoStartRounds": "Rondas de inicio automático",
+  "optional": "Opcional",
+  "round": "Ronda",
+  "current": "Actual",
+  "declareWinner": "Declarar ganador",
+  "declareDraw": "Declarar empate",
+  "cancelTournament": "Cancelar torneo",
+  "cancelTournamentMessage": "¿Estás seguro de que quieres cancelar el torneo?",
+  "noPairingsYet": "Aún no hay emparejamientos",
+  "minElo": "Elo mínimo",
+  "maxElo": "Elo máximo",
+  "eloRange": "Rango de Elo",
+  "description": "Descripción",
+  "tournamentPasswordNote": "Los torneos con contraseña se consideran privados y no otorgan Elo.",
+  "inSlowQueueModal": {
+    "title": "¡Juego añadido a la cola!",
+    "message": "Una vez que encuentre al resto de los jugadores, el juego aparecerá en la sección Mis Juegos de Inicio.",
+    "found": "Ya se han encontrado otros jugadores para este juego, puedes jugar ahora haciendo <0>clic aquí</0>."
+  },
+  "active": "Activo",
+  "inQueue": "En cola",
+  "playableGamesAvailable": "¡Tienes juegos jugables!",
+  "playableGamesMessage": "Tienes juegos listos para tu próximo movimiento. ¡Échales un vistazo ahora!",
+  "viewGames": "Ver juegos",
+  "close": "Cerrar",
+  "dontShowAgain": "No mostrar de nuevo",
+  "drawOfferedModal": {
+    "title": "¡Empate ofrecido!",
+    "messageSingular": "{{player}} está ofreciendo un empate. ¿Lo aceptas? El empate solo tendrá efecto si todos los jugadores están de acuerdo.",
+    "messagePlural": "{{players}} están ofreciendo un empate. ¿Lo aceptas? El empate solo tendrá efecto si todos los jugadores están de acuerdo."
+  },
+  "projectilePenetration": "Penetración de proyectiles",
+
+  "league": {
+    "title": "Liga",
+    "a": "Emperador",
+    "b1": "Diamante I",
+    "b2": "Diamante II",
+    "b3": "Diamante III",
+    "c1": "Platino I",
+    "c2": "Platino II",
+    "c3": "Platino III",
+    "d1": "Oro I",
+    "d2": "Oro II",
+    "d3": "Oro III",
+    "e1": "Plata I",
+    "e2": "Plata II",
+    "e3": "Plata III",
+    "f1": "Bronce I",
+    "f2": "Bronce II",
+    "f3": "Bronce III",
+    "g1": "Hierro I",
+    "g2": "Hierro II",
+    "g3": "Hierro III"
+  },
+
+  "skinTier": {
+    "1": "Conscripto",
+    "2": "Veterano",
+    "3": "Élite",
+    "4": "Imperial"
+  }
 }
