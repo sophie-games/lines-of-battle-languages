@@ -653,5 +653,6 @@
   },
 
   "currentPassword": "Current Password",
-  "changePassword": "Change Password"
+  "changePassword": "Change Password",
+  "altWarning": "The use of alternate accounts to farm Elo is prohibited. If detected, actions may be taken against the accounts involved."
 }
