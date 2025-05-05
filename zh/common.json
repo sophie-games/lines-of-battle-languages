@@ -66,7 +66,7 @@
   },
   "battleType": "战斗规模",
   "dynamicBattleType": {
-    "skirmish": "前哨战",
+    "skirmish": "遭遇战",
     "clash": "冲突",
     "combat": "战斗",
     "battle": "战役",
@@ -446,7 +446,7 @@
   "casualties": "伤亡",
   "horseLost": "马匹折损",
   "gunsLost": "火炮折损",
-  "noRewards": "无回报",
+  "noRewards": "无收益",
   "clan": "联盟",
   "clans": "联盟",
   "createClan": "创建联盟",
