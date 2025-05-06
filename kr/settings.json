@@ -1,4 +1,4 @@
-﻿{
+{
   "gameplay": "게임 플레이",
   "graphics": "그래픽",
   "camera": "카메라",
@@ -62,6 +62,9 @@
   },
   "enemyColor": {
     "title": "적 색상"
+  },
+  "allyColor": {
+    "title": "동맹 색상"
   },
   "generalVolume": {
     "title": "총 음량"
