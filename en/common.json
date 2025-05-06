@@ -654,5 +654,13 @@
 
   "currentPassword": "Current Password",
   "changePassword": "Change Password",
-  "altWarning": "The use of alternate accounts to farm Elo is prohibited. If detected, actions may be taken against the accounts involved."
+  "endRound": "End round",
+  "endTournamentRoundMessage": "Are you sure you want to end the round? This will mark the players who are leading in unfinished games as winners.",
+  "rounds": "Rounds",
+  "ended": "Ended",
+  "schedule": "Schedule",
+  "scheduleRound": "Schedule round",
+  "altWarning": "The use of alternate accounts to farm Elo is prohibited. If detected, actions may be taken against the accounts involved.",
+  "withdrawFromName": "Withdraw from {{name}}",
+  "withdrawTournamentMessage": "Are you sure you want to withdraw from the tournament?"
 }

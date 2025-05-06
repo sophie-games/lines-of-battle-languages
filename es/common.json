@@ -647,5 +647,14 @@
   },
 
   "currentPassword": "Contraseña actual",
-  "changePassword": "Cambiar contraseña"
+  "changePassword": "Cambiar contraseña",
+  "endRound": "Finalizar ronda",
+  "endTournamentRoundMessage": "¿Estás seguro de que quieres finalizar la ronda? Esto marcará como ganadores a los jugadores que lideran en los juegos no terminados.",
+  "rounds": "Rondas",
+  "ended": "Finalizado",
+  "schedule": "Programar",
+  "scheduleRound": "Programar ronda",
+  "altWarning": "Está prohibido el uso de cuentas alternativas para farmear Elo. Si se detecta, se pueden tomar medidas contra las cuentas involucradas.",
+  "withdrawFromName": "Retirarse de {{name}}",
+  "withdrawTournamentMessage": "¿Estás seguro de que quieres retirarte del torneo?"
 }
