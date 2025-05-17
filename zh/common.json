@@ -590,5 +590,11 @@
     "2": "老兵",
     "3": "精英",
     "4": "近卫"
+  },
+  "steamBanner": {
+    "title": "在Steam上将Lines of Battle加入愿望单吧！",
+    "description": "我们达到 <0>{{wishlistCount}}</0> 后就可以发行游戏！",
+    "descriptionBoldPart": "30000愿望单数量",
+    "buttonText": "加入愿望单"
   }
 }
