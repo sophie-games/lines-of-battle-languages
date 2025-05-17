@@ -662,5 +662,12 @@
   "scheduleRound": "Schedule round",
   "altWarning": "The use of alternate accounts to farm Elo is prohibited. If detected, actions may be taken against the accounts involved.",
   "withdrawFromName": "Withdraw from {{name}}",
-  "withdrawTournamentMessage": "Are you sure you want to withdraw from the tournament?"
+  "withdrawTournamentMessage": "Are you sure you want to withdraw from the tournament?",
+
+  "steamBanner": {
+    "title": "Wishlist Lines of Battle on Steam!",
+    "description": "Help us reach <0>{{wishlistCount}}</0> to launch the game!",
+    "descriptionBoldPart": "30,000 wishlists",
+    "buttonText": "Add to Wishlist Now"
+  }
 }
