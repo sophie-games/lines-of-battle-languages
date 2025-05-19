@@ -51,7 +51,6 @@
   "matchmakingQueue": {
     "inQueue": "Jesteś teraz w kolejce do losowej partii! System szuka gracza, który wybrał te same ustawienia co ty.",
     "matchFound": "Gdy partia zostanie znaleziona, system przekieruje cię do partii.",
-    "continueMatchmaking": "Nawet jeśli wyjdziesz z tej strony, proces szukania partii nadal będzie trwał i otrzymasz powiadomienie, gdy partia zostanie znaleziona.",
     "onlyClanMembers": "Graj tylko z członkami koalicji"
   },
 
@@ -171,11 +170,11 @@
     "cannon-ball": "Kula Armatnia",
     "cavalry-sabre": "Szabla Kawaleryjska",
     "cavalry-lance": "Kopia Kawaleryjska",
-    "light-cannon-ball": "Lekka Kula Armatnia",
+    "6lb-cannon-ball": "Lekka Kula Armatnia",
     "explosive-shell": "Pocisk Wybuchowy",
     "cavalry-sword": "Miecz Kawaleryjski",
     "canister-fire": "Ogień Kartaczami",
-    "light-canister-fire": "Lekki Ogień Kartaczami",
+    "6lb-canister-fire": "Lekki Ogień Kartaczami",
     "howitzer-canister": "Kartacz z Haubicy",
     "heavy-cannon-ball": "Ciężka Kula Armatnia",
     "heavy-canister-fire": "Ciężki Ostrzał Kartaczami",

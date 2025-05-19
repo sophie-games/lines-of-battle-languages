@@ -35,6 +35,9 @@
   "showNewBattleEventsModal": {
     "title": "Show new battle events modal"
   },
+  "showPlayableGamesAvailableModal": {
+    "title": "Show Playable Games Available Modal"
+  },
   "hidePlayerInfo": {
     "title": "Hide Player Info",
     "description": "Hides ELO and usernames from the game UI, making players anonymous."
@@ -106,6 +109,7 @@
     "shootOrder": "Shoot order",
     "fireAndAdvanceOrder": "Fire and advance order",
     "fallbackOrder": "Fallback order",
-    "toggleFormation": "Toggle formation"
+    "toggleFormation": "Toggle formation",
+    "toggleSmartCurvedMovements": "Toggle Smart Curved Movements"
   }
 }

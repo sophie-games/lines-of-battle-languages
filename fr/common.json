@@ -47,7 +47,6 @@
   "matchmakingQueue": {
     "inQueue": "Vous êtes désormais dans la file d'attente ! Nous recherchons un adversaire qui a choisi les mêmes paramètres que vous.",
     "matchFound": "Lorsque ce sera fait, vous rejoindrez automatiquement la partie.",
-    "continueMatchmaking": "La recherche continuera même si vous quittez cette page et vous serez prévenu lorsqu'une bataille sera trouvée.",
     "onlyClanMembers": "Jouer uniquement avec des coéquipiers de la coalition"
   },
 
@@ -167,11 +166,11 @@
     "cannon-ball": "Boulet de canon",
     "cavalry-sabre": "Sabre de cavalerie",
     "cavalry-lance": "Lance de cavalerie",
-    "light-cannon-ball": "Boulet de canon léger",
+    "6lb-cannon-ball": "Boulet de canon léger",
     "explosive-shell": "Obus explosif",
     "cavalry-sword": "Épée de cavalerie",
     "canister-fire": "Mitraille",
-    "light-canister-fire": "Mitraille légère",
+    "6lb-canister-fire": "Mitraille légère",
     "howitzer-canister": "Mitraille d'obusier",
     "heavy-cannon-ball": "Boulet de canon lourd",
     "heavy-canister-fire": "Tir de mitraille lourd",

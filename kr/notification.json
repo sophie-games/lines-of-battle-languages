@@ -1,0 +1,25 @@
+{
+  "notifications": "알림",
+  "noNotifications": "알림 없음",
+  "clear": "정리",
+  "tournamentMatchStarted": {
+    "title": "토너먼트 경기가 시작되었습니다!",
+    "message": "{{tournamentName}} 토너먼트가 시작되었습니다. 플레이 해보세요!"
+  },
+  "tournamentFilled": {
+    "title": "토너먼트가 충원되었습니다!",
+    "message": "{{tournamentName}} 토너먼트가 충원되었습니다. 언제든지 시작할 수 있습니다!"
+  },
+  "tournamentRewards": {
+    "title": "{{tournamentName}} 토너먼트의 {{place}}에서 승리하셨습니다!",
+    "message": "{{reward}} <BasicCurrency/> 만큼의 보상을 받으셨습니다."
+  },
+  "yourTournamentEnded": {
+    "title": "{{tournamentName}} 토너먼트가 종료되었습니다",
+    "message": "{{reward}} <BasicCurrency/> 만큼의 보상을 받으셨습니다."
+  },
+  "tournamentCancelled": {
+    "title": "토너먼트가 취소되었습니다",
+    "message": "{{tournamentName}} 토너먼트가 취소되었습니다. {{refund}} <BasicCurrency/> 만큼이 환불되었습니다."
+  }
+}

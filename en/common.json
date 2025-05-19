@@ -52,10 +52,9 @@
   "matchmakingQueue": {
     "inQueue": "You are now in the matchmaking queue! The system is searching for another player who has selected the same settings as you.",
     "matchFound": "Once a match is found, you will be redirected to the game.",
-    "continueMatchmaking": "Even if you leave this page, the matchmaking process will continue, and you will be notified when a match is made.",
     "onlyClanMembers": "Play only with coalition teammates",
     "extendQueue": "Extend Queue",
-    "extendQueueSuccess": "Queue extended! Now searching for matches with broader Elo range."
+    "extendQueueSuccess": "Searching in any Elo range."
   },
 
   "fastMode": "Fast Mode",
@@ -92,6 +91,7 @@
   "player": "Player",
   "units": "Units",
   "unitSkins": "Unit Skins",
+  "objectiveSkins": "Objective Skins",
   "avatars": "Avatars",
   "withdraw": "Withdraw",
   "importScenario": "Import scenario",
@@ -174,11 +174,13 @@
     "cannon-ball": "Cannon Ball",
     "cavalry-sabre": "Cavalry Sabre",
     "cavalry-lance": "Cavalry Lance",
-    "light-cannon-ball": "Light Cannon Ball",
+    "6lb-cannon-ball": "6-lb Cannon Ball",
+    "4lb-cannon-ball": "4-lb Cannon Ball",
     "explosive-shell": "Explosive Shell",
     "cavalry-sword": "Cavalry Sword",
     "canister-fire": "Canister Fire",
-    "light-canister-fire": "Light Canister Fire",
+    "6lb-canister-fire": "6-lb Canister Fire",
+    "4lb-canister-fire": "4-lb Canister Fire",
     "howitzer-canister": "Howitzer Canister",
     "heavy-cannon-ball": "Heavy Cannon Ball",
     "heavy-canister-fire": "Heavy Canister Fire",
@@ -199,7 +201,9 @@
     "10": "Militia",
     "11": "Hussars",
     "12": "12-lb Foot Artillery",
-    "13": "Horse Archers"
+    "13": "Horse Archers",
+    "14": "Grenadiers",
+    "15": "4-lb Foot Artillery"
   },
 
   "battalionName": {
@@ -215,7 +219,9 @@
     "10": "{{n}} Militia",
     "11": "{{n}} Hussars",
     "12": "{{n}} Foot Battery",
-    "13": "{{n}} Horse Archers"
+    "13": "{{n}} Horse Archers",
+    "14": "{{n}} Grenadiers",
+    "15": "{{n}} Light Battery"
   },
 
   "unitDescription": {
@@ -225,13 +231,15 @@
     "4": "Experienced, physically imposing soldiers with the ability to inspire friendly soldiers and terrify enemies. These elite units are exclusive to the most naturally gifted soldiers, which makes them much more expensive to field. Their intimidation and excellent melee characteristics are put to best use in a bayonet charge.",
     "7": "Elite line infantry trained with a special focus on rapid movement and marksmanship.",
     "11": "Light cavalry suited to attacking weak, damaged, and routing enemies. However, they will struggle against organized infantry and heavy cavalry. Use infantry and artillery to weaken the enemy first.",
-    "5": "Elite medium cavalry that use the lance to deliver devastating charges - a series of charges by multiple Lancer squadrons will swiftly rout any opposition. However, they're much less impressive in a drawn-out melee.",
+    "5": "Elite light cavalry that use the lance to deliver devastating charges - a series of charges by multiple Lancer squadrons will swiftly rout any opposition. However, they're much less impressive in a drawn-out melee.",
     "8": "Formidable heavy cavalry with the strongest all-around melee combat effectiveness of any unit. However, it's still best to weaken the enemy with infantry or artillery before sending in your Cuirassiers.",
     "12": "The heaviest field gun available to the Napoleonic army; while these batteries are extremely expensive, their range and power are unmatched.",
     "6": "This artillery's speed and low cost make it suitable for supporting cavalry or advancing alongside your infantry line.",
     "9": "Light field howitzers with explosive shells and particularly lethal short-range canister fire - ideal for supporting your infantry line at medium to short range.",
     "10": "“To place any dependence upon militia is assuredly resting upon a broken staff.” - George Washington",
-    "13": "“The Bashkir horse archers are undoubtedly the world's least dangerous troops.” - Baron Marbot, ignoring an arrow in his thigh"
+    "13": "“The Bashkir horse archers are undoubtedly the world's least dangerous troops.” - Baron Marbot, ignoring an arrow in his thigh",
+    "14": "These shock troops are made up the tallest, strongest, and most imposing men of the line infantry. While they're generally more fearsome than average line troops, their most powerful option in combat is their devastating charge.",
+    "15": "The lightest common field artillery of the Napoleonic Wars, with modest firepower and good mobility that make it a natural companion to the infantry."
   },
 
   "damageResistances": "Damage Resistances",
@@ -280,7 +288,10 @@
     "1": "Forest",
     "2": "Building",
     "3": "Road",
-    "4": "Water"
+    "4": "Shallow water",
+    "5": "Deep water",
+    "6": "Cliff",
+    "7": "Bridge"
   },
 
   "clearPlayerUnits": "Clear player units",
@@ -354,7 +365,9 @@
     "tip19": "Guards Infantry and Cuirassiers strongly affect other troops' organization merely by being nearby. This effect stacks, and can help a few elite units turn the tide of battle.",
     "tip20": "Leave your artillery a clear line of sight; don't maneuver your infantry in front of it.",
     "tip21": "\"It is for the cavalry to follow up the victory and prevent the beaten enemy from rallying.\" - Napoleon Bonaparte",
-    "tip22": "\"To plan to reserve cavalry for the finish of the battle, is to have no conception of the power of combined infantry and cavalry charges, either for attack or for defense.\" - Napoleon Bonaparte"
+    "tip22": "\"To plan to reserve cavalry for the finish of the battle, is to have no conception of the power of combined infantry and cavalry charges, either for attack or for defense.\" - Napoleon Bonaparte",
+    "tip23": "\"Just attack.\" - Marechal Apeiro",
+    "tip24": "\"Where my dragons at?\" - Marechal SteelFlesher"
   },
 
   "fetchingBattleActions": "Fetching battle actions...",
@@ -405,7 +418,9 @@
   "offerDrawModal": {
     "withdrawOffer": "Withdraw Offer",
     "alreadyWantsDrawMessage": "You are already offering a Draw. Do you want to withdraw this offer?",
-    "offerDrawMessage": "If you offer a draw, this option will remain enabled until you disable it."
+    "offerDrawMessage": "If you offer a draw, this option will remain enabled until you disable it.",
+    "player": "{{player}} is offering draw.",
+    "players": "{{players}} are offering draw."
   },
 
   "defeat": "Defeat",
@@ -476,8 +491,10 @@
 
   "battleReport": "Battle Report",
   "strength": "Strength",
+  "horse": "Horse",
   "guns": "Guns",
   "casualties": "Casualties",
+  "horseLost": "Horse Lost",
   "gunsLost": "Guns Lost",
   "noRewards": "No rewards",
 
@@ -510,8 +527,10 @@
   "joinRequests": "Join Requests",
   "noJoinRequests": "No pending join requests",
   "accept": "Accept",
+  "decline": "Decline",
   "reject": "Reject",
   "linkCopiedToClipboard": "Link copied to clipboard",
+  "revealPlayers": "Reveal players",
 
   "pagination": {
     "previous": "Previous",
@@ -552,6 +571,56 @@
   "tournaments": "Tournaments",
   "createTournament": "Create tournament",
   "joinName": "Join {{name}}",
+  "startTournament": "Start tournament",
+  "startRoundN": "Start round {{number}}",
+  "open": "Open",
+  "closed": "Closed",
+  "viewGame": "View game",
+  "totalPrizePool": "Total Prize Pool",
+  "rank": "Rank",
+  "creatorPrize": "Creator Prize",
+  "maxPlayers": "Max players",
+
+  "tournamentStatus": {
+    "open": "Open",
+    "active": "Active",
+    "completed": "Completed",
+    "cancelled": "Cancelled"
+  },
+
+  "hasPassword": "Has password",
+  "autoStartRounds": "Auto start rounds",
+  "optional": "Optional",
+  "round": "Round",
+  "current": "Current",
+  "declareWinner": "Declare winner",
+  "declareDraw": "Declare draw",
+  "cancelTournament": "Cancel tournament",
+  "cancelTournamentMessage": "Are you sure you want to cancel the tournament?",
+  "noPairingsYet": "No pairings yet",
+  "minElo": "Min Elo",
+  "maxElo": "Max Elo",
+  "eloRange": "Elo range",
+  "description": "Description",
+  "tournamentPasswordNote": "Tournaments with password are considered private and they don't give Elo.",
+  "inSlowQueueModal": {
+    "title": "Game added to the queue!",
+    "message": "Once it finds the rest of the players, the game will appear in the My Games section of Home!",
+    "found": "Other players have already been found for this game, you can play now by <0>clicking here</0>."
+  },
+  "active": "Active",
+  "inQueue": "In queue",
+  "playableGamesAvailable": "You have playable games!",
+  "playableGamesMessage": "You have games ready for your next move. Check them out now!",
+  "viewGames": "View Games",
+  "close": "Close",
+  "dontShowAgain": "Don't show again",
+  "drawOfferedModal": {
+    "title": "Draw offered!",
+    "messageSingular": "{{player}} is offering a draw. Do you accept? The draw will only take effect if all players agree.",
+    "messagePlural": "{{players}} are offering a draw. Do you accept? The draw will only take effect if all players agree."
+  },
+  "projectilePenetration": "Projectile penetration",
 
   "league": {
     "title": "League",
@@ -574,5 +643,31 @@
     "g1": "Iron I",
     "g2": "Iron II",
     "g3": "Iron III"
+  },
+
+  "skinTier": {
+    "1": "Conscript",
+    "2": "Veteran",
+    "3": "Elite",
+    "4": "Imperial"
+  },
+
+  "currentPassword": "Current Password",
+  "changePassword": "Change Password",
+  "endRound": "End round",
+  "endTournamentRoundMessage": "Are you sure you want to end the round? This will mark the players who are leading in unfinished games as winners.",
+  "rounds": "Rounds",
+  "ended": "Ended",
+  "schedule": "Schedule",
+  "scheduleRound": "Schedule round",
+  "altWarning": "The use of alternate accounts to farm Elo is prohibited. If detected, actions may be taken against the accounts involved.",
+  "withdrawFromName": "Withdraw from {{name}}",
+  "withdrawTournamentMessage": "Are you sure you want to withdraw from the tournament?",
+
+  "steamBanner": {
+    "title": "Wishlist Lines of Battle on Steam!",
+    "description": "Help us reach <0>{{wishlistCount}}</0> to launch the game!",
+    "descriptionBoldPart": "30,000 wishlists",
+    "buttonText": "Add to Wishlist Now"
   }
 }

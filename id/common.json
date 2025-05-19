@@ -52,7 +52,6 @@
   "matchmakingQueue": {
     "inQueue": "Kamu sekarang berada dalam antrean! Sistem sedang mencari pemain lain yang telah memilih pengaturan yang sama dengan kamu.",
     "matchFound": "Ketika permainan telah ditemukan, kamu akan diarahkan ke permainan.",
-    "continueMatchmaking": "Jika kamu meninggalkan halaman ini, pencarian permainan akan tetap dilanjutkan, dan kamu akan di beri notifikasi ketika permainan ditemukan.",
     "onlyClanMembers": "Bermain hanya dengan rekan tim koalisi."
   },
 
@@ -172,11 +171,11 @@
     "cannon-ball": "Bola Meriam",
     "cavalry-sabre": "Kavaeri Saber",
     "cavalry-lance": "Kavaleri Tombak",
-    "light-cannon-ball": "Meriam Bola Ringan",
+    "6lb-cannon-ball": "Meriam Bola Ringan",
     "explosive-shell": "Peluru Ledakan",
     "cavalry-sword": "Kavaleri Pedang",
     "canister-fire": "Tembakan Peluru Canister",
-    "light-canister-fire": "Tembakan Peluru Canister Ringan",
+    "6lb-canister-fire": "Tembakan Peluru Canister Ringan",
     "howitzer-canister": "Meriam Besar Canister",
     "heavy-cannon-ball": "Meriam Bola Berat",
     "heavy-canister-fire": "Tembakan Peluru Berat Canister",

@@ -1,0 +1,30 @@
+{
+  "notifications": "Notificaciones",
+  "noNotifications": "Sin notificaciones",
+  "clear": "Borrar",
+
+  "tournamentMatchStarted": {
+    "title": "¡Partida de torneo iniciada!",
+    "message": "Ha comenzado una partida del torneo {{tournamentName}}, ¡ve a jugarla!"
+  },
+
+  "tournamentFilled": {
+    "title": "¡Torneo completo!",
+    "message": "El torneo {{tournamentName}} está ahora lleno. ¡Puedes iniciarlo en cualquier momento!"
+  },
+
+  "tournamentRewards": {
+    "title": "¡Ganaste el {{place}}. lugar en el torneo {{tournamentName}}!",
+    "message": "Has recibido {{reward}} <BasicCurrency/>."
+  },
+
+  "yourTournamentEnded": {
+    "title": "Tu torneo {{tournamentName}} ha finalizado",
+    "message": "Has recibido {{reward}} <BasicCurrency/>."
+  },
+
+  "tournamentCancelled": {
+    "title": "Torneo cancelado",
+    "message": "El torneo {{tournamentName}} ha sido cancelado. Se te ha reembolsado {{refund}} <BasicCurrency/>."
+  }
+}

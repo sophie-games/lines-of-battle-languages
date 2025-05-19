@@ -35,6 +35,9 @@
   "showNewBattleEventsModal": {
     "title": "Mostrar modal de nuevos eventos de batalla"
   },
+  "showPlayableGamesAvailableModal": {
+    "title": "Mostrar modal de juegos jugables disponibles"
+  },
   "hidePlayerInfo": {
     "title": "Ocultar Información del Jugador",
     "description": "Oculta el ELO y los nombres de usuario de la interfaz del juego, haciendo que los jugadores sean anónimos."
@@ -98,6 +101,8 @@
     "seekOrder": "Orden de búsqueda",
     "shootOrder": "Orden de disparo",
     "fireAndAdvanceOrder": "Orden de disparar y avanzar",
-    "fallbackOrder": "Orden de retirada"
+    "fallbackOrder": "Orden de retirada",
+    "toggleFormation": "Alternar formación",
+    "toggleSmartCurvedMovements": "Alternar movimientos curvos inteligentes"
   }
 }

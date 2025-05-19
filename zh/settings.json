@@ -34,6 +34,9 @@
   "showNewBattleEventsModal": {
     "title": "显示战斗事件弹窗"
   },
+  "showPlayableGamesAvailableModal": {
+    "title": "显示可进行游戏菜单"
+  },
   "hidePlayerInfo": {
     "title": "隐藏玩家信息",
     "description": "在UI中隐藏玩家的用户名和ELO。"
@@ -99,6 +102,7 @@
     "shootOrder": "射击指令",
     "fireAndAdvanceOrder": "移动射击指令",
     "fallbackOrder": "后退指令",
-    "toggleFormation": "切换阵型"
+    "toggleFormation": "切换阵型",
+    "toggleSmartCurvedMovements": "切换智能曲线移动"
   }
 }

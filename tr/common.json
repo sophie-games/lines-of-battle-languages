@@ -51,7 +51,6 @@
   "matchmakingQueue": {
     "inQueue": "Şimdi eşleştirme kuyruğundasınız! Sistem, sizinle aynı ayarları seçmiş başka bir oyuncu arıyor.",
     "matchFound": "Bir eşleşme bulunduğunda, oyuna yönlendirileceksiniz.",
-    "continueMatchmaking": "Bu sayfadan ayrılsanız bile eşleştirme süreci devam edecek ve bir eşleşme olduğunda size bildirim gönderilecektir.",
     "onlyClanMembers": "Yalnızca koalisyon takım arkadaşlarıyla oyna"
   },
 
@@ -171,11 +170,11 @@
     "cannon-ball": "Top Gültesi",
     "cavalry-sabre": "Süvari Kılıcı",
     "cavalry-lance": "Süvari Mızrağı",
-    "light-cannon-ball": "Hafif Top Gültesi",
+    "6lb-cannon-ball": "Hafif Top Gültesi",
     "explosive-shell": "Patlayıcı Mermi",
     "cavalry-sword": "Süvari Kılıcı",
     "canister-fire": "Kartuş Ateşi",
-    "light-canister-fire": "Hafif Kartuş Ateşi",
+    "6lb-canister-fire": "Hafif Kartuş Ateşi",
     "howitzer-canister": "Obüs Kartuşu",
     "heavy-cannon-ball": "Ağır Top Gültesi",
     "heavy-canister-fire": "Ağır Kartuş Ateşi",
