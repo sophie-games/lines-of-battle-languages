@@ -20,6 +20,6 @@
   },
   "tournamentCancelled": {
     "title": "锦标赛取消",
-    "message": "锦标赛 {{tournamentName}} 已被取消。你已受到退款{{refund}}<BasicCurrency/>。"
+    "message": "锦标赛 {{tournamentName}} 已被取消。你已收到退款{{refund}}<BasicCurrency/>。"
   }
 }
