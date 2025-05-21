@@ -25,9 +25,9 @@
   "loadingGames": "Oyunlar yükleniyor...",
   "noGamesYet": "Henüz oyun yok! Yeni bir tane oluşturmak için Oyna'ya tıklayın.",
   "failedToLoadGames": "Oyunlar yüklenemedi. Lütfen tekrar deneyin.",
-  "armyCompositions": "Ordu Kompozisyonları",
+  "armyCompositions": "Ordu Bileşimleri",
   "account": "Hesap",
-  "scenarioEditor": "Senaryo Editörü",
+  "scenarioEditor": "Sahneleme Editörü",
   "wiki": "Viki",
   "gameCard": {
     "title": "Oyun {{id}}",
@@ -56,7 +56,7 @@
 
   "fastMode": "Hızlı Mod",
   "slowMode": "Yavaş Mod",
-  "maxTimePerTurn": "Tur başına maksimum süre",
+  "maxTimePerTurn": "Tur başına azami süre",
 
   "turnTimeLimit": {
     "30s": "30 saniye",
@@ -83,7 +83,7 @@
   "custom": "Özel",
   "customDescription": "Özel mod, belirli ayarlarla bir oyun kurmanıza ve arkadaşlarınızı davet etmenize olanak tanır.",
   "createCustomGame": "Özel oyun oluştur",
-  "maxTurn": "Maksimum tur",
+  "maxTurn": "Azami tur",
 
   "player": "Oyuncu",
   "units": "Birimler",
@@ -134,17 +134,17 @@
   "deselect": "Seçimi Kaldır",
 
   "unitStat": {
-    "hp": "Can",
-    "org": "Organizasyon",
-    "movement": "Hareket",
+    "hp": "Mevcut",#number of people in a group
+    "org": "Düzen Değeri",
+    "movement": "Azami Hız",
     "meleeAttack": "Yakın Saldırı",
     "meleeDefense": "Yakın Savunma",
     "chargeBonus": "Hücum Bonusu",
-    "chargePenetration": "Hücum Penetrasyonu",
-    "orgRadius": "Organizasyon Yarıçapı",
-    "orgRadiusBonus": "Organizasyon Yarıçap Bonusu",
-    "rangedAttack": "Uzak Saldırı",
-    "limberMovement": "Hafif Hareket",
+    "chargePenetration": "Hücum Yarması",
+    "orgRadius": "Düzen Yarıçapı",
+    "orgRadiusBonus": "Düzen Yarıçapı Bonusu",#If I had even the slightest idea what these were for, I could make a better translation.
+    "rangedAttack": "Ateş Gücü",#or 'hasarı' would be better
+    "limberMovement": "Hareketlenmede Hız",#if you put it into translate it says speed of movement but it actually means, speed in the process of becoming a moving entity at its full capacity
     "chargeResistance": "Hücum Direnci",
     "status": "Durum",
     "currentChargeResistance": "Mevcut Hücum Direnci"
@@ -160,23 +160,23 @@
     "7": "Milis Piyade"
   },
 
-  "category": "Kategori",
+  "category": "Sınıf",
 
   "damageType": {
-    "musket": "Muskete",
-    "light-musket": "Hafif Muskete",
-    "artillery-sabre": "Topçu Kılıcı",
+    "musket": "Misket Tüfeği",
+    "light-musket": "Hafif Misket Tüfeği",
+    "artillery-sabre": "Topçu Yatağanı",#curved sword for inf mostly*
     "bayonet": "Süngü",
-    "cannon-ball": "Top Gültesi",
+    "cannon-ball": "Top Güllesi",#ıt was gültesi which doesn't mean anything at all
     "cavalry-sabre": "Süvari Kılıcı",
-    "cavalry-lance": "Süvari Mızrağı",
-    "6lb-cannon-ball": "Hafif Top Gültesi",
+    "cavalry-lance": "Kargı",
+    "6lb-cannon-ball": "Hafif Top Güllesi",
     "explosive-shell": "Patlayıcı Mermi",
-    "cavalry-sword": "Süvari Kılıcı",
+    "cavalry-sword": "Süvari Palası",#ı used pala which is a derived term from italian, used for heavier cav sword, design was influenced by european advancements
     "canister-fire": "Kartuş Ateşi",
     "6lb-canister-fire": "Hafif Kartuş Ateşi",
     "howitzer-canister": "Obüs Kartuşu",
-    "heavy-cannon-ball": "Ağır Top Gültesi",
+    "heavy-cannon-ball": "Ağır Top Güllesi",
     "heavy-canister-fire": "Ağır Kartuş Ateşi",
     "dragoon-sword": "Ejder Kılıcı",
     "horse-archer-bow": "Atlı Okçu Yayı"
@@ -194,7 +194,7 @@
     "9": "6-inç Obüs",
     "10": "Milis",
     "11": "Husarlar",
-    "12": "12-libre Ayak Topçusu",
+    "12": "12-libre Ayak Topçusu",#okka doesn't correlate with libre ᗜ˰ᗜ
     "13": "Atlı Okçular"
   },
 
@@ -211,20 +211,20 @@
     "10": "{{n}} Milis",
     "11": "{{n}} Husarlar",
     "12": "{{n}} Ayak Bataryası",
-    "13": "{{n}} Atlı Okçular"
+    "13": "{{n}} Atlı Okçular"#if you let ı would like to improvise on the unit names and descriptions
   },
 
   "unitDescription": {
-    "1": "Mütevazı hat piyade taburu, ordunun temel birimidir. Ana silahı muskete olsa da, süngü ile süvarilere karşı koyabilir veya diğer piyade ve topçulara hücum edebilir.",
-    "2": "Güvenilir, çok yönlü orta sınıf süvari; taciz için olduğu kadar uzun süreli çatışmalar için de uygundur.",
+    "1": "Mütevazı hat piyade taburu, ordunun temel birimidir. Ana silahı muskete olsa da, süngü ile atlılara karşı koyabilir veya diğer piyade ve topçulara hücum edebilir.",
+    "2": "Güvenilir, çok yönlü orta sınıf atlı; taciz için olduğu kadar uzun süreli çatışmalar için de uygundur.",
     "3": "Uygun fiyatlı orta sınıf topçu; mütevazı hareket kabiliyeti ve ateş gücü ile birlikte etkileyici kartuş ateşi sağlar.",
     "4": "Tecrübeli, fiziksel olarak etkileyici askerler; dost askerlere ilham verme ve düşmanları korkutma yeteneğine sahiptir. Bu elit birimler, yalnızca en yetkin askerlere özeldir, bu da onları sahaya sürmeyi çok daha pahalı hale getirir. Korkutma ve mükemmel yakın dövüş özellikleri, süngü hücumunda en iyi şekilde kullanılır.",
     "7": "Hızlı hareket ve nişancılık üzerine özel eğitim almış elit hat piyadesi.",
-    "11": "Zayıf, hasar görmüş ve dağılmış düşmanlara saldırmak için uygun hafif süvari. Ancak organize piyade ve ağır süvari karşısında zorlanacaktır. Önce düşmanı piyade ve topçu ile zayıflatın.",
-    "5": "Mızrak kullanarak yıkıcı hücumlar gerçekleştiren elit orta sınıf süvari - birden fazla Mızraklı birliği tarafından yapılan bir dizi hücum, herhangi bir direnişi hızla bozguna uğratır. Ancak uzun süreli bir yakın dövüşte çok daha az etkileyicidirler.",
+    "11": "Zayıf, hasar görmüş ve dağılmış düşmanlara saldırmak için uygun hafif atlı. Ancak organize piyade ve ağır atlı karşısında zorlanacaktır. Önce düşmanı piyade ve topçu ile zayıflatın.",
+    "5": "Mızrak kullanarak yıkıcı hücumlar gerçekleştiren elit orta sınıf atlı - birden fazla Mızraklı birliği tarafından yapılan bir dizi hücum, herhangi bir direnişi hızla bozguna uğratır. Ancak uzun süreli bir yakın dövüşte çok daha az etkileyicidirler.",
     "8": "Herhangi bir birimin en güçlü çok yönlü yakın dövüş etkinliğine sahip olan korkutucu ağır süvari. Yine de, Zırhlı Süvarileri göndermeden önce düşmanı piyade veya topçu ile zayıflatmak en iyisidir.",
     "12": "Napolyon ordusunun sahip olduğu en ağır saha topu; bu bataryalar son derece pahalı olsa da menzilleri ve güçleri eşsizdir.",
-    "6": "Bu topçunun hızı ve düşük maliyeti, süvarileri desteklemek veya piyade hattınızla birlikte ilerlemek için uygundur.",
+    "6": "Bu topçunun hızı ve düşük maliyeti, atlıları desteklemek veya piyade hattınızla birlikte ilerlemek için uygundur.",
     "9": "Patlayıcı mermilere sahip hafif saha obüsleri ve özellikle ölümcül kısa menzilli kartuş ateşi - piyade hattınızı orta ve kısa mesafede desteklemek için idealdir.",
     "10": "“Milislere herhangi bir güven duymak, kesinlikle kırık bir asaya dayanmaktır.” - George Washington",
     "13": "“Başkır atlı okçuları, şüphesiz dünyadaki en az tehlikeli birliklerdir.” - Baron Marbot, uyluğundaki oku görmezden gelerek"
@@ -232,29 +232,29 @@
 
   "damageResistances": "Hasar Dirençleri",
   "otherStats": "Diğer İstatistikler",
-  "damageModifier": "Hasar Değiştirici",
-  "orgDamageRatio": "Organizasyon Hasar Oranı",
+  "damageModifier": "Hasar Çarpanı",
+  "orgDamageRatio": "Düzen-Hasar Oranı",
 
   "damage": "Hasar",
-  "orgDamage": "Organizasyon Hasarı",
-  "enfiladeFireModifiers": "Yan Ateş Değiştiricileri",
-  "rearFireModifiers": "Arka Ateş Değiştiricileri",
+  "orgDamage": "Düzen Hasarı",
+  "enfiladeFireModifiers": "Yan Ateş Çarpanı",
+  "rearFireModifiers": "Arka Ateş Çarpanı",
   "targetAltitude": "Hedef Yükseklik",
   "canCaptureObjectives": "Hedefleri ele geçirebilir",
   "cantCaptureObjectives": "Hedefleri ele geçiremez",
   "enfiladeFire": "Yan Ateş",
-  "closeRange": "Yakın Mesafe",
-  "midRange": "Orta Mesafe",
-  "longRange": "Uzun Mesafe",
+  "closeRange": "Yakın Menzil",
+  "midRange": "Orta Menzil",
+  "longRange": "Uzun Menzil",
   "shootingAngle": "Ateş Açısı",
-  "closeAttackDamage": "Yakın Saldırı Hasarı",
-  "longAttackDamage": "Uzun Saldırı Hasarı",
+  "closeAttackDamage": "Yakın Menzil Çarpanı",
+  "longAttackDamage": "Uzun Menzil Çarpanı",#ıt would be more convenient to express them as a multiplier when they are in percentages
   "arcHeight": "Yay Yüksekliği",
-  "aoe": "Etkilenen Alan",
+  "aoe": "Etki Alanı",
   "type": "Tür",
-  "circular": "Dairesel",
+  "circular": "Dairesel",#amazingly there is no word which means; a halka, kuşak or çember or çeper with it's interior besides daire. Actually daire is also counted as a halka but it's used as 'office', 'place {of some department}' or just an aparmant flat on various occasions so you know (maybe dolayı can be a valid translation also)
   "radius": "Yarıçap",
-  "edgeDamageModifier": "Kenar Hasar Değiştirici",
+  "edgeDamageModifier": "Uç Hasar Çarpanı",
   "absorption": "Emilim",
   "trapezoidal": "Yamuk",
   "topWidth": "Üst Genişlik",
@@ -264,7 +264,7 @@
   "from": "dan",
   "to": "e",
   "lBy": "tarafından",
-  "terrainHitboxHeight": "Arazi Çarpışma Kutusu Yüksekliği",
+  "terrainHitboxHeight": "Arazi Hacmi Yüksekliği",
   "statusEffects": "Durum Etkileri",
   "projectileAbsorption": "Mermi Emilimi",
   "orgRegainByNearbyUnits": "Yakındaki Birimlerden Organizasyon Kazanımı",
@@ -272,7 +272,7 @@
   "effects": "Etkiler",
 
   "terrain": {
-    "0": "Kara",
+    "0": "Düzlük",#or directly 'düz'
     "1": "Orman",
     "2": "Bina",
     "3": "Yol",
@@ -283,7 +283,7 @@
   "clearBotUnits": "Bot birimlerini temizle",
   "continueGame": "Oyuna devam et",
   "createNewOfflineGame": "Yeni çevrimdışı oyun oluştur",
-  "filterBy": "Filtrele",
+  "filterBy": "Şununla Ayır",
   "name": "İsim",
   "retry": "Tekrar Dene",
 
@@ -298,10 +298,10 @@
   },
 
   "update": "Güncelle!",
-  "yourArmyCompositionsFor": "{{mode}} için Ordu Kompozisyonunuz",
+  "yourArmyCompositionsFor": "{{mode}} için Ordu Bileşiminiz",
   "noUnitsYet": "Henüz birim yok",
-  "armyComposition": "Ordu Kompozisyonu",
-  "budgetAvailable": "Kullanılabilir Bütçe",
+  "armyComposition": "Ordu Bileşimi",
+  "budgetAvailable": "Mevcut Bütçe",
   "saveArmy": "Orduyu kaydet",
   "clearUnits": "Birimleri temizle",
   "saving": "Kaydediliyor...",
@@ -356,35 +356,35 @@
   "fetchingBattleActions": "Savaş eylemleri alınıyor...",
 
   "order": {
-    "1": "Hareket",
-    "2": "Ara",
+    "1": "Marş",
+    "2": "Hücum",
     "3": "Ateş",
-    "4": "Ateş ve İlerle",
-    "6": "Geri Çekil",
+    "4": "Ateş ve Marş",
+    "6": "Çekilme",
     "7": "Çatışma"
   },
 
   "selectOrder": "Emir Seç",
-  "allowFireWhenMoving": "Hareket ederken ateşe izin ver",
-  "meleeDamage": "Yakın dövüş hasarı",
-  "rangedDamage": "Uzak mesafe hasarı",
-  "orgRegainByHp": "Can ile organizasyon kazanımı",
-  "rangedDamageWhenMoving": "Hareket ederken uzak mesafe hasarı",
+  "allowFireWhenMoving": "Marşta ateş edebilir",
+  "meleeDamage": "Vuruş Gücü",#strike, made by hand, to bat? maybe?
+  "rangedDamage": "Ateş Gücü",#means fire, as the english counterpart
+  "orgRegainByHp": "Mevcut Sayısından Toparlanma",#toparlanma is also a term for becoming organized, acquiring 'düzen'
+  "rangedDamageWhenMoving": "Marşta ateş gücü",
   "speed": "Hız",
   "speedWhenShooting": "Ateş ederken hız",
   "receivedDamage": "Alınan hasar",
-  "receivedOrgDamage": "Alınan organizasyon hasarı",
-  "noModifiers": "Değiştirici yok",
+  "receivedOrgDamage": "Alınan düzen hasarı",#ı would call it 'bozulma' but it would be improvisation not translation
+  "noModifiers": "Etki yok",#now ı call it 'etki' bcs nothing is a demonic multiplier
   "submitOrders": "Emirleri gönder",
   "submitOrdersConfirmation": "Savaş emirlerinizi göndermek istediğinizden emin misiniz? Gönderdikten sonra geri dönüş olmayacak.",
   "players": "Oyuncular",
   "menu": "Menü",
   "replayActions": "Eylemleri tekrar oynat",
-  "deselectUnit": "Birim seçimini kaldır",
-  "removeUnitOrders": "Birim emirlerini kaldır",
+  "deselectUnit": "Seçimi kaldır",
+  "removeUnitOrders": "Emri kaldır",
   "info": "Bilgi",
-  "meleePerformance": "Yakın dövüş performansı",
-  "speedByOrg": "Organizasyona göre hız",
+  "meleePerformance": "Vuruş Yetkinliği",
+  "speedByOrg": "Düzene göre hız",
   "nTurnsLeft": "{{n}} tur kaldı",
 
   "battleOverview": {
@@ -395,7 +395,7 @@
     "lossesRatio": "Kayıp Oranı",
     "objectives": "Hedefler",
     "timeWithoutObjectives": "Hedefsiz Geçen Süre",
-    "unitsOrgRegain": "Birim organizasyon kazanımı"
+    "unitsOrgRegain": "Toparlanma"
   },
 
   "offerDrawModal": {
@@ -404,7 +404,7 @@
     "offerDrawMessage": "Eğer bir beraberlik teklif ederseniz, bu seçenek siz devre dışı bırakana kadar etkin kalacaktır."
   },
 
-  "defeat": "Yenilgi",
+  "defeat": "Bozgun",
   "victory": "Zafer",
   "draw": "Beraberlik",
   "won": "Kazanıldı",
@@ -412,15 +412,15 @@
   "tie": "Berabere",
 
   "unitStatus": {
-    "1": "Ayakta",
-    "2": "Dağılmış",
+    "1": "Düzgün",
+    "2": "Bozgun",
     "3": "Toparlanıyor"
   },
 
   "unitEffect": {
     "1": "Tam dönme",
     "2": "Saldırıya uğradı",
-    "3": "Hafifliyor"
+    "3": "Hafifliyor"#ı wanna have a clue
   },
 
   "login": "Giriş Yap",
@@ -531,7 +531,7 @@
     "clans": "Koalisyonları ara"
   },
 
-  "formation": "Formasyon",
+  "formation": "Yerleşim",
   "findGame": "Oyun bul",
   "gameIdOrLink": "Oyun ID’si veya bağlantı",
   "playFree": "Ücretsiz Oyna"
