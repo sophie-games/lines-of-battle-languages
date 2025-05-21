@@ -601,5 +601,15 @@
   "scheduleRound": "예정 회차",
   "altWarning": "다중 계정을 사용하여 Elo를 습득하는 것은 금지되어 있습니다. 적발될 경우 조치가 취해질 수 있습니다.",
   "withdrawFromName": "{{name}}에서 이탈",
-  "withdrawTournamentMessage": "토너먼트에서 이탈하시겠습니까?"
+  "withdrawTournamentMessage": "토너먼트에서 이탈하시겠습니까?",
+
+  "steamBanner": {
+    "title": "스팀에서 라인스 오브 배틀을 찜하세요!",
+    "description": "찜하기 <0>{{wishlistCount}}</0>에 도달해 게임을 런칭할 수 있도록 도와주세요!",
+    "descriptionBoldPart": "30,000명",
+    "buttonText": "지금 바로 찜하기"
+  }
+  },
+
+  "offerDrawCooldownMessage": "몇 턴 전에 무승부가 제안되었었습니다. {{turns}} 턴에 다시 무승부를 제안할 수 있습니다."
 }
