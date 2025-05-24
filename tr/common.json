@@ -134,7 +134,7 @@
   "deselect": "Seçimi Kaldır",
 
   "unitStat": {
-    "hp": "Mevcut",#number of people in a group
+    "hp": "Mevcut",
     "org": "Düzen Değeri",
     "movement": "Azami Hız",
     "meleeAttack": "Yakın Saldırı",
@@ -142,9 +142,9 @@
     "chargeBonus": "Hücum Bonusu",
     "chargePenetration": "Hücum Yarması",
     "orgRadius": "Düzen Yarıçapı",
-    "orgRadiusBonus": "Düzen Yarıçapı Bonusu",#If I had even the slightest idea what these were for, I could make a better translation.
-    "rangedAttack": "Ateş Gücü",#or 'hasarı' would be better
-    "limberMovement": "Hareketlenmede Hız",#if you put it into translate it says speed of movement but it actually means, speed in the process of becoming a moving entity at its full capacity
+    "orgRadiusBonus": "Düzen Yarıçapı Bonusu",
+    "rangedAttack": "Ateş Gücü",
+    "limberMovement": "Hareketlenmede Hız",
     "chargeResistance": "Hücum Direnci",
     "status": "Durum",
     "currentChargeResistance": "Mevcut Hücum Direnci"
@@ -165,14 +165,14 @@
   "damageType": {
     "musket": "Misket Tüfeği",
     "light-musket": "Hafif Misket Tüfeği",
-    "artillery-sabre": "Topçu Yatağanı",#curved sword for inf mostly*
+    "artillery-sabre": "Topçu Yatağanı",
     "bayonet": "Süngü",
-    "cannon-ball": "Top Güllesi",#ıt was gültesi which doesn't mean anything at all
+    "cannon-ball": "Top Güllesi",
     "cavalry-sabre": "Süvari Kılıcı",
     "cavalry-lance": "Kargı",
     "6lb-cannon-ball": "Hafif Top Güllesi",
     "explosive-shell": "Patlayıcı Mermi",
-    "cavalry-sword": "Süvari Palası",#ı used pala which is a derived term from italian, used for heavier cav sword, design was influenced by european advancements
+    "cavalry-sword": "Süvari Palası",
     "canister-fire": "Kartuş Ateşi",
     "6lb-canister-fire": "Hafif Kartuş Ateşi",
     "howitzer-canister": "Obüs Kartuşu",
@@ -194,7 +194,7 @@
     "9": "6-inç Obüs",
     "10": "Milis",
     "11": "Husarlar",
-    "12": "12-libre Ayak Topçusu",#okka doesn't correlate with libre ᗜ˰ᗜ
+    "12": "12-libre Ayak Topçusu",
     "13": "Atlı Okçular"
   },
 
@@ -211,7 +211,7 @@
     "10": "{{n}} Milis",
     "11": "{{n}} Husarlar",
     "12": "{{n}} Ayak Bataryası",
-    "13": "{{n}} Atlı Okçular"#if you let ı would like to improvise on the unit names and descriptions
+    "13": "{{n}} Atlı Okçular"
   },
 
   "unitDescription": {
@@ -248,11 +248,11 @@
   "longRange": "Uzun Menzil",
   "shootingAngle": "Ateş Açısı",
   "closeAttackDamage": "Yakın Menzil Çarpanı",
-  "longAttackDamage": "Uzun Menzil Çarpanı",#ıt would be more convenient to express them as a multiplier when they are in percentages
+  "longAttackDamage": "Uzun Menzil Çarpanı",
   "arcHeight": "Yay Yüksekliği",
   "aoe": "Etki Alanı",
   "type": "Tür",
-  "circular": "Dairesel",#amazingly there is no word which means; a halka, kuşak or çember or çeper with it's interior besides daire. Actually daire is also counted as a halka but it's used as 'office', 'place {of some department}' or just an aparmant flat on various occasions so you know (maybe dolayı can be a valid translation also)
+  "circular": "Dairesel",
   "radius": "Yarıçap",
   "edgeDamageModifier": "Uç Hasar Çarpanı",
   "absorption": "Emilim",
@@ -267,12 +267,12 @@
   "terrainHitboxHeight": "Arazi Hacmi Yüksekliği",
   "statusEffects": "Durum Etkileri",
   "projectileAbsorption": "Mermi Emilimi",
-  "orgRegainByNearbyUnits": "Yakındaki Birimlerden Organizasyon Kazanımı",
+  "orgRegainByNearbyUnits": "Yakın Birimlerden Organizasyon Kazanımı",
   "terrainPName": "Arazi: {{name}}",
   "effects": "Etkiler",
 
   "terrain": {
-    "0": "Düzlük",#or directly 'düz'
+    "0": "Düzlük",
     "1": "Orman",
     "2": "Bina",
     "3": "Yol",
@@ -366,15 +366,15 @@
 
   "selectOrder": "Emir Seç",
   "allowFireWhenMoving": "Marşta ateş edebilir",
-  "meleeDamage": "Vuruş Gücü",#strike, made by hand, to bat? maybe?
-  "rangedDamage": "Ateş Gücü",#means fire, as the english counterpart
-  "orgRegainByHp": "Mevcut Sayısından Toparlanma",#toparlanma is also a term for becoming organized, acquiring 'düzen'
+  "meleeDamage": "Vuruş Gücü",
+  "rangedDamage": "Ateş Gücü",
+  "orgRegainByHp": "Mevcut Sayısından Toparlanma",
   "rangedDamageWhenMoving": "Marşta ateş gücü",
   "speed": "Hız",
   "speedWhenShooting": "Ateş ederken hız",
   "receivedDamage": "Alınan hasar",
-  "receivedOrgDamage": "Alınan düzen hasarı",#ı would call it 'bozulma' but it would be improvisation not translation
-  "noModifiers": "Etki yok",#now ı call it 'etki' bcs nothing is a demonic multiplier
+  "receivedOrgDamage": "Alınan düzen hasarı",
+  "noModifiers": "Etki yok",
   "submitOrders": "Emirleri gönder",
   "submitOrdersConfirmation": "Savaş emirlerinizi göndermek istediğinizden emin misiniz? Gönderdikten sonra geri dönüş olmayacak.",
   "players": "Oyuncular",
@@ -420,7 +420,7 @@
   "unitEffect": {
     "1": "Tam dönme",
     "2": "Saldırıya uğradı",
-    "3": "Hafifliyor"#ı wanna have a clue
+    "3": "Hafifliyor"
   },
 
   "login": "Giriş Yap",
